@@ -22,7 +22,7 @@ from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
-from .real_world import CHECK_SHEET, LABEL_ALIASES, SHEET
+from .real_world import CHECK_SHEET, CHECK_SHEET_2, LABEL_ALIASES, SHEET
 
 COLUMNS = ["id", "product", "company", "website", "pages_the_system_read", "label", "notes"]
 VALID = {"buyer", "not_buyer", "unsure", ""}
@@ -157,6 +157,7 @@ h2{font-size:22px;margin:10px 0 4px}.open{display:inline-flex;gap:8px;align-item
 textarea{width:100%;margin-top:14px;background:#0b1220;border:1px solid var(--line);border-radius:9px;color:var(--text);padding:9px;font:inherit;font-size:13px;resize:vertical}
 .nav{display:flex;justify-content:space-between;margin-top:14px}.nav button{background:none;border:1px solid var(--line);color:var(--text);border-radius:9px;padding:8px 14px;cursor:pointer;font:inherit}
 .status{min-height:20px;font-size:12px;margin-top:8px}.err{color:var(--red)}.ok{color:var(--green)}
+.rule{margin-top:18px;border:1px solid rgba(103,232,249,.35);background:rgba(103,232,249,.06);border-radius:10px;padding:10px 12px;font-size:13px}
 details{margin-top:18px;font-size:13px;color:var(--muted)}details li{margin:3px 0}kbd{border:1px solid var(--line);border-radius:4px;padding:0 5px;font-size:11px}
 </style></head><body>
 <header><div><h1>Smart Buyer AI - blind labelling</h1><span class="muted" id="count"></span></div>
@@ -183,7 +184,11 @@ function render(){
   <h2>${esc(r.company)}</h2><div class="muted">${esc(r.website)}</div>
   ${ok?`<a class="open" href="${esc(site)}" target="_blank" rel="noopener noreferrer">Open website &#8599;</a>`:""}
   ${r.pages.length?`<div class="pages"><span class="muted" style="font-size:12px">Pages the system read (optional):</span>${r.pages.map(p=>`<a href="${esc(p)}" target="_blank" rel="noopener noreferrer">${esc(p)}</a>`).join("")}</div>`:""}
-  <p class="q">Would this company plausibly buy <u>${esc(r.product)}</u> as a raw material?</p>
+  <div class="rule"><b>Rule:</b> raw material goes <b>in</b>, product comes out &rarr; <b>Buyer</b>
+   (a factory or mill that makes or processes things from it, even if it also sells them).<br>
+   Only <b>sells</b> finished goods made by others (shop, brand, distributor) &rarr; <b>Not buyer</b>.
+   Sells the raw material itself (farm) &rarr; <b>Not buyer</b>. Can't tell &rarr; <b>Unsure</b>.</div>
+  <p class="q">Does this company <u>make or process</u> things from ${esc(r.product)} (or trade the raw material)?</p>
   <div class="answers">
    <button class="ans buyer ${r.label==="buyer"?"on":""}" data-l="buyer">Buyer<small>makes / processes / trades it &middot; key 1</small></button>
    <button class="ans not_buyer ${r.label==="not_buyer"?"on":""}" data-l="not_buyer">Not buyer<small>shop, farm, directory, unrelated &middot; key 2</small></button>
@@ -225,7 +230,8 @@ load().catch(()=>{$("#card").innerHTML='<p class="err">Could not load the sheet.
 
 if __name__ == "__main__":
     # `python -m evaluation.label_tool check` labels only the 20-row human check sheet
-    srv = serve(CHECK_SHEET if sys.argv[1:] == ["check"] else SHEET)
+    sheets = {"check": CHECK_SHEET, "check2": CHECK_SHEET_2}
+    srv = serve(sheets.get(sys.argv[1] if len(sys.argv) > 1 else "", SHEET))
     try:
         srv.serve_forever()
     except KeyboardInterrupt:

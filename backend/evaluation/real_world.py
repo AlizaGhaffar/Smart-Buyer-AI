@@ -185,6 +185,14 @@ def refresh_outputs(snapshot_dir: Path = SNAPSHOT_DIR) -> None:
 
 AI_LABELS = HERE / "ai_labels.csv"
 CHECK_SHEET = HERE / "human_check_sheet.csv"
+CHECK_SHEET_2 = HERE / "human_check_sheet_round2.csv"  # after the buyer definition was clarified
+# Companies whose classification was discussed with the human labeller before round 2.
+# They are left out so that round 2 stays blind.
+DISCUSSED_WITH_LABELLER = frozenset(
+    "W03 W04 W05 W06 W08 W10 W11 W12 W15 W19 W20 W25 W27 W32 W33 "
+    "D02 D11 D13 D14 D15 D16 D18 D27 D28 D29 "
+    "C02 C03 C04 C06 C08 C09 C10 C11 C16 C18".split()
+)
 CHECK_SIZE = {"raw_sheep_wool": 7, "duck_down": 7, "cashmere": 6}
 
 
@@ -204,23 +212,24 @@ def merge_ai(base: Path | None = None) -> None:
     print(f"Merged {len(rows)} AI labels into {target}")
 
 
-def make_check_sheet(seed: int = 2026) -> list[str]:
+def make_check_sheet(seed: int = 2026, target: Path | None = None, exclude=()) -> list[str]:
     """A fixed random sample per product for the human to label (reproducible)."""
     import random
 
+    target = target or CHECK_SHEET
     outputs = json.loads(OUTPUTS.read_text(encoding="utf-8"))
     rng = random.Random(seed)
     chosen = []
     for product, n in CHECK_SIZE.items():
-        ids = sorted(i for i, r in outputs.items() if r["product"] == product)
+        ids = sorted(i for i, r in outputs.items() if r["product"] == product and i not in exclude)
         chosen += sorted(rng.sample(ids, min(n, len(ids))))
-    with SHEET.open(encoding="utf-8-sig") as src, CHECK_SHEET.open("w", encoding="utf-8-sig", newline="") as dst:
+    with SHEET.open(encoding="utf-8-sig") as src, target.open("w", encoding="utf-8-sig", newline="") as dst:
         reader, writer = csv.reader(src), csv.writer(dst)
         writer.writerow(next(reader))
         for row in reader:
             if row[0] in chosen:
                 writer.writerow(row[:5] + ["", ""])  # always blank labels
-    print(f"Wrote {len(chosen)} rows to {CHECK_SHEET}")
+    print(f"Wrote {len(chosen)} rows to {target}")
     return chosen
 
 
@@ -234,7 +243,7 @@ def cohen_kappa(pairs: list[tuple[str, str]]) -> float:
     return 1.0 if expected == 1 else (observed - expected) / (1 - expected)
 
 
-def agreement(ai_path: Path = AI_LABELS, human_path: Path = CHECK_SHEET) -> str:
+def agreement(ai_path: Path = AI_LABELS, human_path: Path = CHECK_SHEET, out_name: str = "LABEL_AGREEMENT.md") -> str:
     ai, human = _read_labels(ai_path), _read_labels(human_path)
     common = sorted(set(ai) & set(human))
     if not common:
@@ -255,7 +264,7 @@ def agreement(ai_path: Path = AI_LABELS, human_path: Path = CHECK_SHEET) -> str:
         mark = "" if ai[i]["label"] == human[i]["label"] else " **(differs)**"
         lines.append(f"| {i} | {ai[i]['label']} | {human[i]['label']}{mark} | {ai[i]['notes']} | {human[i]['notes']} |")
     report = "\n".join(lines) + "\n"
-    (HERE.parent / "LABEL_AGREEMENT.md").write_text(report, encoding="utf-8")
+    (HERE.parent / out_name).write_text(report, encoding="utf-8")
     return report
 
 
@@ -286,5 +295,10 @@ if __name__ == "__main__":
                     title="Fresh validation: new companies, system frozen at git tag v2-tuned"))
     elif command == "agreement":
         print(agreement())
+    elif command == "check-sheet-2":
+        first = set(_read_labels(CHECK_SHEET))  # never reuse round-1 companies
+        make_check_sheet(seed=2027, target=CHECK_SHEET_2, exclude=first | DISCUSSED_WITH_LABELLER)
+    elif command == "agreement-2":
+        print(agreement(human_path=CHECK_SHEET_2, out_name="LABEL_AGREEMENT_ROUND2.md"))
     else:
         raise SystemExit(__doc__)
