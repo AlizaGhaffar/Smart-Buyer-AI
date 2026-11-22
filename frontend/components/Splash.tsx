@@ -41,7 +41,7 @@ export default function Splash({ onDone }: { onDone: () => void }) {
     let cancelled = false;
 
     (async () => {
-      const results = await Promise.allSettled(PRODUCTS.map((p) => withTimeout(getKnowledge(p), 4000)));
+      const results = await Promise.allSettled(PRODUCTS.map((p) => withTimeout(getKnowledge(p), 9000)));
       if (cancelled) return;
       const kbs = results.map((r) => (r.status === "fulfilled" ? r.value : null));
       const loaded = kbs.filter(Boolean) as KnowledgeBase[];
@@ -52,7 +52,7 @@ export default function Splash({ onDone }: { onDone: () => void }) {
       kbs.forEach((kb, i) => {
         plan.push(kb
           ? { text: `Knowledge base · ${kb.name.padEnd(14)} ${kb.materials.length} materials · ${kb.activities.length} activities · ${kb.rules.filter((r) => !r.id.startsWith("G")).length} rules`, status: "ok" }
-          : { text: `Knowledge base · ${PRODUCTS[i]} not reachable (is the backend running on port 8000?)`, status: "warn" });
+          : { text: `Knowledge base · ${PRODUCTS[i]} · server is starting, try again in a minute`, status: "warn" });
       });
       plan.push(
         loaded.length

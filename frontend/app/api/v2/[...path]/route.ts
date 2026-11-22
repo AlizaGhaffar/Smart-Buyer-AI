@@ -1,5 +1,8 @@
 import { NextResponse } from "next/server";
 
+// A free-tier backend can take up to a minute to wake up on the first request.
+export const maxDuration = 60;
+
 // Proxy for the FastAPI /api/v2 endpoints. Only known paths are forwarded.
 const ALLOWED = [
   /^search$/,
@@ -32,7 +35,7 @@ async function forward(request: Request, segments: string[]) {
   } catch (error) {
     console.error("Could not reach the Smart Buyer AI backend.", error);
     return NextResponse.json(
-      { detail: "The analysis service is not reachable. Is the backend running on port 8000?" },
+      { detail: "The analysis server is not reachable. If it is hosted on a free plan it may be starting up; please try again in a minute." },
       { status: 502 },
     );
   }
