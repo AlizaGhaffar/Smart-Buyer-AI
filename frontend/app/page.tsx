@@ -22,9 +22,9 @@ const PRODUCTS: { id: ProductId; label: string; note: string }[] = [
   { id: "cashmere", label: "Cashmere", note: "Raw or dehaired goat fibre" },
 ];
 const MODES: { id: SearchMode; label: string; note: string }[] = [
-  { id: "live", label: "Live web search", note: "Searches the web and checks company websites. Takes 1-3 minutes." },
-  { id: "seed", label: "My company URLs", note: "Analyses only the websites you paste below. No web search." },
-  { id: "replay", label: "Saved search", note: "Re-analyses pages saved by an earlier live search. Works without internet." },
+  { id: "live", label: "Live web search", note: "Takes 1-3 minutes." },
+  { id: "seed", label: "My company URLs", note: "Only the websites you paste below." },
+  { id: "replay", label: "Saved search", note: "Works without internet." },
 ];
 const VIEWS = [
   { id: "search", label: "Buyer Search", icon: Search },
@@ -189,7 +189,7 @@ export default function Home() {
             <div className="page-head">
               <span className="eyebrow">Smart Buyer AI</span>
               <h1 className="page-title">A Knowledge Base Intelligent Potential Customer Detection System</h1>
-              <p className="page-lede">Finds international companies that may need raw sheep wool, duck down or cashmere. Every result shows the quotes from the company&apos;s own website and the knowledge-base rules behind the decision.</p>
+              <p className="page-lede">Find companies that may buy raw sheep wool, duck down or cashmere, with website evidence for every result.</p>
               <div className="stat-strip">
                 <span><b>3</b> product knowledge bases</span>
                 <span><b>7</b>-stage pipeline</span>
@@ -216,9 +216,7 @@ export default function Home() {
                         </button>
                       ))}
                     </div>
-                    <button type="button" className="link-btn mt-3" onClick={() => go("knowledge")}>
-                      <BookOpen size={15} aria-hidden="true" />See the {productName} knowledge base and rules
-                    </button>
+
                   </div>
 
                   <div>
@@ -266,7 +264,6 @@ export default function Home() {
                   <button type="submit" className="btn-primary" disabled={isSearching}>
                     {isSearching ? <><span className="pulse" style={{ background: "var(--accent-ink)" }} />Analysing…</> : <><Search size={18} aria-hidden="true" />Find potential buyers</>}
                   </button>
-                  <p className="hint m-0 text-center">Respects robots.txt · public company websites only</p>
                 </form>
               </aside>
 
@@ -346,7 +343,7 @@ export default function Home() {
                   </div>
                 ) : (
                   <Empty title={error ? "The search did not finish" : "Ready when you are"}
-                         text={error || "Choose a raw material, optionally a country, and a data source. Each result explains why the company was or was not selected."} />
+                         text={error || "Choose a raw material and press Find potential buyers."} />
                 )}
               </section>
             </div>
@@ -358,7 +355,7 @@ export default function Home() {
             <div className="page-head">
               <span className="eyebrow">Knowledge representation</span>
               <h1 className="page-title">Product knowledge bases</h1>
-              <p className="page-lede">Each raw material has its own knowledge base: what counts as the material, which activities consume it, which companies are buyers, what evidence is required, and the rules the reasoning engine runs.</p>
+              <p className="page-lede">Separate knowledge and rules for each raw material.</p>
             </div>
             <KnowledgeView initial={product} />
           </>
@@ -369,7 +366,7 @@ export default function Home() {
             <div className="page-head">
               <span className="eyebrow">System architecture</span>
               <h1 className="page-title">How Smart Buyer AI decides</h1>
-              <p className="page-lede">From a product name to an explained classification: AI/NLP reads the websites, knowledge representation and reasoning makes the decision, and every step leaves evidence behind.</p>
+              <p className="page-lede">AI reads the websites. Rules make the decision. Every step keeps its evidence.</p>
             </div>
             <HowItWorks />
           </>

@@ -28,13 +28,16 @@ import sys
 from pathlib import Path
 
 from app.finder import score_lead
-from app.pipeline.runner import SNAPSHOT_DIR, PipelineRequest, run_pipeline
+from app.pipeline.runner import PipelineRequest, run_pipeline
 from app.reasoning.qualification import POSITIVE_CLASSES
 
 from .dataset import PRODUCT_NAMES
 from .run_eval import binary_metrics
 
 HERE = Path(__file__).parent / "real_world"
+# Frozen copies of the live runs used for evaluation. The app writes its own
+# runs to data/snapshots, so a new search can never overwrite labelled data.
+SNAPSHOT_DIR = Path(__file__).parent / "snapshots"
 SHEET = HERE / "labelling_sheet.csv"
 OUTPUTS = HERE / "system_outputs.json"
 RESULTS = Path(__file__).parent / "REAL_WORLD_RESULTS.md"

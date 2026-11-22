@@ -78,6 +78,8 @@ API docs: `http://127.0.0.1:8000/docs`.
 **Replay mode.** Every live or seed run saves the fetched page text to
 `backend/data/snapshots/`. Replay re-analyses that saved data without internet access,
 for example for a demo. The response and the dashboard clearly mark it as a replay.
+The runs used for evaluation are frozen separately in `backend/evaluation/snapshots/`,
+so a new live search can never overwrite labelled data.
 
 ## Run the frontend
 

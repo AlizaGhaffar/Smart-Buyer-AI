@@ -138,7 +138,7 @@ export default function KnowledgeView({ initial }: { initial: ProductId }) {
             <div className="panel-head">
               <div>
                 <h3 className="panel-title">Reasoning rules</h3>
-                <p className="panel-sub">Forward chaining: rules fire until no new fact can be derived. Negative rules can veto or cap a result.</p>
+                <p className="panel-sub">Negative rules can reject or limit a result.</p>
               </div>
               <div className="tabs" role="tablist" aria-label="Rule type">
                 {(["all", "positive", "negative", "generic"] as RuleFilter[]).map((f) => (
@@ -157,7 +157,10 @@ export default function KnowledgeView({ initial }: { initial: ProductId }) {
                     <span className="muted text-[13px]">{r.kind}</span>
                   </div>
                   <p className="m-0 text-[14.5px]">{r.explain}</p>
-                  <Logic conditions={r.if} then={r.then} />
+                  <details className="rule-details">
+                    <summary>Show IF / THEN logic</summary>
+                    <Logic conditions={r.if} then={r.then} />
+                  </details>
                 </div>
               ))}
             </div>

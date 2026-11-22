@@ -221,6 +221,8 @@ ul.bullets { list-style: disc; margin: 0; padding-left: 20px; display: grid; gap
 .chip { display: inline-flex; align-items: center; border-radius: 7px; padding: 4px 9px; font-size: 13px; border: 1px solid var(--line); background: var(--panel-2); color: var(--text-2); }
 .chip-list { display: flex; flex-wrap: wrap; gap: 6px; }
 .rule-card { border: 1px solid var(--line); border-radius: 11px; background: var(--panel-2); padding: 13px 14px; display: grid; gap: 8px; }
+.rule-details summary { cursor: pointer; color: var(--link); font-size: 13.5px; list-style-position: inside; }
+.rule-details[open] summary { margin-bottom: 8px; }
 .rule-logic { font: 12.5px/1.65 var(--font-mono); color: var(--text-2); background: var(--bg-2); border-radius: 8px; padding: 8px 10px; overflow-wrap: anywhere; }
 .rule-logic b { color: var(--accent); font-weight: 600; }
 .pipeline { display: grid; gap: 0; }

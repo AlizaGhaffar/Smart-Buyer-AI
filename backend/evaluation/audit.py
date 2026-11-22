@@ -20,10 +20,11 @@ from collections import Counter
 from pathlib import Path
 
 from app.knowledge.schema import NON_OFFICIAL_PAGE_TYPES
-from app.pipeline.runner import SNAPSHOT_DIR, PipelineRequest, run_pipeline
+from app.pipeline.runner import PipelineRequest, run_pipeline
 from app.reasoning.qualification import CONFIRMED, INSUFFICIENT, NOT_RELEVANT, POSITIVE_CLASSES
 
 OUT = Path(__file__).with_name("AUDIT.md")
+SNAPSHOT_DIR = Path(__file__).parent / "snapshots"  # frozen evaluation runs
 
 
 def _norm(text: str) -> str:

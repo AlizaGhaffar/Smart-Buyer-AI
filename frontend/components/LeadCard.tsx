@@ -36,6 +36,12 @@ function layerTone(value: string) {
   return "";
 }
 
+/** The first sentence of an explanation, for the compact card. */
+function firstSentence(text: string) {
+  const match = text.match(/^.+?[.!?](?=\s|$)/);
+  return match ? match[0] : text;
+}
+
 const shortUrl = (url: string) => url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
 
 export function ClassBadge({ lead }: { lead: Lead }) {
@@ -76,52 +82,53 @@ export default function LeadCard({ lead }: { lead: Lead }) {
         </div>
       </div>
 
-      <p className="explanation">{lead.explanation}</p>
-      {reasons.length > 0 && <p className="m-0 text-[14px] muted">{reasons.join(" ")}</p>}
+      <p className="explanation">{reasons[0] ?? firstSentence(lead.explanation)}</p>
 
-      <div className="layers">
-        {Object.entries(lead.layers).map(([key, value]) => (
-          <span key={key} className={`layer ${layerTone(value)}`}>{LAYER_LABEL[key]}: <b>{value}</b></span>
-        ))}
-      </div>
-
-      <div className="grid gap-4 md:grid-cols-2">
-        <div className="checks">
-          {lead.verification.map((v) => (
-            <span key={v.label} className={`check ${v.ok ? "ok" : ""}`}>
-              {v.ok ? <CircleCheck size={16} aria-hidden="true" /> : <CircleMinus size={16} aria-hidden="true" />}
-              {v.label}{v.ok ? "" : ": no"}
-            </span>
-          ))}
+      <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-2">
+        <div className="flex min-w-0 flex-wrap gap-x-5 gap-y-1">
+          {lead.contacts.emails[0] ? (
+            <span className="contact"><Mail size={15} className="muted shrink-0" aria-hidden="true" /><a href={`mailto:${lead.contacts.emails[0].value}`}>{lead.contacts.emails[0].value}</a></span>
+          ) : <span className="contact muted"><Mail size={15} aria-hidden="true" />Email not found</span>}
+          {lead.contacts.phones[0] ? (
+            <span className="contact"><Phone size={15} className="muted shrink-0" aria-hidden="true" /><a href={`tel:${lead.contacts.phones[0].value}`}>{lead.contacts.phones[0].value}</a></span>
+          ) : <span className="contact muted"><Phone size={15} aria-hidden="true" />Phone not found</span>}
         </div>
-        <div className="grid content-start gap-2">
-          {lead.contacts.emails.slice(0, 3).map((c) => (
-            <div key={c.value} className="contact">
-              <Mail size={15} className="muted shrink-0" aria-hidden="true" />
-              <a href={`mailto:${c.value}`}>{c.value}</a>
-              <a href={c.source_url} target="_blank" rel="noopener noreferrer" className="source-tag">source</a>
-            </div>
-          ))}
-          {lead.contacts.phones.slice(0, 2).map((c) => (
-            <div key={c.value} className="contact">
-              <Phone size={15} className="muted shrink-0" aria-hidden="true" />
-              <a href={`tel:${c.value}`}>{c.value}</a>
-              <a href={c.source_url} target="_blank" rel="noopener noreferrer" className="source-tag">source</a>
-            </div>
-          ))}
-          {!lead.contacts.emails.length && <span className="contact muted"><Mail size={15} aria-hidden="true" />Email: Not found</span>}
-          {!lead.contacts.phones.length && <span className="contact muted"><Phone size={15} aria-hidden="true" />Phone: Not found</span>}
-        </div>
+        <button type="button" className="details-toggle" onClick={() => setOpen((v) => !v)} aria-expanded={open}>
+          <ChevronDown size={16} style={{ transform: open ? "rotate(180deg)" : undefined, transition: "transform .2s" }} aria-hidden="true" />
+          {open ? "Hide details" : "Evidence and reasoning"}
+        </button>
       </div>
-
-      <button type="button" className="details-toggle" onClick={() => setOpen((v) => !v)} aria-expanded={open}>
-        <ChevronDown size={16} style={{ transform: open ? "rotate(180deg)" : undefined, transition: "transform .2s" }} aria-hidden="true" />
-        {open ? "Hide" : "Show"} evidence and reasoning
-        <span className="muted">({facts.length} facts · {lead.trace.rules_fired.length} rules)</span>
-      </button>
 
       {open && (
         <div className="details">
+          <section className="grid gap-3">
+            <p className="explanation">{lead.explanation}</p>
+            {reasons.length > 0 && <p className="m-0 text-[14px] muted">{reasons.join(" ")}</p>}
+            <div className="layers">
+              {Object.entries(lead.layers).map(([key, value]) => (
+                <span key={key} className={`layer ${layerTone(value)}`}>{LAYER_LABEL[key]}: <b>{value}</b></span>
+              ))}
+            </div>
+            <div className="checks md:grid-cols-2">
+              {lead.verification.map((v) => (
+                <span key={v.label} className={`check ${v.ok ? "ok" : ""}`}>
+                  {v.ok ? <CircleCheck size={16} aria-hidden="true" /> : <CircleMinus size={16} aria-hidden="true" />}
+                  {v.label}{v.ok ? "" : ": no"}
+                </span>
+              ))}
+            </div>
+            {lead.contacts.emails.length + lead.contacts.phones.length > 0 && (
+              <div className="grid gap-1">
+                {[...lead.contacts.emails.map((c) => ({ ...c, icon: Mail })), ...lead.contacts.phones.map((c) => ({ ...c, icon: Phone }))].map(({ value, source_url, icon: Icon }) => (
+                  <span key={value} className="contact text-2">
+                    <Icon size={15} className="muted shrink-0" aria-hidden="true" />{value}
+                    <a href={source_url} target="_blank" rel="noopener noreferrer" className="source-tag">source</a>
+                  </span>
+                ))}
+              </div>
+            )}
+          </section>
+
           <section>
             <p className="section-label">Evidence from the company website</p>
             {facts.length === 0 ? <p className="m-0 muted text-[14px]">No statements about this product were found on the pages that were checked.</p> : (
