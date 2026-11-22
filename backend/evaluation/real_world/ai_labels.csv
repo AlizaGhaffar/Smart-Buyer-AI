@@ -1,0 +1,91 @@
+﻿id,label,notes
+C01,not_buyer,Site describes Accio Work as an AI agent platform automating e-commerce store operations; no textile production.
+C02,buyer,"Italian knitting factory in Prato producing cashmere items with all production steps in-house (yarn only, Made in Italy yarns)."
+C03,buyer,"Prato company that weaves 100% cashmere and silk/cashmere yarns on jacquard looms into scarves, stoles and blankets (yarn only)."
+C04,unsure,"Describes itself as North American yarn agent representing mills and factories, also claims garment manufacturing; unclear whether it produces itself."
+C05,buyer,"Vertically integrated with own dehairing, spinning and knitwear facilities (350 t dehaired cashmere per year)."
+C06,buyer,China-based cashmere knitwear and outerwear manufacturer offering OEM/ODM with factory-direct production.
+C07,not_buyer,Ohio goat farm and country retreat that sells Spanish goats and its own cashmere fiber.
+C08,buyer,"Cashmere ranch offering fiber brokering, dehairing, scouring and processing services as well as selling fiber and yarn."
+C09,buyer,Florence-area spinner producing carded yarns including cashmere on its own spinning plants.
+C10,buyer,"Umbrian cashmere knitwear maker since 1955 whose garments are designed, cut and sewn in-house (yarn/fabric only)."
+C11,buyer,"Says it has produced fine cashmere knitwear for two generations using yarns of Inner Mongolian cashmere (yarn only, sells via own shop)."
+C12,buyer,"Private-label cashmere knitwear manufacturer with raw materials, yarns and knitwear verticality (Italy, China, Tunisia)."
+C13,buyer,Aggregates cashmere from small American member farms to produce and sell its own cashmere yarn lines.
+C14,buyer,"Dongguan sweater factory knitting cashmere and other luxury yarns, 1.5gg to 18gg (yarn only)."
+C15,buyer,"Anhui Tianwei Cashmere: integrated chain from cashmere fiber processing and dehairing to spinning, knitting and garments."
+C16,buyer,Umbrian maglificio (knitting mill) making cashmere garments since 1985 (yarn only).
+C17,buyer,"Small Italian firm producing cashmere knitwear on Shima machines for retail, B2B and private label (yarn only)."
+C18,buyer,"Prato carded spinning mill producing pure cashmere yarns in-house from raw materials sourced in China, Mongolia, etc."
+C19,buyer,Kathmandu manufacturer with own knitting and weaving facilities producing cashmere sweaters and scarves.
+C20,buyer,Recovers cashmere garments and scraps into regenerated fibre and its own Raw Cashmere yarn and knitwear (recycled cashmere only).
+C21,buyer,"Inner Mongolia cashmere sourcing with own dehairing factory in Qinghe; sells dehaired cashmere, yarns and garments."
+C22,not_buyer,Sustainable supplier-discovery and digital product passport platform; not a manufacturer.
+C23,buyer,"China-based vertically integrated cashmere knitwear OEM/ODM manufacturer, 3-18 gauge."
+C24,not_buyer,Online fiber festival and vendor marketplace hosting live sales; not a processor.
+C25,buyer,Vertically controlled supply chain producing dehaired cashmere fibre and combed tops from Inner Mongolia for European mills.
+D01,buyer,"Allied Feather + Down sources down directly from farms/abattoirs and processes it (fill power, cleanliness, treatments like ExpeDRY) for brands."
+D02,not_buyer,"Online store for hotel-spec bed linen; down duvets are made for them by a partner Japanese down factory, not in-house."
+D03,buyer,OEM down jacket manufacturer in Sialkot that sources goose and duck down and does in-house down filling.
+D04,buyer,"Makes down jackets and vests in its own Seattle factory since 1974, filled with RDS-certified down."
+D05,buyer,"Chinese OEM factory making custom down jackets with RDS duck or goose down filling (80/20, 90/10) done in-house."
+D06,buyer,"Specialised in processing European down and feathers, with its own bedding production."
+D07,buyer,Direct-to-consumer store of DOWN Inc. selling down and feather pillows and comforters made in the USA in its own production.
+D08,buyer,US down and feather bedding manufacturer in Grand Rapids MI making pillows and duvets with custom fill blends.
+D09,unsure,Site blocked by Cloudflare on every attempt; no content could be read.
+D10,buyer,"Site states ""We manufacture the finest"
+D11,buyer,Duck processing farm in South Africa that makes and sells its own pure duck down duvets and pillows.
+D12,unsure,Site only returned a Vercel security checkpoint; no content could be read (name suggests a directory/data provider).
+D13,not_buyer,US retailer (European Bliss Inc.) reselling German down comforters made by OBB and other suppliers.
+D14,not_buyer,"European Bliss Inc. is a US distributor for Ringsted Dun, Hans Kruchen, Braendl and others; it does not manufacture."
+D15,not_buyer,Same European Bliss Inc. distributor site selling German-made duvet covers and down comforters made by others.
+D16,buyer,Toronto factory making white goose and white duck down duvets and pillows made-to-order.
+D17,not_buyer,Hotel supplies distributor reselling brands like Down Inc. and Malouf alongside cleaning and other supplies.
+D18,buyer,"Liuqiao Group (Hangzhou Xiaoshan) produces down and feather raw material, down bedding and down apparel."
+D19,buyer,Norwegian family business that handcrafts down duvets and pillows to order in Trondheim (European white goose down seen).
+D20,buyer,"OBB calls itself one of Germany's last full-stage bedfeather factories, making down and feather duvets and pillows."
+D21,buyer,Otto Keller is a Bettfedernfabrik since 1946 making down duvets and pillows (including eiderdown) in Germany.
+D22,buyer,Peter Kohl is a German down and feather processing factory supplying filling material worldwide.
+D23,buyer,"Manchester family business saying it makes its bedding (made in UK), including duck feather pillows; manufacturing claims are vague."
+D24,not_buyer,Pillows.com says it 'just retails' hotel bedding products made by others.
+D25,buyer,"Zhejiang jacket factory making insulated/down jackets, including a white duck down liner model."
+D26,buyer,"Makes quilts and pillows in Hobart, Tasmania from European goose down (goose only)."
+D27,not_buyer,European Bliss Inc. retail site selling down comforters manufactured in Denmark by Ringsted Dun.
+D28,buyer,"Kyoto maker of made-to-order bedding including goose down futons made in Japan, with its own down research lab (goose only seen)."
+D29,buyer,"Kawada Feather buys down raw material from Japan and abroad, refines it at its Mie factory, and makes down futons."
+W01,buyer,"Shaw-owned flooring maker that crafts carpets and rugs, including wool carpet."
+W02,buyer,Best Wool develops and manufactures wool carpet using New Zealand and European wool.
+W03,not_buyer,"Marketing body for British sheep farmers that grades and sells their wool, plus a shop of finished goods."
+W04,buyer,"Kidderminster manufacturer calling itself 'the home of wool carpet', e.g. Herdwick wool carpets."
+W05,not_buyer,Informational blog about sustainable building materials (articles on sheep's wool insulation).
+W06,buyer,Spanish industrial wool scourer turning raw fleece into clean fibre since 1932.
+W07,buyer,UK carpet manufacturer since 1956 producing wool twist and wool loop ranges.
+W08,not_buyer,Lifestyle/flooring/tech blog with no manufacturing.
+W09,buyer,"Wool merchant that stocks, scours, blends and dyes greasy/scoured wools and tops, and is a registered British Wool trader."
+W10,buyer,Yorkshire woollen mill that cards and spins fleece into yarn.
+W11,buyer,Makes home insulation and air filters from 100% wool.
+W12,buyer,Large commission wool scour (up to 1M kg/week) alongside Haworth Combing.
+W13,unsure,Site returned a Cloudflare challenge page; content could not be read.
+W14,buyer,"ISOLENA by Lehner Wool, an Austrian manufacturer of 100% sheep's wool insulation and acoustic felt."
+W15,buyer,"Australia's largest wool exporter; buys from growers and makes scoured, carbonised wool and tops in its own factories."
+W16,buyer,"Rug and broadloom carpet maker with its own weaves and US-made carpet lines, including wool products."
+W17,buyer,"Semi-worsted spinning mill that scours, cards and spins sheep wool to order."
+W18,not_buyer,Retailer of carpets from brands like Cormar and Associated Weavers plus vinyl and laminate.
+W19,buyer,"Godfrey Hirst, a carpet manufacturer in Australia and New Zealand for 160 years, offers wool carpets."
+W20,not_buyer,B2B data and contact-list provider.
+W21,not_buyer,US distributor of finished ISOLENA sheep wool insulation panels.
+W22,buyer,"Wool trader doing greasy wool procurement and scouring, supplying scoured wool and tops."
+W23,unsure,Site could not be reached (connection failed).
+W24,buyer,Sells wool tops and fleeces and offers custom wool processing ('your wool or ours').
+W25,not_buyer,"Merino wool marketing, certification and Woolmark licensing body."
+W26,buyer,Cornwall spinning mill that processes fleece into yarn and buys wool ('Selling Wool To Us').
+W27,buyer,Makes sheep's wool insulation in Yorkshire from locally sourced British wool.
+W28,not_buyer,Import/export trade data provider that says it does not buy or sell products.
+W29,unsure,Site could not be reached (connection failed).
+W30,not_buyer,Industrial product comparison and manufacturer directory.
+W31,unsure,Wool outerwear brand whose garments use fabric made to its specs; unclear whether it buys raw wool itself.
+W32,buyer,UK commercial carpet manufacturer weaving carpets from British wool (80/20 wool-nylon).
+W33,not_buyer,"Retail carpet shops, factory outlet and e-commerce selling finished carpets, rugs and flooring."
+W34,buyer,Sells spinning and felting fibres and makes carded wool batts in its own Gloucestershire mill.
+W35,not_buyer,Informational page about wool carpets with no company or manufacturing.
+W36,not_buyer,"Sells wool carpets and rugs sourced finished from European mill partners, to dealers and designers."

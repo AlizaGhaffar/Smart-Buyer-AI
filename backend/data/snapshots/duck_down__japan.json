@@ -1,0 +1,405 @@
+{
+ "product": "duck_down",
+ "country": "Japan",
+ "recorded_at": "2026-11-22T08:30:02+00:00",
+ "excluded": [
+  {
+   "url": "https://www.amazon.co.jp/-/en/Bedding-Duvets-Down-Comforters-西川-Nishikawa/s?rh=n:2378224051,p_89:西川(Nishikawa)",
+   "reason": "directory, marketplace, social media or news site (not a company website)",
+   "source": "search"
+  },
+  {
+   "url": "https://www.amazon.co.jp/-/en/Showa-Nishikawa-301100143419-Antibacterial-Resistant/dp/B08NGK953D",
+   "reason": "directory, marketplace, social media or news site (not a company website)",
+   "source": "search"
+  },
+  {
+   "url": "https://www.listcompany.org/Feather_In_Japan_Product.html",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.kldown.com/english/03_capability/01_detail.php?id=3",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://man-tle.com/pages/kawada-feather",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://allied.inc/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://rocky-mountain-featherbed.com/en/products/50th-anniv-down-jacket-duck",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://allterrain.descente.com/mizusawa_en/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://nanga-us.com/collections/jackets",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://nanga.jp/en/knowledge/about-the-down/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://zanter.jp/en",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://made-in-japan.jp/guide/japanese-down-jacket/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.6wresearch.com/industry-report/japan-down-and-feather-market-outlook",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.sphericalinsights.com/reports/japan-down-and-feather-market",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.decisionsadvisors.com/insights/japan-down-and-feather-market",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.6wresearch.com/industry-report/japan-down-feather-market-outlook",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://japanmarketinsights.blog/japan-down-and-feather-market/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.downinc.com/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  }
+ ],
+ "companies": [
+  {
+   "candidate": {
+    "key": "beaumontbrown.jp",
+    "start_url": "https://beaumontbrown.jp/",
+    "result_url": "https://beaumontbrown.jp/products/down-duvet",
+    "title": "ダウン・デュベ（羽毛ふとん） | 日本製 – Beaumont & Brown JapanAmazon.co.jp: Showa Nishikawa 301100143419 Down Duvet, Made ...羽毛なら河田フェザー株式会社Insulation - Duck Down Manufacturers in Japan | FOURSOURCEMade in Japan - Luxury bedding, down comforters, mattress ...Highland Feather Down Duvet - Premium Quality Down Manufacturer",
+    "snippet": "Our luxury down duvets are filled with the highest quality Pure French Duck Down (85%) and Feather (15%) mix, and enclosed in a 100% cotton down-proof casing. The duvets are made in Japan, with EXCEL GOLD LABEL issued by Japan Down Products Corporative Association. Amazon.co.jp: Showa Nishikawa 301100143419 Down Duvet, Made in Japan, 90% German White Duck, 2.6 lbs (1.2 kg), Plenty of Down Power 370, Antibacterial and Odor Resistant, Uses Down from Europe Down, Duvet, Winter, 3D Quilt, Single, Long, Blue : Home & Kitchen SHOWA NISHIKAWA Get ahead of a good night's sleep. Showa Nishikawa is an independent manufacturing division of Nishikawa Jingoro Shop ... Our mission, as the one and only down manufacture in Japan, is devoting our incomparable clean down & feather to consumers. If dust, dirt, and nutrients are not removed well from down in processing, it will cause increases of bacteria and fungi. Are you searching for Insulation - Duck Down manufacturers in Japan in the apparel industry? Then you can find below 2 Insulation - Duck Down manufacturers. Looking for more? Check out other Insulation - Duck Down manufacturers in our network from 41 countries in 267 cities all over the world. Our products are manufactured in Japan, by artisan-level professionals. IWATA’s products are manufactured in our own factories and at the factories of reliable partners, all in Japan. The down and feathers we carry are a natural by-product of the poultry industry, sourced and process by RDS-certified suppliers. Our products are designed and made to last.",
+    "source": "search",
+    "queries": [
+     "duck down duvet manufacturer Japan"
+    ]
+   },
+   "official_website": "https://beaumontbrown.jp",
+   "identity": {
+    "name": "Beaumont &amp; Brown Japan",
+    "name_source": "schema.org Organization",
+    "country": "日本",
+    "country_source": "stated (schema.org address)"
+   },
+   "errors": [
+    "https://beaumontbrown.jp/products/down-duvet: HTTP 429"
+   ],
+   "robots_blocked": false,
+   "contacts": {
+    "emails": [
+     {
+      "value": "enquiries@beaumontbrown.jp",
+      "source_url": "https://beaumontbrown.jp/pages/contact-us"
+     }
+    ],
+    "phones": []
+   },
+   "pages": [
+    {
+     "url": "https://beaumontbrown.jp/",
+     "page_type": "homepage",
+     "text": "上質なホテル仕様のブランドベッドリネンを扱うオンラインストア │ Beaumont & Brown Japan.",
+     "retrieved_at": "2026-11-22T08:29:43+00:00"
+    },
+    {
+     "url": "https://beaumontbrown.jp/pages/about-us",
+     "page_type": "about",
+     "text": "ボーモント＆ブラウンについて. – Beaumont & Brown Japan.",
+     "retrieved_at": "2026-11-22T08:29:45+00:00"
+    },
+    {
+     "url": "https://beaumontbrown.jp/collections/duvet-covers",
+     "page_type": "products",
+     "text": "デュベカバー │ 外資系ホテル仕様の掛け布団用カバー. – Beaumont & Brown Japan.",
+     "retrieved_at": "2026-11-22T08:29:46+00:00"
+    },
+    {
+     "url": "https://beaumontbrown.jp/pages/contact-us",
+     "page_type": "contact",
+     "text": "お問い合わせ (Contact Us) | Beaumont & Brown Japan.",
+     "retrieved_at": "2026-11-22T08:29:47+00:00"
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "key": "materials.foursource.com",
+    "start_url": "https://materials.foursource.com/",
+    "result_url": "https://materials.foursource.com/manufacturers/duck-down-125/japan",
+    "title": "Insulation - Duck Down Manufacturers in Japan | FOURSOURCE",
+    "snippet": "Are you searching for Insulation - Duck Down manufacturers in Japan in the apparel industry? Then you can find below 2 Insulation - Duck Down manufacturers. Looking for more? Check out other Insulation - Duck Down manufacturers in our network from 41 countries in 267 cities all over the world.",
+    "source": "search",
+    "queries": [
+     "duck down duvet manufacturer Japan"
+    ]
+   },
+   "official_website": "https://materials.foursource.com",
+   "identity": {
+    "name": "Manufacturers Directory",
+    "name_source": "page title",
+    "country": null,
+    "country_source": null
+   },
+   "errors": [],
+   "robots_blocked": false,
+   "contacts": {
+    "emails": [],
+    "phones": []
+   },
+   "pages": [
+    {
+     "url": "https://materials.foursource.com/",
+     "page_type": "homepage",
+     "text": "Manufacturers Directory | FOURSOURCE. FOURSOURCE. the world's largest sourcing network. In our manufacturer network you find 10000 manufacturers of 148 countries in 9620 cities all over the world. Select one of the 676 materials below to find the perfect manufacturer for your planings. FOURSOURCE is the world’s largest sourcing network in the apparel industry. Join for free. Manufacturer materials: Faux Leather - % 100 Cashmere. Faux Leather - Action Leather. Faux Leather - Alcantara®. Faux Leather - Amara. Faux Leather - Blended. Faux Leather - Bonded. Faux Leather - Boned Leather. Faux Leather - Bycast. Faux Leather - Clarino. Faux Leather - Composition. Faux Leather - Corfam. Faux Leather - Cotton. Faux Leather - Diamond Mesh. Faux Leather - ECOVERA. Faux Leather - Egyptian cotton. Faux Leather - Fleece. Faux Leather - Flees. Faux Leather - FourWay. Faux Leather - French Terry. Faux Leather - Goat Skin Leather. Faux Leather - Interlock. Faux Leather - Jersey. Faux Leather - Leatherette. Faux Leather - Lycra. Faux Leather - Mesh. Faux Leather - Micro. Faux Leather - Micro Simple. Faux Leather - Micro Stretch. Faux Leather - Micro green. Faux Leather - Modal. Faux Leather - NYLON. Faux Leather - Nappa. Faux Leather - Non Woven. Faux Leather - ORGANIC COTTON. Faux Leather - PU. Faux Leather - Pima Cotton. Faux Leather - Pinatex. Faux Leather - Polar Fleece. Faux Leather - Poly Flees. Faux Leather - Poly cotton. Faux Leather - Polyester. Faux Leather - Polyurethane. Faux Leather - PopCorn. Faux Leather - Poromeric. Faux Leather - Rayon. Faux Leather - Reconstituted. Faux Leather - SPANDEX. Faux Leather - Safeeni. Faux Leather - Sensifil. Faux Leather - Sereno. Faux Leather - SoftShell. Faux Leather - Speedo. Faux Leather - Suede. Faux Leather - TENCEL. Faux Leather - Trenda. Faux Leather - Tricot. Faux Leather - Valour. Faux Leather - Vegan. Faux Leather - Viscose. Faux Leather - Wool. Faux Leather - accessories. Faux Leather - bamboo. Faux Leather - button. Faux Leather - cotton. Faux Leather - cotton polyster. Faux Leather - cotton spandex. Faux Leather - custom. Faux Leather - etc. Faux Leather - linen. Faux Leather - lyocell. Faux Leather - many types. Faux Leather - pk. Faux Leather - polyester. Faux Leather - pu. Faux Leather - ralyc. Faux Leather - recycled, tencel，viscose,organic. Faux Leather - tencel. Faux Leather - thread. Fiber - % 100 AKRİLİK. Fiber - % 100 Cotton. Fiber - % 100 KAŞMİR. Fiber - % 100 MERİNO YÜNÜ. Fiber - % 100 Yün. Fiber - % 50 PAMUK /% 50 AKRİLİK. Fiber - % 50 VİSKON /% 50 AKRİLİK. Fiber - % 65 pamuk% 35 polyester. Fiber - % 70 Keten% 30 Pamuk. Fiber - % 80 Cotton %20 Linen. Fiber - % 85 AKRİLİK /% 15 POLİAMİD. Fiber - % 90 AKRİLİK /% 10 YÜN. Fiber - % 93 Pamuk% 7 Alapça. Fiber - % 95 pamuk% 5 spandeks. Fiber - % 95cotton,% 5lycra. Fiber - %100 Cashmere. Fiber - %100 Linen. Fiber - %100 Polyester. Fiber - %100 Spandex. Fiber - %100 viscose. Fiber - %70 Linen %30 Cotton. Fiber - %70 cotton %30 viskon. Fiber - %90 cotton %10 lycra. Fiber - %95cotton,%5lycra. Fiber - 100% ACRYLIC. Fiber - 100% Acrylic Cotton like. Fiber - 100% Acrylic Solid, Mélange, Mixed & Twisted Form. Fiber - 100% Acrylic smiling,. Fiber - 100% Alpaca. Fiber - 100% CASHMERE. Fiber - 100% Cotton. Fiber - 100% Heather. Fiber - 100% Linen. Fiber - 100% MERINO WOOL. Fiber - 100% Nylon. Fiber - 100% POLYESTER. Fiber - 100% Polyester. Fiber - 100% Viscose. Fiber - 100% Wool. Fiber - 100% lyocell. Fiber - 100% pamuk. Fiber - 100% polyster. Fiber - 100%Cotton. Fiber - 100%Linen. Fiber - 100%Nylon. Fiber - 100%Silk. Fiber - 100%cotton. Fiber - 100%nylon. Fiber - 100%poleyester. Fiber - 100%polyester. Fiber - 100%poyester. Fiber - 20% polyster. Fiber - 30% Wool - 70% Acrylic. Fiber - 30%Wool70%Polyester. Fiber - 50% COTTON / 50% ACRYLIC. Fiber - 50% VISCOSE / 50% ACRYLIC. Fiber - 50% Wool - 50% Acrylic. Fiber - 50% cotton / 50% polyester. Fiber - 50%Wool 50%Polyester. Fiber - 50/50 Cotton/Modal. Fiber - 50/50 Cotton/Poly. Fiber - 60 % cot 40% pol. Fiber - 60% Cotton 40% Polyester. Fiber - 60% Polyurethane, 40% Polyester. Fiber - 60%hemp/40%cotton. Fiber - 60/40 Cotton/Poly. Fiber - 60/40 Poly/Cotton. Fiber - 60/40 cotton/modal. Fiber - 60/40 pamuk / modal. Fiber - 65% cotton 35% polyster. Fiber - 65%Polyester 35%Viscose. Fiber - 65%Polyester33%Viscose2%Spandex. Fiber - 65%polyester35%cotton. Fiber - 65/35 Cotton/Poly. Fiber - 65/35 Poly/Cotton. Fiber - 70% ACRYLIC / 30% POLYESTER. Fiber - 70% Polyester, 28% Viscose, 2% fibre métallisée. Fiber - 70%Cotton 30%Polyester. Fiber - 70/30 Acrylic / Nylon. Fiber - 80% ACRYLIC / 20% POLYESTER. Fiber - 80% Cotton / 20% polyester. Fiber - 80% Cotton 20% Hemp. Fiber - 80% cotton. Fiber - 80% polyerster 20% Hemp. Fiber - 80%Polyester 20%Viscose. Fiber - 80/20 Cotton / Nylon. Fiber - 85% ACRYLIC / 15% POLYAMIDE. Fiber - 90% ACRYLIC / 10% WOOL. Fiber - 90%Cotton / 10%Elasthane. Fiber - 93% Cotton 7% Alapca. Fiber - 95% Polyester, 5% Elasthanne. Fiber - 95% cotton 5% spandex. Fiber - 95%Cotton 5%Spandex. Fiber - 95/5 Viscose/Spandex. Fiber - 95/5 cotton/lycra. Fiber - 95/5 cotton/spandex. Fiber - 96% Cotton 4%Elasthan. Fiber - ALL FIBERS. Fiber - Abacá. Fiber - Acetate. Fiber - Acryl. Fiber - Acrylic. Fiber - Acrylic blends. Fiber - Akrilik karışımlar. Fiber - Alpaca. Fiber - Alpaca/ Wool/ Acrylic. Fiber - Alpaca/Cotton. Fiber - Alpaca/Wool. Fiber - Alpaka / Yün. Fiber - Alpaka / Yün / Akrilik. Fiber - Angora. Fiber - Antibacterial yarn. Fiber - Aramid. Fiber - BCI Cotton. Fiber - BCI cotton. Fiber - BLEND. Fiber - Babyalpaca / pima pamuğu. Fiber - Babyalpaca/Merino wool. Fiber - Babyalpaca/pima cotton. Fiber - Bamberg. Fiber - Bamboo. Fiber - Bamboo Viscose. Fiber - Ban-Lon. Fiber - Banana. Fiber - Bhagalpur Silk. Fiber - Blends. Fiber - British wool. Fiber - CASHMERE BLENDS. Fiber - CMIA. Fiber - COTTON. Fiber - COTTON BLENDS. Fiber - COTTON POLYESTER MIX. Fiber - COTTON/POLIESTER. Fiber - COTTON/SPANDEX. Fiber - CVC. Fiber - Camel. Fiber - Carbon. Fiber - Cashmere. Fiber - Cheviot. Fiber - Chiengora. Fiber - Cocona. Fiber - Coir. Fiber - Coolmax. Fiber - Corn. Fiber - Cotton. Fiber - Cotton Blended. Fiber - Cotton Blends. Fiber - Cotton ELS. Fiber - Cotton Giza. Fiber - Cotton LS. Fiber - Cotton Lisle. Fiber - Cotton Mercerized. Fiber - Cotton Mélange. Fiber - Cotton Organic. Fiber - Cotton Pima. Fiber - Cotton Poly blend. Fiber - Cotton Recycled. Fiber - Cotton Sea Island. Fiber - Cotton Suvin. Fiber - Cotton Tencel. Fiber - Cotton Xinjiang. Fiber - Cotton bamboo. Fiber - Cotton-Polyester Blends. Fiber - Cotton-Viscose blends. Fiber - Cotton/Acrylic. Fiber - Cotton/Modal. Fiber - Cotton/Poliester. Fiber - Cotton/Poly. Fiber - Cotton/Polyester. Fiber - Cotton/Polyester Mix. Fiber - Cotton/Spandex. Fiber - Cotton/Viscose. Fiber - Crimplene. Fiber - Cupro. Fiber - Denim. Fiber - Diacetate. Fiber - DriRelease. Fiber - Dyneema. Fiber - ECONYL®. Fiber - Ecovero. Fiber - Egyptian Cotton. Fiber - Elastane. Fiber - FANCY YARNS. Fiber - FASHION FIBERS. Fiber - Fique. Fiber - Flax. Fiber - Fleece. Fiber - French Terry. Fiber - Giza Cotton. Fiber - Gore-Tex®. Fiber - Graphene. Fiber - Guanaco. Fiber - Jute. Fiber - KAŞMİR KARIŞIMLARI. Fiber - Kapok. Fiber - Kevlar®. Fiber - Lamb. Fiber - Lambswool. Fiber - Linen. Fiber - Llama. Fiber - Lotus. Fiber - Lurex®. Fiber - Lycr. Fiber - Lycra Power®. Fiber - Lycra®. Fiber - Lyocell. Fiber - Lyocell®. Fiber - MERINO BLENDS. Fiber - Many types. Fiber - Melange. Fiber - Merino Wool. Fiber - Meryl. Fiber - Mesh. Fiber - Micro Tencel Cotton. Fiber - Micro-Polyester. Fiber - Micro-Viscose. Fiber - Micro-fibre specialities. Fiber - Microfiber. Fiber - Modacrylic. Fiber - Modal. Fiber - Modal Blends. Fiber - Modal/Spadex. Fiber - Mohair. Fiber - Mélange,. Fiber - NT. Fiber - Naia™. Fiber - Natural Fibers. Fiber - Neoprene. Fiber - Nomex. Fiber - Nomex®. Fiber - Nylon. Fiber - Nylon 6. Fiber - Nylon Blends. Fiber - Nylon Recycled. Fiber - Nylon/Spandex. Fiber - Nylon66. Fiber - Olefin. Fiber - Orange. Fiber - Organic. Fiber - Organic Cotton. Fiber - Organic Fabric. Fiber - Organic Pima. Fiber - Organic Pima/Alpaca. Fiber - PAMUK / POLYESTER. Fiber - PAMUK / SPANDEX. Fiber - PAMUK KARIŞIMLAR. Fiber - PAMUK POLYESTER MIX. Fiber - PET. Fiber - PIMA COTTON. Fiber - PIMA MELANGE. Fiber - POLICOTTON. Fiber - POLYESTER. Fiber - Pamuk / Akrilik. Fiber - Pamuk / Polyester. Fiber - Pamuk / Viskon. Fiber - Pamuk Karışımlar. Fiber - Pamuk Karışımı. Fiber - Pamuk Organik. Fiber - Pamuk Pima. Fiber - Para-Aramid. Fiber - Pashmina. Fiber - Pima. Fiber - Pima Blends. Fiber - Pima Cotton. Fiber - Pima Linen. Fiber - Pima/Modal. Fiber - Pima/Modal/Spandex. Fiber - Pine. Fiber - Piña. Fiber - Policotton. Fiber - Poliester. Fiber - Polyamide. Fiber - Polyamide Cotton. Fiber - Polyamide Cotton Spandex. Fiber - Polyamide/ Elastane. Fiber - Polybutylene. Fiber - Polycotton. Fiber - Polyester. Fiber - Polyester Blends. Fiber - Polyester Recycled. Fiber - Polyester/ Elastane. Fiber - Polyester/Lycra. Fiber - Polyester/Spandex. Fiber - Polyester/Viscose. Fiber - Polyethylene. Fiber - Polypropylene. Fiber - Poplyprophylene. Fiber - Q-NOVA®. Fiber - Qiviut. Fiber - RECYCLED YARNS. Fiber - REPREVE. Fiber - Rabbit. Fiber - Raffia. Fiber - Ramie. Fiber - Rayon. Fiber - Recycle. Fiber - Recycled Cotton. Fiber - Recycled Fabrics. Fiber - Recycled Fishnet Nylon. Fiber - Recycled Polyamide. Fiber - Recycled Polyester. Fiber - Recycled Spandex. Fiber - Recycled cashmere. Fiber - Recycled polyester/cotton. Fiber - Recycled wool. Fiber - Recyled Yarns. Fiber - Repreve. Fiber - Rpet. Fiber - Ryan. Fiber - SEAQUAL® YARN. Fiber - SMS. Fiber - SPECIAL YARN EFFECTS. Fiber - SUPERPOLY. Fiber - SUPIMA COTTON. Fiber - SUPRLABS +VE. Fiber - Scuba. Fiber - Sea Silk. Fiber - SeaWool. Fiber - Silk. Fiber - Silnylon. Fiber - Sisal. Fiber - Skin Nodor®. Fiber - SmartWool. Fiber - Softshell. Fiber - Sorona®. Fiber - Spandex. Fiber - Specialty yarns. Fiber - Spectra. Fiber - Strecthed fabric. Fiber - Stretch Fabrics. Fiber - Supima Cotton. Fiber - Supplex®. Fiber - Supplex®. Fiber - Sustainable. Fiber - Sustainable yarns. Fiber - SympaTex®. Fiber - T400. Fiber - TC. Fiber - TERICOTTON. Fiber - Tafeeta. Fiber - Technora®. Fiber - Teflon. Fiber - Tencel. Fiber - Tencel Blends. Fiber - Tencel blended. Fiber - Tencel®. Fiber - Tensil. Fiber - TerryCloth. Fiber - Triacetate. Fiber - Triblend. Fiber - Triblends. Fiber - Tussar Silk. Fiber - Twaron®. Fiber - TÜM ELYAFLAR. Fiber - UHMWPE. Fiber - Umorfil. Fiber - VISCOSE/NYLON. Fiber - Very Fine linen. Fiber - Vicuña. Fiber - Vinylon. Fiber - Vinyon. Fiber - Viscon. Fiber - Viscose. Fiber - Viscose / Elasthane. Fiber - Viscose Blends. Fiber - Wool. Fiber - Wool Reprocessed. Fiber - Wool Reused. Fiber - Wool Virgin. Fiber - Wool blended. Fiber - Wool blends. Fiber - Wool,. Fiber - X-Lowpounds. Fiber - X-Static®. Fiber - Yak. Fiber - Zylon. Fiber - acrylic. Fiber - acrylic blends. Fiber - and Blended or Interwoven. Fiber - bambo. Fiber - bamboo. Fiber - bamboo cotton. Fiber - bamboo cotton ea. Fiber - blended bamboo/cotton. Fiber - blends. Fiber - copper fibre. Fiber - cotton. Fiber - cotton / viscose. Fiber - cotton elastomultiester. Fiber - cotton sateen. Fiber - cotton wool. Fiber - cotton/modal. Fiber - cotton/viscose. Fiber - denim. Fiber - dri-fit. Fiber - ePTFE. Fiber - elastane. Fiber - elasthane. Fiber - etc. Fiber - fibre antimicrobial viscose. Fiber - fibre infused peformance polyesters. Fiber - filoscozia. Fiber - gabardines. Fiber - hemp. Fiber - hemp cotton. Fiber - lace. Fiber - lambswool. Fiber - latix. Fiber - linen. Fiber - linen blends. Fiber - merino. Fiber - microcotton. Fiber - modal. Fiber - nitrile latex. Fiber - nylon. Fiber - organic. Fiber - organic cotton. Fiber - organic linen. Fiber - pima/viscose. Fiber - pique. Fiber - poliemid. Fiber - poly cotton. Fiber - poly satin. Fiber - polycotton. Fiber - polyester. Fiber - popopop. Fiber - pure new wool. Fiber - recycle fabric. Fiber - recycle poly/viscose. Fiber - recycled. Fiber - recycled polyester. Fiber - recycled viscose. Fiber - repreve. Fiber - satin. Fiber - silk. Fiber - silver ion. Fiber - soft tulle. Fiber - spandex. Fiber - supima cotton. Fiber - viscose. Fiber - viscose ea. Fiber - wool. Fur - Alpaca. Fur - Alpaca Wool Acrylic blend. Fur - Andean HighlandWool. Fur - Arctic Fox. Fur - Artificial. Fur - Astrakhan/Persian lamp. Fur - Baby Alpaca. Fur - Baby Alpaca Nylon blend. Fur - BabyAlpaca MerinoWool Polyamide blend. Fur - Beaver. Fur - Brushtail Possum. Fur - Chinchilla. Fur - Cotton. Fur - Coyote. Fur - Faux (Synthetic). Fur - Faux Fur. Fur - Fisher. Fur - Fox. Fur - Fox Furr. Fur - Golden Jackal. Fur - Grey Wolf. Fur - Lynx. Fur - Marten. Fur - Merino wool. Fur - Mink. Fur - Muskrat. Fur - Nutria. Fur - Ocelot. Fur - Opossum. Fur - Otter. Fur - POLICOTTON. Fur - Pima Combed Cotton. Fur - Polyester Fur. Fur - Rabbit. Fur - Raccoon. Fur - Red Fox. Fur - Sable. Fur - Sheep. Fur - Skunk. Fur - Stoat. Fur - Tanguis Combed Cotton. Fur - Wool. Fur - all far. Fur - borg. Fur - cotton. Fur - cotton fleece. Fur - cotton french terry. Fur - fake,. Fur - lambskin. Fur - mink. Fur - polyster fleece. Fur - rabbit. Fur - real. Fur - shearling. Fur - sheep. Fur - speedo. Insulation - 100% Cotton. Insulation - 100% Jersey Cotton. Insulation - 100% Poleyester. Insulation - 100% cotton. Insulation - 80% Polyester 20% Spandex. Insulation - 88% Polyester 12% Spandex. Insulation - Cotton Filling. Insulation - Down. Insulation - Dryloft®. Insulation - Duck Down. Insulation - Duck down. Insulation - Dupont Kevlar. Insulation - Eider Down. Insulation - Foam. Insulation - G-LOFT®. Insulation - Goose Down. Insulation - Hollofil®. Insulation - Hungarian Down. Insulation - Knitted. Insulation - Liteloft®. Insulation - Marabou Down. Insulation - Mesh. Insulation - Poleyester Mesh. Insulation - Polish Down. Insulation - Polyester Filling. Insulation - Polyfill. Insulation - Powder Down. Insulation - Primaloft®. Insulation - Quallofil®. Insulation - Sorona. Insulation - Thermolite®. Insulation - Thermoloft®. Insulation - Thinsulate®. Insulation - Valtherm. Insulation - Viscose Polsyester. Insulation - Wool. Insulation - Wool Blend. Insulation - cotton blends. Insulation - cotton spandex. Insulation - cottons. Insulation - modal. Insulation - modal spandex. Insulation - organic cotton. Insulation - poly blends. Insulation - polyester. Insulation - rayon. Insulation - rayon blends. Insulation - rayon spandex. Insulation - sorona. Insulation - wool. Leather - Alligator. Leather - Artificial. Leather - Artificial Leather. Leather - BUFFALOHIDE. Leather - Cabretta. Leather - Cattle. Leather - Chamois. Leather - Cod. Leather - Cordovan. Leather - Cow. Leather - Cowhide. Leather - Crocodile. Leather - Deer. Leather - Eel. Leather - Elk. Leather - GOATSKIN. Leather - Goat. Leather - Goatskin. Leather - Horse leather. Leather - Kangaroo. Leather - Lamb. Leather - Leather. Leather - N/A. Leather - Nappa. Leather - Ostrich. Leather - Ox. Leather - PIGSKIN. Leather - Peccary. Leather - Perch. Leather - Pig. Leather - Real Shearling. Leather - SHEEPSKIN. Leather - Salmon. Leather - Shagreen. Leather - Shark. Leather - Shearling Leather. Leather - Sheep. Leather - Sheepskin. Leather - Snake. Leather - Split Leather. Leather - Stingray. Leather - Sturgeon. Leather - Suade. Leather - Suede. Leather - Tilapia. Leather - Wolffish. Leather - Yak. Leather - faux Leather. Leather - l. Leather - rexin.",
+     "retrieved_at": "2026-11-22T08:29:46+00:00"
+    },
+    {
+     "url": "https://materials.foursource.com/manufacturers/duck-down-125/japan",
+     "page_type": "manufacturing",
+     "text": "Insulation - Duck Down Manufacturers in Japan | FOURSOURCE. Insulation - Duck Down Manufacturers in Japan. Are you searching for Insulation - Duck Down manufacturers in Japan in the apparel industry? Then you can find below 2 Insulation - Duck Down manufacturers. Looking for more? Check out other Insulation - Duck Down manufacturers in our network from 41 countries in 267 cities all over the world. FOURSOURCE is the world’s largest sourcing network in the apparel industry. Join for free. Insulation - Duck Down manufacturer from Japan: Motives International TAMURAKOMA & CO．，LTD．. All cities with Insulation - Duck Down manufacturers in Japan. - Insulation - Duck Down Manufacturers in Tokyo. - Insulation - Duck Down Manufacturers in Ōsaka-Shi.",
+     "retrieved_at": "2026-11-22T08:29:47+00:00"
+    },
+    {
+     "url": "https://materials.foursource.com/manufacturers/orange-724",
+     "page_type": "products",
+     "text": "Fiber - Orange Manufacturers | FOURSOURCE. Fiber - Orange Manufacturers. Are you searching for Fiber - Orange manufacturers in the apparel industry? Then you can find below 5 Fiber - Orange manufacturers from 4 countries in 4 cities all over the world. Select one of the countries or cities below, to find your perfect manufacturer for Fiber - Orange within our manufacturer network. FOURSOURCE is the world’s largest sourcing network in the apparel industry. Join for free. Fiber - Orange manufacturer: Bangladesh. Chattogram. Pakistan. Chennai.",
+     "retrieved_at": "2026-11-22T08:29:49+00:00"
+    },
+    {
+     "url": "https://materials.foursource.com/manufacturers/-100-cashmere-1010",
+     "page_type": "manufacturing",
+     "text": "Faux Leather - % 100 Cashmere Manufacturers | FOURSOURCE. Faux Leather - % 100 Cashmere Manufacturers. Are you searching for Faux Leather - % 100 Cashmere manufacturers in the apparel industry? Then you can find below 84 Faux Leather - % 100 Cashmere manufacturers from 17 countries in 74 cities all over the world. Select one of the countries or cities below, to find your perfect manufacturer for Faux Leather - % 100 Cashmere within our manufacturer network. FOURSOURCE is the world’s largest sourcing network in the apparel industry. Join for free. Faux Leather - % 100 Cashmere manufacturer: Bangladesh. Genda. China. Anqing Anyang Braga Dongguan City, Guangdong Province Fuzhou Guangdong Province Henan Hengshui Jiaxing Linyi London Q Tongxiang Yangon Zhuji. India. Faridabad Noida Pilani Uttar Pradesh. Italy. Caerano Di San Marco. Latvia. Liepāja. Nepal. Lalitpur. Netherlands. The Hague. Pakistan. Ugoke. Philippines. Makati. Portugal. Guimarães Porto Viana Do Castelo. Romania. Bacău Bucharest. Turkey. Bağcılar Beyoğlu Gungoren Kağıthane Ludhiana Sultangazi Yıldırım Şişli. United Kingdom. Bizerte. United States. Birmingham Dhaka Guangzhou Hangzhou Huzhou Istanbul Lahore Richmond County Suzhou Xiamen. Vietnam. Baoding Cidade De Ho Chi Minh Củ Chi Dongguan Giồng Trôm District.",
+     "retrieved_at": "2026-11-22T08:29:53+00:00"
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "key": "iozon.co.jp",
+    "start_url": "https://www.iozon.co.jp/",
+    "result_url": "https://www.iozon.co.jp/english/japan/",
+    "title": "Made in Japan - Luxury bedding, down comforters, mattress ...",
+    "snippet": "Our products are manufactured in Japan, by artisan-level professionals. IWATA’s products are manufactured in our own factories and at the factories of reliable partners, all in Japan.",
+    "source": "search",
+    "queries": [
+     "duck down duvet manufacturer Japan"
+    ]
+   },
+   "official_website": "https://www.iozon.co.jp",
+   "identity": {
+    "name": "株式会社イワタ",
+    "name_source": "schema.org Organization",
+    "country": "JP",
+    "country_source": "stated (schema.org address)"
+   },
+   "errors": [],
+   "robots_blocked": false,
+   "contacts": {
+    "emails": [
+     {
+      "value": "kyoto@iozon.co.jp",
+      "source_url": "https://www.iozon.co.jp/english-guide"
+     },
+     {
+      "value": "nihonbashi@iozon.co.jp",
+      "source_url": "https://www.iozon.co.jp/english-guide"
+     },
+     {
+      "value": "tokyo@iozon.co.jp",
+      "source_url": "https://www.iozon.co.jp/english-guide"
+     }
+    ],
+    "phones": [
+     {
+      "value": "+81 (0)3-5989-0838",
+      "source_url": "https://www.iozon.co.jp/english-guide"
+     },
+     {
+      "value": "+81 (0)3-6262-5666",
+      "source_url": "https://www.iozon.co.jp/english-guide"
+     },
+     {
+      "value": "+81 (0)75-241-2332",
+      "source_url": "https://www.iozon.co.jp/english-guide"
+     }
+    ]
+   },
+   "pages": [
+    {
+     "url": "https://www.iozon.co.jp/",
+     "page_type": "homepage",
+     "text": "京都の寝具御誂専門店 IWATA｜高級羽毛ふとん・オーダーマットレス｜株式会社イワタ. イワタの商品. オンラインショップ. スプリングを超えた匠のマットレス. ラークオール. 自然な寝姿勢を保つ. キャメル敷きパッド. 寝床内気候を整えるグースダウン使用. 羽ぶとん. イワタ製品の特徴. 自然素材の国産オーダー寝具. 選び抜いた自然素材. 「安心安全」の品質. 世界に誇る清潔度. 有害物質の検査. 四季を快眠するアドバイス. 生地の違い. ご愛用者さまの声. お手入れ方法. メンテナンス・サービス. 羽毛ふとんお仕立て直し. UMO ® アップグレード・サービス. 寝具のお仕立て直し. お手入れ・お取り扱いについて. インフォメーション. IWATA 日本橋店、11月13日リニューアルオープン｜寝具を「誂える（あつらえる）」御誂えと、静けさを「設える（しつらえる）」NEZENが出会う. 2026年11月05日. イワタニュース. メディア情報. イベント. ふるさと納税. Facebook. イワタについて. わたしたちの想い. SDGｓ（サステナビリティ）へのアプローチ. 羽ぶとん誕生ストーリー. イワタ羽毛研究所. 寝ごこち科学研究所. 会社情報. 人材採用情報. English Website. ショップ情報. IWATA 京都本店. IWATA 東京店. IWATA 日本橋店. IWATA商品お取り扱い店. English shop Guide. 法人のお客様へ. ショップ運営の方へ. ホテル・宿泊業の方へ. 建築家・インテリアコーディネーターの方へ. お問合せ. Authentic and Sustainable. 時を超えて愛される品質、未来に寄り添うものづくり. 詳しくみる. Scroll. 自然が紡ぐ. 穏やかな安らぎ. Scroll. IWATAの寝具を 体感する. この時代の喧騒の中で、「自然のリズムに. 同調する」ことの価値を、. 私たちは再認識しています。. 四季が織りなす変化の中で、. 心地よい眠りを通じて、. 毎朝を迎える喜び。. IWATAは、自然に寄り添った寝具で. 健やかな毎日を支え、. 豊かな生活を. お届けしたいと考えています。. IWATAを 知る. About. 自然との調和を眠りから. 私たちは、. 「心地よい眠りとは何か」を追い求めて、時代の「一歩先」を行く高品質な寝具をつくり続けてきました。. 私たちの想い. Sleep. 良質な睡眠を. 提供. Safe. 安全かつ安心な. 品質. Sustainability. 持続可能な. ものづくり. 自然素材の. 国産オーダー寝具. 人と環境に優しい自然素材にこだわり、すべての寝具を国内で製造。. 経験を積み重ねた熟練の技と弛まぬ努力が寝具づくりを支えています。. 私たちのこだわり. NEWS. IWATA 日本橋店、11月13日リニューアルオープン｜寝具を「誂える（あつらえる）」御誂えと、静けさを「設える（しつらえる）」NEZENが出会う. 2026年11月05日. IWATA 京都市京セラ美術館で、横になって行う禅「寝禅」を体験。新睡眠ブランド「NEZEN」が贈る、心と身体を静める特別なひととき. 2026年10月30日. ハナカイジチ. 2026年07月28日. ニュース一覧. IWATAの 商品. Product. 掛け寝具. 敷き寝具. ベッド関連. 枕. シーツ. カバー類. その他. IWATAは睡眠科学に基づいて、快適性はもちろん、良質な睡眠をサポートする機能性を高めた寝具を開発・製造しています。. 商品一覧. IWATAの 選ばれる. 理由. Features. 01. 寝床内気候の安定. 睡眠中に理想的な温度と湿度を保ち、. 快適で健康的な睡眠環境を提供します。. 02. 自然素材の国産オーダー寝具. 自然素材の国産オーダー寝具で良質で上質な眠りをお手伝いします. 03. 選び抜いた自然素材. 健やかな睡眠環境に導く最適な素材を、国内外から選び抜きました. 04. 世界に誇る清潔度. ゴミを極限まで除去しておりアレルギー対策にもうれしい清潔度です. 05. 「安心安全」の品質. 独自の研究所にて合格した安全性の高い素材だけを使用しています. 06. 高いメンテンナンス性. 経年劣化による修理や仕立て直しが必要な場合には熟練した技術者が承ります. 07. サステナビリティへのアプローチ. 従来の消費の流れではなく、循環型のサイクルを提案しています. 08. 有害物質の検査. 寝具を安全にお使いいただけるように有害物質の検査を受け、エコテックスの認証を得ています。. IWATAを 体験する. Experience. 宿泊プランや導入された宿泊施設、直営店にて、. 自然のリズムと同調し快眠へといざなう体験をお届けします。. 宿泊・イベントで体験する. 体感できるホテル・旅館. 直営店で体感する. 寝具御誂専門店 IWATA 京都本店. 寝具御誂専門店 IWATA 東京店. 寝具御誂専門店 IWATA日本橋店.",
+     "retrieved_at": "2026-11-22T08:29:54+00:00"
+    },
+    {
+     "url": "https://www.iozon.co.jp/english/japan/",
+     "page_type": "other_official",
+     "text": "Made in Japan - Luxury bedding, down comforters, mattress, Iwata Co., Ltd. japanese site. Menu. Made in Japan. Our products are manufactured in Japan, by artisan-level professionals. IWATA’s products are manufactured in our own factories and at the factories of reliable partners, all in Japan. We use quality fabrics that are woven to on our own standard. IWATA Down Laboratory checks the fabrics thoroughly. The fabrics are cut one by one by craftmen, and sewn with lock-stitch sewing machines. Needles, yarn, and other tools are also carefully selected. Skilled professionals manufacture our bedding one by one with care and attention. We only offer you products that meet strict standards in our laboratory. The IWATA Down Laboratory has contributed to our manufacturing for years. The Laboratory studies positive analysis for materials, and improves our products and techniques. We only use materials that pass numerous tests to ensure safety and performance. We can use natural materials, and create reliable and safe bedding. We go to great lengths to detect harmful components in our raw materials. Eco-Tex is an international testing and certification system for screening harmful substances in textile products. IWATA has received Eco-Tex certification on each of our products. From fill materials to shell fabrics, threads to fasteners, every single material is tested to prove its purity and safety. https://www.oeko-tex.com/en/our-standards/oeko-tex-standard-100.",
+     "retrieved_at": "2026-11-22T08:29:56+00:00"
+    },
+    {
+     "url": "https://www.iozon.co.jp/company",
+     "page_type": "about",
+     "text": "会社概要 - 株式会社イワタ. イワタの商品. オンラインショップ. スプリングを超えた匠のマットレス. ラークオール. 自然な寝姿勢を保つ. キャメル敷きパッド. 寝床内気候を整えるグースダウン使用. 羽ぶとん. イワタ製品の特徴. 自然素材の国産オーダー寝具. 選び抜いた自然素材. 「安心安全」の品質. 世界に誇る清潔度. 有害物質の検査. 四季を快眠するアドバイス. 生地の違い. ご愛用者さまの声. お手入れ方法. メンテナンス・サービス. 羽毛ふとんお仕立て直し. UMO ® アップグレード・サービス. 寝具のお仕立て直し. お手入れ・お取り扱いについて. インフォメーション. IWATA 日本橋店、11月13日リニューアルオープン｜寝具を「誂える（あつらえる）」御誂えと、静けさを「設える（しつらえる）」NEZENが出会う. 2026年11月05日. イワタニュース. メディア情報. イベント. ふるさと納税. Facebook. イワタについて. わたしたちの想い. SDGｓ（サステナビリティ）へのアプローチ. 羽ぶとん誕生ストーリー. イワタ羽毛研究所. 寝ごこち科学研究所. 会社情報. 人材採用情報. English Website. ショップ情報. IWATA 京都本店. IWATA 東京店. IWATA 日本橋店. IWATA商品お取り扱い店. English shop Guide. 法人のお客様へ. ショップ運営の方へ. ホテル・宿泊業の方へ. 建築家・インテリアコーディネーターの方へ. お問合せ. 会社概要. 株式会社イワタ. 設立年月. 1963年8月23日. 代表取締役社長. 岩田 有史. 資本金. 9,900万円. 従業員数. 40名. 事業所. 本社. 〒604-8182 京都市中京区堺町通姉小路下ル大阪材木町701番地2. カスタマーサービス. TEL：0749-42-2903（受付：平日10:00～17:00）. イワタ工場・ショールーム. イワタ滋賀ショールーム. ・寝ごこち体験室. ・研修室. ・睡眠環境塾. 〒529-1213 滋賀県愛知郡愛荘町沖436. 第一工場. ・イワタ羽毛研究所. 〒529-1223 滋賀県愛知郡愛荘町島川1045. 第二工場. 〒529-1213 滋賀県愛知郡愛荘町沖436. 寝具御誂専門店 IWATA. 寝具御誂専門店IWATA 京都本店. 〒604-8182 京都市中京区堺町通三条上ル. TEL：075-241-2332／FAX：075-241-2335. 寝具御誂専門店IWATA 東京店. 〒141-0031 東京都品川区西五反田7-22-17 TOCビル4F. TEL：03-5989-0838／FAX：03-5989-0839. 寝具御誂専門店IWATA 日本橋店. 〒103-0027 東京都中央区日本橋2-5-1 日本橋髙島屋S.C.新館3F. TEL：03-6262-5666／FAX：03-6262-5665. 代表取締役 岩田 有史〔 イワタ アリチカ〕. 株式会社イワタ 代表取締役社長. 快眠術の専門家。睡眠環境、睡眠習慣のコンサルティング、眠りに関する教育研修、睡眠関連商品の開発、寝具の開発、睡眠環境アドバイザーの育成などを行っている。. １９８３年株式会社イワタに入社。 １９８８年より独学で睡眠の研究を始める。その後、日本を代表する睡眠の研究者らに師事し、睡眠研究機関と産業を繋ぐ橋渡し役として活躍する。 眠りのメカニズムに裏付けられた見識は、ヒット商品を数多く産業界に送り出すことに成功する。その活動は商品企画だけに留まらず、多くの異業種コラボレーション、大学との共同研究およびコーディネイトなど快眠ビジネスにおける活動を推進している。 ２００８年度グッドデザイン賞受賞。. 著作及び執筆、寄稿. 「なぜ一流の人はみな「眠り」にこだわるのか？」（すばる舎）. 「眠れてますか？朝までぐっすりガバッと起きる43の秘訣」 (幻冬舎). 「眠れてますか？」(新聞コラム、毎日新聞社). 「私を支えた言葉」(PHP研究所) ・「基礎講座 睡眠改善学」(ゆまに書房). 「幸せを呼ぶ25の快眠術」(自費出版) ・ ビデオ「きれいに歳をとる方法. 「 快眠生活のススメ」 上・下巻(アウェイク) 他. 会社沿革. 1963年 （昭和38年）. 羽ぶとんの専門メーカーとして（株）イワタを設立。実質的なパイオニアとして羽毛ぶとんブームの火付け役となる. 1964年 （昭和39年）. 羽毛専用生地「ダウンプルーフ」を開発. 1986年（昭和61年）. 日干し・水洗い可能な羽ぶとんを開発. 1987年（昭和62年）. ラクダの長毛、ジャコウ牛の体毛など優れた天然素材による機能性寝具を発表. 1992年（平成4年）. 天然素材の自然派高機能性寝具ブランド「SLEEP CARE SYSTEM」を開発. 1995年（平成7年）. 睡眠環境アドバイザーの認定制度開始. 1997年（平成9年）. 岩田卓三会長、永年にわたる台湾羽毛産業への功績で「栄誉貢献奨」を授与される. 1998年（平成10年）. 機能性羽根枕「サポーターピロー」の実用新案取得. 2000年（平成12年）. 品質管理および品質保証の国際規格ISO9001の認証を取得. 2001年（平成13年）. ヤクの長毛を使用した機能性寝具を発表. 2002年（平成14年）. 繊維製品の国際的な安全規格エコテックス100の認証を取得. 2003年（平成15年）. 「イオゾンδ」特許取得、異業種各社と「快眠コンソーシアム」を設立. 2004年（平成16年）. 日本スリープケア研究会を発足. 2007年（平成19年）. 獣毛積層構造での実用新案を取得。経済産業省近畿経済産業局より新連携の認定を受ける. 2008年（平成20年）. マットレス「ラークオール」がグッドデザイン賞を受賞. 2009年（平成21年）. 滋賀ショールーム開設. 2010年（平成22年）. 寝具御誂専門店 IWATA京都本店オープン. ブランドリニューアルを実施. 廃棄寝具のサーマルリサイクル、カーボンオフセットを開始. 2011年（平成23年）. 寝具御誂専門店 IWATA銀座店オープン. 2012年（平成24年）. フランス・パリで開催された「メゾン・エ・オブジェ」に出展. 2016年（平成28年）. 銀座店が寝具御誂専門店IWATA東京として新宿に移転オープン. 京都大学総合博物館の「ねむり展」に「人類進化ベッド」のプロトタイプを出品. 「人類進化ベッド」のプロトタイプが「京都デザイン賞」に選出. 2017年（平成29年）. 自社寝具の仕立て直しプログラムを確立. 「人類進化ベッド」がグッドデザイン賞を受賞. 2018年（平成30年）. 京都府元気印中小企業に認定. 他社羽毛ふとんのアップサイクリング「UMO」を開始. 人類進化ベッドが、アメリカ・インダストリアルデザイナー協会主催「IDEA」のフィーチャードファイナリストに選出. 2019年（平成31年）. 八木保デザインによる国産竹のベッド「KAGUYA KOKOCHI」を発表. 「KAGUYA KOKOCHI」が（一社）京都知恵産業創造の森「京都スマートプロダクト」に認定. 京都市輝く地域企業表彰「地域企業耀き賞」を受賞. 人類進化ベッドの新展開が、第10回知恵ビジネスプラン認定. 「これからの１０００年を紡ぐ企業認定」第4回認定企業に認定. 2020年（令和2年）. 新ブランド『unbleached』を発表. 再生可能エネルギー100％電力を採用（滋賀工場、京都本社）. 「再エネ100宣言RE Action」に参加し、再エネ率の実績登録を開始. 2021年（令和3年）. 京都商工会議所主催「第1回知恵1グランプリ」優秀賞を受賞. （一社）ソーシャル企業認証機構「ソーシャル企業認証制度 S認証」に認証. 2022年（令和4年）. 世界に誇る日本ブランドの名品アワード「Jaxury Award 2022」を受賞. 日本橋高島屋S.C.新館にて、寝具御誂専門店IWATA日本橋店オープン. 「きょうとSDGsネットワーク」に認定. 2023年（令和5年）. 世界に誇る日本ブランドの名品アワード「Jaxury Award 2023」を2年連続受賞. 循環型ブランド「RENMEN」を始動。ハギレを活かしたタオルを発売. unbleachedの羽ぶとんが「デカボスコア」で二酸化炭素削減率42％商品として認定. 「ラークオール」が炭素排出と廃棄を最小化するマットレスとして、「京都スマートプロダクト」に認定. 2024年（令和6年）. 「脱炭素チャレンジカップ」において「再エネ100宣言 Re Action賞」を受賞. 世界に誇る日本ブランドの名品アワード「Jaxury Award 2024」を３年連続受賞. 「キャメル敷パット」サステナブル★セレクション2024 一つ星を獲得. 2025年（令和7年）. 京都府「京都府環境保全功労者表彰 トップランナー部門」を受彰. 京都市「京都環境賞 特別賞（KES推進賞）」を受賞. 世界に誇る日本ブランドの名品アワード「Jaxury Award 2025」を４年連続受賞. 当社社長が「中小企業応援士」を委嘱. 2026年（令和8年）. 「眠りのコンシェルジュ」が NEDO「GENIAC-PRIZE」地域賞を受賞. ニューヨークにて新睡眠ブランド「NEZEN」を発表.",
+     "retrieved_at": "2026-11-22T08:29:58+00:00"
+    },
+    {
+     "url": "https://www.iozon.co.jp/english-guide",
+     "page_type": "products",
+     "text": "English Shop Guide - 株式会社イワタ. イワタの商品. オンラインショップ. スプリングを超えた匠のマットレス. ラークオール. 自然な寝姿勢を保つ. キャメル敷きパッド. 寝床内気候を整えるグースダウン使用. 羽ぶとん. イワタ製品の特徴. 自然素材の国産オーダー寝具. 選び抜いた自然素材. 「安心安全」の品質. 世界に誇る清潔度. 有害物質の検査. 四季を快眠するアドバイス. 生地の違い. ご愛用者さまの声. お手入れ方法. メンテナンス・サービス. 羽毛ふとんお仕立て直し. UMO ® アップグレード・サービス. 寝具のお仕立て直し. お手入れ・お取り扱いについて. インフォメーション. IWATA 日本橋店、11月13日リニューアルオープン｜寝具を「誂える（あつらえる）」御誂えと、静けさを「設える（しつらえる）」NEZENが出会う. 2026年11月05日. イワタニュース. メディア情報. イベント. ふるさと納税. Facebook. イワタについて. わたしたちの想い. SDGｓ（サステナビリティ）へのアプローチ. 羽ぶとん誕生ストーリー. イワタ羽毛研究所. 寝ごこち科学研究所. 会社情報. 人材採用情報. English Website. ショップ情報. IWATA 京都本店. IWATA 東京店. IWATA 日本橋店. IWATA商品お取り扱い店. English shop Guide. 法人のお客様へ. ショップ運営の方へ. ホテル・宿泊業の方へ. 建築家・インテリアコーディネーターの方へ. お問合せ. English Shop Guide. Store information. IWATA has developed and patented improvements in many fields, such as down purification, fiber activation, and manufacturing optimization. Our technical achievements allow us to manufacture high-quality bedding using superior natural materials that are difficult or impossible for other manufacturers to process. Since our foundation, we have never taken advantage of our successful history, and we are always seeking for new techniques and quality control. We, as a pioneer of \"sleep\", are going one step ahead of the age. >> Read more about IWATA. IWATA currently has three showroom locations around the country as listed below. IWATA Kyoto Show Room. Sanjo-agaru Sakaimachi-dori, Nakagyo-ku, Kyoto 604-8182, Japan. Tel: +81 (0)75-241-2332. Fax: +81 (0)75-242-2335. Email: kyoto@iozon.co.jp. IWATA Tokyo Show Room. TOC Bld. 4th floor. 7-22-17 Nishi-Gotanda, Shinagawa-ku, Tokyo 141-0031, Japan. Tel: +81 (0)3-5989-0838. Fax: +81 (0)3-5989-0839. Email: tokyo@iozon.co.jp. IWATA Nihonbashi Show Room. Nihonbashi Takashimaya Shopping Center Annex 3F. 2-5-1 Nihonbashi, Chuo-ku, Tokyo 103-0027, Japan. Tel: +81 (0)3-6262-5666. Fax: +81 (0)3-6262-5665. Email: nihonbashi@iozon.co.jp. For more information. English Website is here.",
+     "retrieved_at": "2026-11-22T08:30:01+00:00"
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "key": "highlandfeather.com",
+    "start_url": "https://www.highlandfeather.com/",
+    "result_url": "https://www.highlandfeather.com/duck-down-duvet",
+    "title": "Highland Feather Down Duvet - Premium Quality Down Manufacturer",
+    "snippet": "The down and feathers we carry are a natural by-product of the poultry industry, sourced and process by RDS-certified suppliers. Our products are designed and made to last.",
+    "source": "search",
+    "queries": [
+     "duck down duvet manufacturer Japan"
+    ]
+   },
+   "official_website": null,
+   "identity": {},
+   "errors": [
+    "https://www.highlandfeather.com/: page larger than 2 MB",
+    "https://highlandfeather.com/: page larger than 2 MB",
+    "https://www.highlandfeather.com/duck-down-duvet: page larger than 2 MB"
+   ],
+   "robots_blocked": false,
+   "contacts": {
+    "emails": [],
+    "phones": []
+   },
+   "pages": []
+  },
+  {
+   "candidate": {
+    "key": "kwd.jp",
+    "start_url": "https://kwd.jp/",
+    "result_url": "https://kwd.jp/en/",
+    "title": "羽毛なら河田フェザー株式会社",
+    "snippet": "Our mission, as the one and only down manufacture in Japan, is devoting our incomparable clean down & feather to consumers. If dust, dirt, and nutrients are not removed well from down in processing, it will cause increases of bacteria and fungi.",
+    "source": "search",
+    "queries": [
+     "duck down duvet manufacturer Japan",
+     "down and feather processing company Japan",
+     "down jacket manufacturer duck down Japan",
+     "down and feather importer bedding Japan"
+    ]
+   },
+   "official_website": "https://kwd.jp",
+   "identity": {
+    "name": "羽毛なら河田フェザー株式会社",
+    "name_source": "page title",
+    "country": "Japan",
+    "country_source": "inferred from domain ending (not verified)"
+   },
+   "errors": [],
+   "robots_blocked": false,
+   "contacts": {
+    "emails": [
+     {
+      "value": "info@kawada.net",
+      "source_url": "https://kwd.jp/content/about/"
+     }
+    ],
+    "phones": [
+     {
+      "value": "0596-55-2431",
+      "source_url": "https://kwd.jp/en/"
+     }
+    ]
+   },
+   "pages": [
+    {
+     "url": "https://kwd.jp/",
+     "page_type": "homepage",
+     "text": "羽毛なら河田フェザー株式会社. 高品質で清潔な羽毛を極める. KAWADA FEATHER ®. 羽毛専業メーカーとしての私たちの使命。それは、清潔でキレイな羽毛を精製することです。. 羽毛原料に付着しているホコリやアカなどの菌のエサが精製工程で残っていると菌類（バクテリアやカビ類）が増殖してしまいます。安心で安全な製品を届けるために、私たちは付着物を徹底的に取り除いて、高品質で清潔な羽毛を極めることが使命だと考えています。. 不要になった羽毛ふとんを無料回収. 【明和工場へお持ち込みの方はこちら】. 【オンラインでの宅配回収の依頼の方はこちら】. 河田フェザーの羽毛リサイクルについてはこちら. 2025年12月24日. 【重要】当社代表・役員を騙る不審なメールにご注意ください. 2025年12月02日. 『URBAN RESEARCH』×『KWD』の特別別注モデルを12月発売開始. 2025年10月21日. 新テレビCM放送開始のお知らせ. 2026年10月08日. 御殿場プレミアム・アウトレットにて羽毛製品回収キャンペーンを開催. 2026年10月08日. 羽毛製品のリサイクルと地域福祉の推進に関する協定を締結. 2026年10月02日. 「サステナブルファッション・パートナー」に登録と展示会参加のご案内. 2026年09月28日. 「ごみ減量フェスティバル ガレージセール・イン・OSAKA TOWN」に出展します。. 2026年09月01日. コーポレートロゴリニューアルのお知らせ. 最新情報一覧へ. 確かな品質を誇る清潔な羽毛 羽毛へのこだわり. 当社が創業以来、お届けしているのが「羽毛」です。国内外から良質の原料を仕入れ、国内工場で精製し、確かな品質の羽毛を提供することに尽力してきました。. 高品質な羽毛を精製することを貪欲なまでに追い求めた理由。それは羽毛製品を安心して使っていただきたいからです。清潔な羽毛を精製するために環境や技術、品質へのこだわりを追求し続けています。. 羽毛品質の証 ～KAWADA DOWN とグリーンダウン～. 当社で取り扱う羽毛ブランドが「KAWADA DOWN」（新毛とリサイクルダウン）、「Green Down Project」で回収されリサイクルした羽毛を「グリーンダウン」と呼んでいます。いずれも自社の誇りと責任を持ってお届けする高品質の羽毛です。. 羽毛精製に最適な環境 ～水と気候を求めて～. 精製工場を構えるのは三重県明和町。この地域の環境が羽毛精製に最適な地と考え、1991年に名古屋市から工場を移設しました。その理由は、この地でしか手に入れることができない「水」と「気候」です。. 英知を極めた技術 ～清潔な羽毛のために～. 工場の精製機械は、創業から積み重ねた経験と知識に基づき、独自に理論化・技術化されています。この技術こそがホコリやアカを徹底的に取り除く要となり、ずば抜けて清潔な羽毛を作り出しています。. 羽毛に機能性をプラス ～安心できる加工～. 羽毛製品のニーズに合わせ、さまざまな特殊加工が可能です。ホコリやアカを徹底的に取り除いた清潔でキレイな羽毛だからこそ、安心できる機能性を加えることができます。. 適正な品質のために ～厳しい品質管理～. 羽毛は入荷から出荷まで、各工程で品質の管理を徹底しています。精製工場内では内部資格取得者によって、羽毛の品質を確認。精製後の羽毛は、ISO/IEC 17025 に適合したJNLAの認定試験機関で、規格よりも厳しい試験を行い、羽毛の品質を極めています。. 羽毛原料への責任 ～トレーサビリティー～. 海外から高品質の羽毛原料を入荷するためには、長年の経験と知識が必要です。水鳥の飼育状況を見極め、適正な羽毛を入荷し、最終的な羽毛品質を管理するためにトレーサビリティ（流通経路）の確保にも真摯に取り組んでいます。. 確かな品質を誇る国内生産 寝具へのこだわり. 当社の国内工場で羽毛の精製から羽毛ふとんの製造までを一貫生産していることは、あまり知られていません。ほとんどがOEM（相手先ブランド製造）として携わってきたからです。工場は大量生産だけでなく小ロット生産にも対応しています。. 羽毛ふとんの一貫生産 ～縫製から製造まで～. 自社工場では、OEM（相手先ブランド製造）として羽毛ふとんを生産しています。羽毛の精製から羽毛ふとんの製造までを国内工場で一貫し、確かな品質をお届けしています。. 品質保証のラベル ～製品に安心を～. 羽毛ふとんには、品質を保証する公的機関の認定ラベルを取得し、製品に安心をプラスしてお届けしています。. 羽毛ふとんのリフォーム ～お気に入りは長く使いたい～. ご使用いただいている羽毛ふとんをお預かりし、羽毛を取り出して洗い、新しい側生地に充填してお手元にお届けします。. 羽毛ふとんのお手入れ ～お手入れのポイント～. 羽毛ふとんを長く使っていただくために、日頃のお手入れ方法や収納方法などをご紹介します。. 羽毛を追求する使命 羽毛とともに歩む. 羽毛専業メーカーとしての歴史は、1891（明治24）年にさかのぼります。１世紀以上にわたって羽根や羽毛と向き合い続け、国内で羽毛ふとんやダウンジャケットが普及する時代にも立ち会ってきました。時代とともに変化する羽毛の市場に対し、知識と経験を駆使し、常に清潔で安心して使うことができる羽毛を届けるためにできること、やらなければならないことを追求し続けています。. 概要. 当社とグループ企業に関するご案内. トップメッセージ. 代表取締役 河田敏勝からのごあいさつ. 沿革. 羽毛専業メーカーとしてのあゆみ. サステナビリティ. 当社のSDGs・ESGへの取組みについて. お問い合わせ. お問い合わせフォーム. 古物営業法の規定に基づく表示. 名称：河田フェザー株式会社. 許可公安委員会：三重県公安委員会. 許可証番号：第551300184500号.",
+     "retrieved_at": "2026-11-22T08:29:54+00:00"
+    },
+    {
+     "url": "https://kwd.jp/en/",
+     "page_type": "other_official",
+     "text": "羽毛なら河田フェザー株式会社. Down & Feather. KAWADA FEATHER ®. Our mission, as the one and only down manufacture in Japan, is devoting our incomparable clean down & feather to consumers. If dust, dirt, and nutrients are not removed well from down in processing, it will cause increases of bacteria and fungi. We believe it is our responsibility to remove extraneous matters from down completely, and to concentrating on producing the best and cleanest down. We want to give you our perfectly safe and comfortable products. Pursuing the cleanest high quality down Pursuing incomparable cleanness for Down & Feather. Down & feather is a part of our life. That is why we stick to quality. Comfortable duvets hold your healthy sleep, and lightweight jackets keep you warm from cold in winter. Since our foundation in 1891, we have dealt with materials of down & feather. Also, we have devoted all our energies to reach our ideal quality. Our own standard, aiming cleaner, cannot be reached by anyone yet we keep developing new technology. We collect appraised high quality down from all over the world. We can produce and cleanse down only in our Japanese factory to reach our own standard. We want anyone can use down & feather products. That is why we have been pursuing the ideally clean down. Certification of the quality. Product Labels. “KAWADA DOWN” on the left above stands for warranty of high quality new material. \"Green Down\" on the right stands for eco-friendly recycling item with low carbon footprint. We are proud of presenting the both high quality down, having responsibilities to look after our users’ health. Best environment for processing Down & Feather. We selected to relocate our factory to Meiwa, Mie Prefecture from Nagoya City, and moved in 1990. The reason is its special “water” and the “climate”,. which can't be obtained in any other places in Japan. This location is most suitable for manufacture our high quality down & feather. Technology from the endless wisdom of human industry and knowledge of plumage and nature. We made our own theory and technic based on five generations’ experience and knowledge since 1891. Our production lines were designed based on such theory and technic. We can take out dust and dirt perfectly because we use our production lines here, so we can make very clean down not comparable in the world. Additional function to Down & Feather. Kawada has developed a unique know-hows to give new functionalities on washed feather-down. We use very clean down without dust and dirt so nothing else go out together with dust and dirt. For these reasons, even chemically treated down has the same result as usual down in toxic test. Click the picture and check it out for details. Quality Assurance. KAWADA DOWN is checked quality in each production process by the qualified inspectors. Fully processed down is analyzed at on-site branch of UMOU Science Lab. USL is an independent laboratory formally certified by IDFB, and is the first authorized lab. for JIS1903 (down & feather analysis) by ISO/IEC17025. Our responsibility for Down & Feather. KAWADA DOWN is traceable. We always study down & feather through breeding and breed of waterfowl from all over the world. Thus, we get high quality raw material carefully selected from original region and process them by ourselves. Accumulated knowledge and experience are necessary to handle high quality down & feather. Preserving the Japan made quality pursuing stable quality of down comforters. It has been hardly known that Kawada produces a lot of down comforters. We used to manufacture our down products with OEM basis as a service for those who bought KAWADA DOWN. We produce from a single piece to the large-volume lot. Production capacity is the biggest class in Japan, and production lots per day are the largest. Integrated Production of Down comforter from fabric to final product. Kawada Feather manufactures bedding products in our factory on an OEM basis. Starting from processing raw down until manufacturing finished goods,. our integrated manufacture in the cleanly sanitized circumstance ensures clean down products. Quality Assurance Labels. Kawada’s down comforter, its finest quality, is guaranteed by JDFA’s Gold Label. Refresh Service. We take out down from your comforter and wash & process the down again. Then, we make down comforter renewed from the processed clean down. Care points for your down comforter. To keep your down comforter clean and fluffy, how to wash and store are followed by the next page. Our mission, deep studying Down & Feather Down & Feathers is our family business. Down & feather business as our family business dates back to 1981, and since then. we study down & feather over one century. Thus, we made down-jacket market, and endeavor to popularize down comforters in Japan. We continuously keep to produce clean and safety down using our utmost knowledge and experience. Company outline. Introduction of Kawada Feather group. Top Message. Greetings from Toshikatsu Kawada. History. Footprints of Kawada Featherke. Contact us. Kawada Feather Co., Ltd. 〒515-0303. 3255, Yamaoyodo, Meiwa-Cho, Taki-Gun, Mie. tel 0596-55-2431 / fax 0596-55-4156 /. info kawada.net. Inquiry Form.",
+     "retrieved_at": "2026-11-22T08:29:57+00:00"
+    },
+    {
+     "url": "https://kwd.jp/content/about/",
+     "page_type": "about",
+     "text": "会社案内｜河田フェザー株式会社 | 河田フェザー株式会社. 会社案内 会社概要とアクセス案内. 概要. 明治24（1891）年の創業以来、羽毛専業メーカーとして、羽毛一筋に歩んできました。羽毛製品を使っていただく方のことを第一に考え、これからも清潔でキレイで健康的な羽毛を精製し、羽毛と共に歴史を重ねていきたいと考えています。. <tr;”>認定状況・ISO9001・ISO14001・ISO45001審査登録〈日本規格協会〉. 社名. 河田フェザー株式会社. 本店. 〒453-0064. 愛知県名古屋市中村区草薙町一丁目31番地. 本社・明和工場. 〒515-0303. 三重県多気郡明和町大字山大淀3255番地. TEL ： 0596-55-2431 ／ FAX ： 0596-55-4156. MAIL： info@kawada.net. 名古屋支店. 〒450-0002. 愛知県名古屋市中村区名駅2-38-2. オーキッドビル5階. TEL ： 052-700-5530 ／ FAX ： 052-700-5540. 創業. 1891（明治24）年. 設立. 1963（昭和38）年7月. 資本金. 4,320万円. 売上高. 40億円（2026（令和8年）2月期）. 決算期. 2月末日. 従業員数. 50名（正社員）. 役員. 代表取締役 河田 敏勝. 常務取締役 河田 勝幸. 取締役 河田 みう. 取締役 河田 秀美. 取締役 平山 欣也. 取締役 河田 芽桜. 監査役 三宅 正人. 事業内容. （グループ企業含む）. ・羽毛原料の仕入れ、精製加工、販売. ・精製羽毛の加工・販売. ・リサイクル羽毛の仕入れ、精製加工、販売. ・羽毛ふとんの縫製、製造（OEM）. ・羽毛ふとんのリフォーム. ・KAWADA ONLINE SHOP（B2C向けECサイト） の運営. ・KWD（B2C向けECサイト）の運営. 主要販売先. ・MNインターファッション株式会社. ・東レインターナショナル株式会社. ・長谷虎紡績株式会社. ・株式会社ファーベスト. ・丸紅ファッションリンク株式会社. ・山一株式会社. ・株式会社良品計画. グループ企業. 株式会社DMS. 〒515-0303. 三重県多気郡明和町大字山大淀3255番地. TEL ： 0596-55-2433 ／ FAX ： 0596-55-4156. 代表取締役 河田 敏勝. 河田寝装株式会社. 〒515-0303. 三重県多気郡明和町大字山大淀3255番地. TEL ： 0596-55-4772 ／ FAX ： 0596-55-4156. 受注生産管理 直通 0596-55-2432. 代表取締役 河田 敏勝. カワダソーイング株式会社. 〒515-0302. 三重県多気郡明和町大字大淀甲131番地. TEL ： 0596-55-4445 ／ FAX ： 0596-55-4445. 代表取締役 河田 敏勝. 河田フェザー販売株式会社. ◎本店. 〒515-0303. 三重県多気郡明和町大字山大淀3255番地. 代表取締役 河田 敏勝. ◎本社. 〒450-0002. 愛知県名古屋市中村区名駅2-38-2. オーキッドビル5階. TEL：052-720-2626 ／ FAX：052-700-5540. 台湾河田羽毛有限公司. 台湾彰化縣溪湖鎮光平里行政街342號. アクセス. 本社. 交通アクセス. 【近鉄をご利用の方】. ・松阪駅（近鉄名古屋線）で下車 北口よりタクシーで約20分. ・斎宮駅（近鉄山田線）で下車 タクシーで約12分. ※駅前にタクシー乗り場がないため配車の手配が必要です。斎宮駅からお越しの方はご注意ください。. 【JRをご利用の方】. ・松阪駅で下車 南口よりタクシーで約20分. 【車をご利用の方】. ・伊勢自動車道 久居I.C.より約25.1km 車で約34分. ・伊勢自動車道 玉城I.C.より約29km 車で約37分. ・伊勢自動車道 松阪I.C.より約29.7km 車で約42分. 名古屋支店. 交通アクセス. 【鉄道をご利用の方】. ・名古屋駅（JR・名鉄・近鉄・地下鉄各線）で下車 東口（桜通口）より徒歩約5分. ・地下鉄国際センター駅で下車 1番出口より徒歩約10分. ・地下鉄亀島駅で下車 3番出口より徒歩約10分. 【車をご利用の方】. ・名古屋高速都心環状線 錦橋I.C.より約1.4km 車で約7分. ・名古屋高速6号清洲線 明道町I.C.より約6.5km 車で約12分. ・名古屋高速5号万場線 烏森I.C.より約4.1km 車で約16分. 駐車場ご利用の場合は前もって申請の必要がありますので、名古屋支店までご連絡ください。（052-700-5530）. お問い合わせ. お問い合わせフォーム. 古物営業法の規定に基づく表示. 名称：河田フェザー株式会社. 許可公安委員会：三重県公安委員会. 許可証番号：第551300184500号.",
+     "retrieved_at": "2026-11-22T08:30:00+00:00"
+    },
+    {
+     "url": "https://kwd.jp/content/inquiry/",
+     "page_type": "contact",
+     "text": "お問い合わせフォーム | 河田フェザー株式会社. お問い合わせ. お問い合わせフォーム. 下記フォームに必要事項を入力後、確認ボタンを押してください。. ＊は必ずご記入ください. お問い合わせ. 河田フェザー株式会社. 〒515-0303. 三重県多気郡明和町大字山大淀3255番地. TEL: 0596-55-2431 / FAX: 0596-55-4156. お問い合わせフォーム.",
+     "retrieved_at": "2026-11-22T08:30:02+00:00"
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "key": "lqfeather.com",
+    "start_url": "http://www.lqfeather.com/",
+    "result_url": "http://www.lqfeather.com/en/index.php/power",
+    "title": "柳桥集团有限公司-规模实力 - lqfeather.com",
+    "snippet": "Liuqiao Group boasts more than 30 feather sorting machines of various specifications from single compartment to 6 compartments, 14 full-automatic down rising machines, and 8 heaping machines. These are a solid foundation for processing of excellent down and feather.",
+    "source": "search",
+    "queries": [
+     "down and feather processing company Japan"
+    ]
+   },
+   "official_website": null,
+   "identity": {},
+   "errors": [
+    "http://www.lqfeather.com/: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+    "http://lqfeather.com/: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>",
+    "http://www.lqfeather.com/en/index.php/power: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1081)>"
+   ],
+   "robots_blocked": false,
+   "contacts": {
+    "emails": [],
+    "phones": []
+   },
+   "pages": []
+  }
+ ]
+}

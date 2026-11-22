@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+npm-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Editors / operating systems
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Tests / temporary files
+.pytest_cache/
+*.tmp

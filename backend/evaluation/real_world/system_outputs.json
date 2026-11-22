@@ -1,0 +1,1791 @@
+{
+ "W01": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "AndersonTuftex",
+  "website": "https://andersontuftex.com",
+  "pages": [
+   "https://andersontuftex.com/en-us",
+   "https://andersontuftex.com/en-us/wool-carpet-overview",
+   "https://andersontuftex.com/en-us/flooring-collections",
+   "https://andersontuftex.com/en-us/contact-us"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G-ROLE1",
+   "G-ROLE2",
+   "SW-N1"
+  ],
+  "reason": "RETAILER_OR_BRAND",
+  "baseline_positive": false,
+  "id": "W01"
+ },
+ "W02": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "Best Wool Carpets",
+  "website": "https://www.bestwoolcarpets.com",
+  "pages": [
+   "https://www.bestwoolcarpets.com/en/",
+   "https://www.bestwoolcarpets.com/en/",
+   "https://www.bestwoolcarpets.com/en/about",
+   "https://www.bestwoolcarpets.com/en/collections"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 56,
+  "rules": [
+   "G-R1",
+   "SW-P4b"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": false,
+  "id": "W02"
+ },
+ "W03": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "British Wool",
+  "website": "https://www.britishwool.org.uk",
+  "pages": [
+   "https://www.britishwool.org.uk/",
+   "https://www.britishwool.org.uk/trade/suppliers/",
+   "https://www.britishwool.org.uk/farmers/",
+   "https://www.britishwool.org.uk/farmers/marketing-your-wool/projects-product-development/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 79,
+  "rules": [
+   "G-R1",
+   "SW-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "W03"
+ },
+ "W04": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "Brockway Carpets",
+  "website": "https://www.brockway.co.uk",
+  "pages": [
+   "https://www.brockway.co.uk/",
+   "https://www.brockway.co.uk/about",
+   "https://www.brockway.co.uk/carpets/lakeland-herdwick",
+   "https://www.brockway.co.uk/press-enquiry"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 60,
+  "rules": [
+   "G-R1",
+   "SW-P4b"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": false,
+  "id": "W04"
+ },
+ "W05": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "Building Renewable",
+  "website": "https://buildingrenewable.com",
+  "pages": [
+   "https://buildingrenewable.com/",
+   "https://buildingrenewable.com/companies-that-make-sheeps-wool-insulation/",
+   "https://buildingrenewable.com/about/",
+   "https://buildingrenewable.com/contacts/"
+  ],
+  "system": "insufficient_evidence",
+  "score": 30,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "SW-P4a",
+   "SW-P4c",
+   "SW-P5"
+  ],
+  "reason": "CONFLICT",
+  "baseline_positive": true,
+  "id": "W05"
+ },
+ "W06": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "Castilwool",
+  "website": "https://www.castilwool.com",
+  "pages": [
+   "https://www.castilwool.com/",
+   "https://www.castilwool.com/wool-scouring/",
+   "https://www.castilwool.com/about-us/",
+   "https://www.castilwool.com/contact-us/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 79,
+  "rules": [
+   "G-R1",
+   "G-R2",
+   "SW-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": false,
+  "id": "W06"
+ },
+ "W07": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "Cormar Carpets",
+  "website": "https://www.cormarcarpets.co.uk",
+  "pages": [
+   "https://www.cormarcarpets.co.uk/",
+   "https://www.cormarcarpets.co.uk/about-us/",
+   "https://www.cormarcarpets.co.uk/carpet-ranges/",
+   "https://www.cormarcarpets.co.uk/contact-us/"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "W07"
+ },
+ "W08": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "Diyoos",
+  "website": "https://www.diyoos.com",
+  "pages": [
+   "https://www.diyoos.com/",
+   "https://www.diyoos.com/2026/10/top-carpet-manufacturers-uk.html",
+   "https://www.diyoos.com/p/contact-us.html",
+   "https://www.diyoos.com/2026/10/top-8-vinyl-and-lvt-flooring.html"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 46,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "SW-P4b"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "W08"
+ },
+ "W09": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "Europawools",
+  "website": "https://www.europawools.com",
+  "pages": [
+   "https://www.europawools.com/"
+  ],
+  "system": "confirmed_purchaser",
+  "score": 88,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "SW-P1",
+   "SW-P4c",
+   "SW-P5"
+  ],
+  "reason": "DIRECT_PURCHASE",
+  "baseline_positive": false,
+  "id": "W09"
+ },
+ "W10": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "Halifax Mill",
+  "website": "https://www.halifaxspinningcompany.co.uk",
+  "pages": [
+   "https://www.halifaxspinningcompany.co.uk/",
+   "https://www.halifaxspinningcompany.co.uk/shop",
+   "https://www.halifaxspinningcompany.co.uk/contact",
+   "https://www.halifaxspinningcompany.co.uk/mill-gallery"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 58,
+  "rules": [
+   "G-R1",
+   "G-R2",
+   "SW-P3"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": false,
+  "id": "W10"
+ },
+ "W11": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "Havelock Wool Insulation",
+  "website": "https://havelockwool.com",
+  "pages": [
+   "https://havelockwool.com/",
+   "https://havelockwool.com/pages/about",
+   "https://havelockwool.com/collections/store",
+   "https://havelockwool.com/pages/contact"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 80,
+  "rules": [
+   "G-R1",
+   "SW-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": false,
+  "id": "W11"
+ },
+ "W12": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "Haworth Scouring",
+  "website": "https://haworthscouring.co.uk",
+  "pages": [
+   "https://haworthscouring.co.uk/",
+   "https://haworthscouring.co.uk/about/",
+   "https://haworthscouring.co.uk/contact-us/",
+   "https://haworthscouring.co.uk/resources/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 80,
+  "rules": [
+   "G-R1",
+   "G-R2",
+   "SW-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": false,
+  "id": "W12"
+ },
+ "W13": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "importer.tradeford.com",
+  "website": "https://importer.tradeford.com/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "W13"
+ },
+ "W14": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "ISOLENA Naturfaservliese GmbH",
+  "website": "https://www.isolena.com",
+  "pages": [
+   "https://www.isolena.com/de/",
+   "https://www.isolena.com/en/",
+   "https://www.isolena.com/en/insulation/",
+   "https://www.isolena.com/en/contact/",
+   "https://www.isolena.com/en/sheepwool-insulation/"
+  ],
+  "system": "insufficient_evidence",
+  "score": 30,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "SW-P1"
+  ],
+  "reason": "CONFLICT",
+  "baseline_positive": false,
+  "id": "W14"
+ },
+ "W15": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "Michell 1870",
+  "website": "https://michellwool.com",
+  "pages": [
+   "https://michellwool.com/",
+   "https://michellwool.com/scoured-wool/",
+   "https://michellwool.com/history/",
+   "https://michellwool.com/products/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 80,
+  "rules": [
+   "G-R1",
+   "SW-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": false,
+  "id": "W15"
+ },
+ "W16": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "Nourison Home Rugs and Carpet",
+  "website": "https://www.nourison.com",
+  "pages": [
+   "https://www.nourison.com/",
+   "https://www.nourison.com/wool-carpet",
+   "https://www.nourison.com/about-us",
+   "https://www.nourison.com/rugs"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 46,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "SW-P4b"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "W16"
+ },
+ "W17": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "RAMPISHAM HILL MILL",
+  "website": "https://www.rampishamhillmill.co.uk",
+  "pages": [
+   "https://www.rampishamhillmill.co.uk/",
+   "https://www.rampishamhillmill.co.uk/contact/",
+   "https://www.rampishamhillmill.co.uk/stages-of-processing/",
+   "https://www.rampishamhillmill.co.uk/measuring-lustrous-fibres/"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G-R1",
+   "G3a2",
+   "G3",
+   "SW-P1",
+   "SW-P2"
+  ],
+  "reason": "SUPPLIER_NOT_BUYER",
+  "baseline_positive": false,
+  "id": "W17"
+ },
+ "W18": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "Remland Carpets & Flooring",
+  "website": "https://www.remlandcarpets.co.uk",
+  "pages": [
+   "https://www.remlandcarpets.co.uk/",
+   "https://www.remlandcarpets.co.uk/carpets/wool",
+   "https://www.remlandcarpets.co.uk/about/",
+   "https://www.remlandcarpets.co.uk/carpets/lano-collection"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G-ROLE1",
+   "SW-N1"
+  ],
+  "reason": "RETAILER_OR_BRAND",
+  "baseline_positive": false,
+  "id": "W18"
+ },
+ "W19": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "Residential Carpet & Flooring Australia",
+  "website": "https://www.godfreyhirst.com",
+  "pages": [
+   "https://www.godfreyhirst.com/au",
+   "https://www.godfreyhirst.com/na/product-search/wool-carpet",
+   "https://www.godfreyhirst.com/au/about-us",
+   "https://www.godfreyhirst.com/au/product-search/carpet"
+  ],
+  "system": "insufficient_evidence",
+  "score": 30,
+  "rules": [
+   "G-R1",
+   "G6-MIX"
+  ],
+  "reason": "MISSING_MATERIAL",
+  "baseline_positive": false,
+  "id": "W19"
+ },
+ "W20": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "RevenueBase",
+  "website": "https://revenuebase.ai",
+  "pages": [
+   "https://revenuebase.ai/",
+   "https://revenuebase.ai/companies/wool-carpet-manufacturers/united-kingdom",
+   "https://revenuebase.ai/company",
+   "https://revenuebase.ai/data"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 54,
+  "rules": [
+   "G-R1",
+   "SW-P4b"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "W20"
+ },
+ "W21": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "scepwool.com",
+  "website": "https://scepwool.com/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "W21"
+ },
+ "W22": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "Standard Wool",
+  "website": "https://standardwool.uk",
+  "pages": [
+   "https://standardwool.uk/",
+   "https://standardwool.uk/about/",
+   "https://standardwool.uk/our-products/",
+   "https://standardwool.uk/contact/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 80,
+  "rules": [
+   "G-R1",
+   "SW-P1",
+   "SW-P4c"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "W22"
+ },
+ "W23": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "The Raw Wool Company",
+  "website": "https://www.rawwoolcompany.co.uk",
+  "pages": [
+   "https://www.rawwoolcompany.co.uk/",
+   "https://www.rawwoolcompany.co.uk/shop"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 78,
+  "rules": [
+   "G-R1",
+   "SW-P2"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": false,
+  "id": "W23"
+ },
+ "W24": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "The Wool Spinners",
+  "website": "https://www.thewoolspinners.co.uk",
+  "pages": [
+   "https://www.thewoolspinners.co.uk/",
+   "https://www.thewoolspinners.co.uk/pages/contact",
+   "https://www.thewoolspinners.co.uk/pages/processes",
+   "https://www.thewoolspinners.co.uk/pages/order-form"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 52,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "SW-P3"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": false,
+  "id": "W24"
+ },
+ "W25": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "The Woolmark Company",
+  "website": "https://www.woolmark.com",
+  "pages": [
+   "https://www.woolmark.com/",
+   "https://www.woolmark.com/industry/product-development/wool-processing/worsted-scouring/",
+   "https://www.woolmark.com/about/ethos/animals/",
+   "https://www.woolmark.com/performance/prada-linea-rossa-taps-wool-as-the-future-of-performance-wear-for-fallwinter-23-collection/"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G3a"
+  ],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": false,
+  "id": "W25"
+ },
+ "W26": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "thenaturalfibre.co.uk",
+  "website": "https://thenaturalfibre.co.uk/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "W26"
+ },
+ "W27": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "Thermafleece",
+  "website": "https://thermafleece.com",
+  "pages": [
+   "https://thermafleece.com/",
+   "https://thermafleece.com/about-us",
+   "https://thermafleece.com/shop",
+   "https://thermafleece.com/contact-us"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G6-MIX",
+   "SW-P5"
+  ],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": false,
+  "id": "W27"
+ },
+ "W28": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "TradeImex - Import Export Data Provider, Data Analytic & Shipment Services",
+  "website": "https://www.tradeimex.in",
+  "pages": [
+   "https://www.tradeimex.in/",
+   "https://www.tradeimex.in/about-us",
+   "https://www.tradeimex.in/products",
+   "https://www.tradeimex.in/contact-us"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G7"
+  ],
+  "reason": "UNRELATED_INDUSTRY",
+  "baseline_positive": true,
+  "id": "W28"
+ },
+ "W29": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "trademo.com",
+  "website": "https://trademo.com/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "W29"
+ },
+ "W30": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "us.metoree.com",
+  "website": "https://us.metoree.com/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "W30"
+ },
+ "W31": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "WeatherWool",
+  "website": "https://weatherwool.com",
+  "pages": [
+   "https://weatherwool.com/",
+   "https://weatherwool.com/pages/scouring-1",
+   "https://weatherwool.com/pages/our-story",
+   "https://weatherwool.com/collections/shop-all"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "W31"
+ },
+ "W32": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "Wilton Carpets",
+  "website": "https://wiltoncarpets.com",
+  "pages": [
+   "https://wiltoncarpets.com/",
+   "https://wiltoncarpets.com/about-us/",
+   "https://wiltoncarpets.com/carpets/stock-carpets/?view=ranges",
+   "https://wiltoncarpets.com/contact-us/"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 48,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "SW-P4b"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": false,
+  "id": "W32"
+ },
+ "W33": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "Wilton Flooring & Carpets Ltd",
+  "website": "https://www.wiltoncarpets.co.uk",
+  "pages": [
+   "https://www.wiltoncarpets.co.uk/",
+   "https://www.wiltoncarpets.co.uk/product-category/carpets/all-wool/",
+   "https://www.wiltoncarpets.co.uk/shops/",
+   "https://www.wiltoncarpets.co.uk/contact-us/"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 55,
+  "rules": [
+   "G-R1",
+   "SW-P4b"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": false,
+  "id": "W33"
+ },
+ "W34": {
+  "product": "raw_sheep_wool",
+  "search_country": "United Kingdom",
+  "company": "Wingham Wool",
+  "website": "https://winghamwoolwork.co.uk",
+  "pages": [
+   "https://winghamwoolwork.co.uk/",
+   "https://winghamwoolwork.co.uk/pages/about-us",
+   "https://winghamwoolwork.co.uk/collections/wingham-express",
+   "https://winghamwoolwork.co.uk/pages/contact"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": false,
+  "id": "W34"
+ },
+ "W35": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "Wool Carpet",
+  "website": "https://www.wool-carpet.com",
+  "pages": [
+   "https://www.wool-carpet.com/",
+   "https://www.wool-carpet.com/wool-carpet-manufacturers.html",
+   "https://www.wool-carpet.com/contact.html",
+   "https://www.wool-carpet.com/resources.html"
+  ],
+  "system": "insufficient_evidence",
+  "score": 30,
+  "rules": [
+   "G-R1",
+   "G6-MIX"
+  ],
+  "reason": "MISSING_MATERIAL",
+  "baseline_positive": true,
+  "id": "W35"
+ },
+ "W36": {
+  "product": "raw_sheep_wool",
+  "search_country": "any",
+  "company": "woolsolutionsinc.com",
+  "website": "https://woolsolutionsinc.com/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "W36"
+ },
+ "D01": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "ALLIED",
+  "website": "https://alliedfeather.com",
+  "pages": [
+   "https://alliedfeather.com/",
+   "https://alliedfeather.com/info-room/processing/",
+   "https://alliedfeather.com/contact/",
+   "https://alliedfeather.com/sourcing/"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": true,
+  "id": "D01"
+ },
+ "D02": {
+  "product": "duck_down",
+  "search_country": "Japan",
+  "company": "Beaumont &amp; Brown Japan",
+  "website": "https://beaumontbrown.jp",
+  "pages": [
+   "https://beaumontbrown.jp/",
+   "https://beaumontbrown.jp/pages/about-us",
+   "https://beaumontbrown.jp/collections/duvet-covers",
+   "https://beaumontbrown.jp/pages/contact-us"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "D02"
+ },
+ "D03": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "BlackForgeX",
+  "website": "https://blackforgex.com",
+  "pages": [
+   "https://blackforgex.com/",
+   "https://blackforgex.com/down-jacket-manufacturer/",
+   "https://blackforgex.com/about/",
+   "https://blackforgex.com/products/"
+  ],
+  "system": "confirmed_purchaser",
+  "score": 88,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "DD-P1",
+   "DD-P5"
+  ],
+  "reason": "DIRECT_PURCHASE",
+  "baseline_positive": true,
+  "id": "D03"
+ },
+ "D04": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "Crescent Down Works",
+  "website": "https://crescentdownworks.com",
+  "pages": [
+   "https://crescentdownworks.com/",
+   "https://crescentdownworks.com/pages/about-home",
+   "https://crescentdownworks.com/collections/autumn-winter-2026",
+   "https://crescentdownworks.com/pages/contact"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "D04"
+ },
+ "D05": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "Custom Outdoor Jacket Manufacturer In China",
+  "website": "https://www.ruiniujacket.com",
+  "pages": [
+   "https://www.ruiniujacket.com/",
+   "https://www.ruiniujacket.com/mens-jacket/custom-duck-down-jacket.html",
+   "https://www.ruiniujacket.com/about",
+   "https://www.ruiniujacket.com/mens-jacket"
+  ],
+  "system": "insufficient_evidence",
+  "score": 30,
+  "rules": [
+   "G-R1",
+   "DD-N3"
+  ],
+  "reason": "MISSING_MATERIAL",
+  "baseline_positive": true,
+  "id": "D05"
+ },
+ "D06": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "Down Creators",
+  "website": "https://downcreators.com",
+  "pages": [
+   "https://downcreators.com/",
+   "https://downcreators.com/processing/",
+   "https://downcreators.com/txdown/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 71,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "DD-P2"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "D06"
+ },
+ "D07": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "Down Direct",
+  "website": "https://down-direct.com",
+  "pages": [
+   "https://down-direct.com/",
+   "https://down-direct.com/pages/about",
+   "https://down-direct.com/collections/sleeping-pillows",
+   "https://down-direct.com/pages/contact"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G6-MIX"
+  ],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": false,
+  "id": "D07"
+ },
+ "D08": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "DOWN inc.",
+  "website": "https://www.downinc.com",
+  "pages": [
+   "https://www.downinc.com/",
+   "https://www.downinc.com/why-down-inc/",
+   "https://www.downinc.com/aria-collection/",
+   "https://www.downinc.com/contact-us/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 72,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "DD-P2",
+   "DD-P4"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "D08"
+ },
+ "D09": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "downandfeathercompany.com",
+  "website": "https://downandfeathercompany.com/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "D09"
+ },
+ "D10": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "DownTown Company",
+  "website": "https://downtowncompany.com",
+  "pages": [
+   "https://downtowncompany.com/",
+   "https://downtowncompany.com/product-category/comforters/down-comforters/",
+   "https://downtowncompany.com/about/",
+   "https://downtowncompany.com/product-category/bedding-collections/"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G7"
+  ],
+  "reason": "UNRELATED_INDUSTRY",
+  "baseline_positive": false,
+  "id": "D10"
+ },
+ "D11": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "Ducko Down",
+  "website": "https://www.duckodown.co.za",
+  "pages": [
+   "https://www.duckodown.co.za/",
+   "https://www.duckodown.co.za/pages/about-us",
+   "https://www.duckodown.co.za/collections/bedding",
+   "https://www.duckodown.co.za/pages/contact"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 79,
+  "rules": [
+   "G-R1",
+   "DD-P2"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "D11"
+ },
+ "D12": {
+  "product": "duck_down",
+  "search_country": "Germany",
+  "company": "ensun.io",
+  "website": "https://ensun.io/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "D12"
+ },
+ "D13": {
+  "product": "duck_down",
+  "search_country": "Germany",
+  "company": "German Down Comforters and Pillows",
+  "website": "https://blackforestdowncomforters.com",
+  "pages": [
+   "https://blackforestdowncomforters.com/",
+   "https://blackforestdowncomforters.com/shop-all/",
+   "https://blackforestdowncomforters.com/about-us/",
+   "https://blackforestdowncomforters.com/contact-us/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 66,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "DD-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "D13"
+ },
+ "D14": {
+  "product": "duck_down",
+  "search_country": "Germany",
+  "company": "German Down Comforters in the US, cruelty free down, pillows, oeko tex certificate. Matching duvet covers in 135x200cm. Goose down comforters made in Germany from cruelty free harvested down.",
+  "website": "https://germandowncomforters.com",
+  "pages": [
+   "https://germandowncomforters.com/",
+   "https://germandowncomforters.com/german-down-comforters/duck-down-comforters/",
+   "https://germandowncomforters.com/about-us/",
+   "https://germandowncomforters.com/european-down-comforters/shop-by-size/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 74,
+  "rules": [
+   "G-R1",
+   "DD-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "D14"
+ },
+ "D15": {
+  "product": "duck_down",
+  "search_country": "Germany",
+  "company": "German Duvet Covers",
+  "website": "https://germanduvetcovers.com",
+  "pages": [
+   "https://germanduvetcovers.com/",
+   "https://germanduvetcovers.com/german-down-comforters/",
+   "https://germanduvetcovers.com/about-us/",
+   "https://germanduvetcovers.com/shop-by-pillowcase-size-us-euro/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 74,
+  "rules": [
+   "G-R1",
+   "DD-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "D15"
+ },
+ "D16": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "Highland Feather Manufacturing Inc.",
+  "website": "https://www.highlandfeather.com",
+  "pages": [
+   "https://www.highlandfeather.com/",
+   "https://www.highlandfeather.com/duck-down-duvet",
+   "https://www.highlandfeather.com/wholesale-bedding-manufacturer",
+   "https://www.highlandfeather.com/accessories"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 80,
+  "rules": [
+   "G-R1",
+   "DD-P2"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "D16"
+ },
+ "D17": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "Hotel Supplies Depot",
+  "website": "https://hotelsuppliesdepot.com",
+  "pages": [
+   "https://hotelsuppliesdepot.com/",
+   "https://hotelsuppliesdepot.com/pages/about-us",
+   "https://hotelsuppliesdepot.com/collections/medical-supplies-equipment",
+   "https://hotelsuppliesdepot.com/pages/contact"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G-ROLE2",
+   "G6-MIX",
+   "DD-N4"
+  ],
+  "reason": "RETAILER_OR_BRAND",
+  "baseline_positive": true,
+  "id": "D17"
+ },
+ "D18": {
+  "product": "duck_down",
+  "search_country": "Japan",
+  "company": "lqfeather.com",
+  "website": "https://lqfeather.com/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "D18"
+ },
+ "D19": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "Norvegr",
+  "website": "https://www.norvegr.com",
+  "pages": [
+   "https://www.norvegr.com/",
+   "https://www.norvegr.com/pages/about-norvegr",
+   "https://www.norvegr.com/collections/all",
+   "https://www.norvegr.com/pages/contact"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": false,
+  "id": "D19"
+ },
+ "D20": {
+  "product": "duck_down",
+  "search_country": "Germany",
+  "company": "OBB Oberbadische Bettfedernfabrik GmbH",
+  "website": "https://obb.de",
+  "pages": [
+   "https://obb.de/",
+   "https://obb.de/en/",
+   "https://obb.de/en/duvets/down-feather-duvets/",
+   "https://obb.de/en/about-us/",
+   "https://obb.de/en/product-adviser/"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 60,
+  "rules": [
+   "G-R1",
+   "DD-P3",
+   "DD-N2"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": false,
+  "id": "D20"
+ },
+ "D21": {
+  "product": "duck_down",
+  "search_country": "Germany",
+  "company": "otto-keller.de",
+  "website": "https://otto-keller.de/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "D21"
+ },
+ "D22": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "Peter Kohl Nachfolger Franz Kohl KG",
+  "website": "https://peterkohl.com",
+  "pages": [
+   "https://peterkohl.com/",
+   "https://peterkohl.com/company/",
+   "https://peterkohl.com/products/",
+   "https://peterkohl.com/contact/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 80,
+  "rules": [
+   "G-R1",
+   "DD-P2"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "D22"
+ },
+ "D23": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "Pillow Factory",
+  "website": "https://www.pillowfactory.co.uk",
+  "pages": [
+   "https://www.pillowfactory.co.uk/",
+   "https://www.pillowfactory.co.uk/collections/faether-pillows",
+   "https://www.pillowfactory.co.uk/pages/about-us",
+   "https://www.pillowfactory.co.uk/collections/all"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 72,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "DD-P2"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "D23"
+ },
+ "D24": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "Pillows.com",
+  "website": "https://pillows.com",
+  "pages": [
+   "https://pillows.com/",
+   "https://pillows.com/collections/pacific_coast_bedding",
+   "https://pillows.com/collections/pillows",
+   "https://pillows.com/pages/contact-us"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G6-MIX",
+   "DD-N2"
+  ],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": true,
+  "id": "D24"
+ },
+ "D25": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "PTOUTWEAR",
+  "website": "https://ptoutwear.com",
+  "pages": [
+   "https://ptoutwear.com/",
+   "https://ptoutwear.com/down-jacket-manufacturer/",
+   "https://ptoutwear.com/about/",
+   "https://ptoutwear.com/products/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 76,
+  "rules": [
+   "G-R1",
+   "DD-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "D25"
+ },
+ "D26": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "Quilt & Pillow Factory",
+  "website": "https://quiltpillowfactory.com.au",
+  "pages": [
+   "https://quiltpillowfactory.com.au/",
+   "https://quiltpillowfactory.com.au/shop/pillows/standard-pillows/10-duck-down-pillow/",
+   "https://quiltpillowfactory.com.au/about/",
+   "https://quiltpillowfactory.com.au/shop-all-products/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 76,
+  "rules": [
+   "G-R1",
+   "DD-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "D26"
+ },
+ "D27": {
+  "product": "duck_down",
+  "search_country": "any",
+  "company": "Thedowncomforterstore.com",
+  "website": "https://thedowncomforterstore.com",
+  "pages": [
+   "https://thedowncomforterstore.com/",
+   "https://thedowncomforterstore.com/about-us/",
+   "https://thedowncomforterstore.com/european-down-comforters/scandinavian-goose-down-comforters/whisper-goose-quiet-er-goose-collection/",
+   "https://thedowncomforterstore.com/contact-us/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 74,
+  "rules": [
+   "G-R1",
+   "DD-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "D27"
+ },
+ "D28": {
+  "product": "duck_down",
+  "search_country": "Japan",
+  "company": "株式会社イワタ",
+  "website": "https://www.iozon.co.jp",
+  "pages": [
+   "https://www.iozon.co.jp/",
+   "https://www.iozon.co.jp/english/japan/",
+   "https://www.iozon.co.jp/company",
+   "https://www.iozon.co.jp/english-guide"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [
+   "G7"
+  ],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "D28"
+ },
+ "D29": {
+  "product": "duck_down",
+  "search_country": "Japan",
+  "company": "羽毛なら河田フェザー株式会社",
+  "website": "https://kwd.jp",
+  "pages": [
+   "https://kwd.jp/",
+   "https://kwd.jp/en/",
+   "https://kwd.jp/content/about/",
+   "https://kwd.jp/content/inquiry/"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 53,
+  "rules": [
+   "G-R1",
+   "DD-P3"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": false,
+  "id": "D29"
+ },
+ "C01": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Accio Work",
+  "website": "https://www.accio.com",
+  "pages": [
+   "https://www.accio.com/",
+   "https://www.accio.com/plp/cashmer-fiber-raw"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "C01"
+ },
+ "C02": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Alfa Cashmere Srl",
+  "website": "https://www.alfacashmere.com",
+  "pages": [
+   "https://www.alfacashmere.com/",
+   "https://www.alfacashmere.com/contact"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 54,
+  "rules": [
+   "G-R1",
+   "CA-P4"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "C02"
+ },
+ "C03": {
+  "product": "cashmere",
+  "search_country": "Italy",
+  "company": "Arcashmere",
+  "website": "https://arcashmere.it",
+  "pages": [
+   "https://arcashmere.it/",
+   "https://arcashmere.it/arcashmere-eng/"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 52,
+  "rules": [
+   "G-R1",
+   "G-R2",
+   "CA-P4"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "C03"
+ },
+ "C04": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Arrow Yarns",
+  "website": "https://arrowyarns.com",
+  "pages": [
+   "https://arrowyarns.com/"
+  ],
+  "system": "insufficient_evidence",
+  "score": 30,
+  "rules": [
+   "G-R1",
+   "G-R2",
+   "G6-MIX"
+  ],
+  "reason": "MISSING_MATERIAL",
+  "baseline_positive": true,
+  "id": "C04"
+ },
+ "C05": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Baina Cashmere",
+  "website": "https://www.bainacashmereusa.com",
+  "pages": [
+   "https://www.bainacashmereusa.com/",
+   "https://www.bainacashmereusa.com/dehairing-facility",
+   "https://www.bainacashmereusa.com/new-york-trading-company",
+   "https://www.bainacashmereusa.com/contact"
+  ],
+  "system": "confirmed_purchaser",
+  "score": 99,
+  "rules": [
+   "G-R1",
+   "G-R2",
+   "CA-P1",
+   "CA-P5"
+  ],
+  "reason": "DIRECT_PURCHASE",
+  "baseline_positive": true,
+  "id": "C05"
+ },
+ "C06": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Beijing Richman Fashion Co., Ltd",
+  "website": "https://www.richmancashmere.com",
+  "pages": [
+   "https://www.richmancashmere.com/",
+   "https://www.richmancashmere.com/spinning-yarn/",
+   "https://www.richmancashmere.com/about/",
+   "https://www.richmancashmere.com/products/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 70,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "CA-P3"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "C06"
+ },
+ "C07": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Buckeye Ridge Farm",
+  "website": "http://www.buckeyeridgefarm.com",
+  "pages": [
+   "http://www.buckeyeridgefarm.com/",
+   "http://www.buckeyeridgefarm.com/cashmere-fiber/",
+   "http://www.buckeyeridgefarm.com/about-2/"
+  ],
+  "system": "confirmed_purchaser",
+  "score": 100,
+  "rules": [
+   "G-R1",
+   "G3a2",
+   "CA-P1",
+   "CA-P5"
+  ],
+  "reason": "DIRECT_PURCHASE",
+  "baseline_positive": true,
+  "id": "C07"
+ },
+ "C08": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "California Cashmere Company",
+  "website": "http://calcashmere.com",
+  "pages": [
+   "http://calcashmere.com/",
+   "http://calcashmere.com/svc-dehair.htm"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": true,
+  "id": "C08"
+ },
+ "C09": {
+  "product": "cashmere",
+  "search_country": "Italy",
+  "company": "Casa del Filato",
+  "website": "https://casadelfilato.com",
+  "pages": [
+   "https://casadelfilato.com/",
+   "https://casadelfilato.com/en/",
+   "https://www.casadelfilato.com/en/company",
+   "https://www.casadelfilato.com/en/contacts"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 51,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "CA-P4"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "C09"
+ },
+ "C10": {
+  "product": "cashmere",
+  "search_country": "Italy",
+  "company": "Cashmere Company",
+  "website": "https://cashmerecompanyitaly.com",
+  "pages": [
+   "https://cashmerecompanyitaly.com/",
+   "https://cashmerecompanyitaly.com/en/",
+   "https://cashmerecompanyitaly.com/en/about-us/",
+   "https://cashmerecompanyitaly.com/en/fall-winter-2025-collection/",
+   "https://cashmerecompanyitaly.com/en/contacts/"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 56,
+  "rules": [
+   "G-R1",
+   "CA-P4"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "C10"
+ },
+ "C11": {
+  "product": "cashmere",
+  "search_country": "Italy",
+  "company": "Cashmere Company",
+  "website": "https://www.cashmere-company.it",
+  "pages": [
+   "https://www.cashmere-company.it/",
+   "https://www.cashmere-company.it/en",
+   "https://www.cashmere-company.it/en/collections/nuovi-arrivi",
+   "https://www.cashmere-company.it/en/pages/contacts",
+   "https://www.cashmere-company.it/en/pages/guide-to-cashmere"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "C11"
+ },
+ "C12": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Cashmerefine",
+  "website": "https://cashmerefine.com",
+  "pages": [
+   "https://cashmerefine.com/",
+   "https://cashmerefine.com/raw-materials-2/",
+   "https://cashmerefine.com/the-company/",
+   "https://cashmerefine.com/production-italy/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 80,
+  "rules": [
+   "G-R1",
+   "G-R2",
+   "CA-P1",
+   "CA-P3"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "C12"
+ },
+ "C13": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Clean Cashmere",
+  "website": "https://www.cleancashmere.farm",
+  "pages": [
+   "https://www.cleancashmere.farm/",
+   "https://www.cleancashmere.farm/who-we-are",
+   "https://www.cleancashmere.farm/shop",
+   "https://www.cleancashmere.farm/club-resources"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 80,
+  "rules": [
+   "G-R1",
+   "CA-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "C13"
+ },
+ "C14": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Fine Knitting Co., Ltd.",
+  "website": "https://www.fineknitting.com",
+  "pages": [
+   "https://www.fineknitting.com/",
+   "https://www.fineknitting.com/about-us/",
+   "https://www.fineknitting.com/products/",
+   "https://www.fineknitting.com/contact/"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 56,
+  "rules": [
+   "G-R1",
+   "CA-P4"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "C14"
+ },
+ "C15": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Home",
+  "website": "https://icubenest.com",
+  "pages": [
+   "https://icubenest.com/",
+   "https://icubenest.com/about/",
+   "https://icubenest.com/contact/",
+   "https://icubenest.com/capabilities/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 78,
+  "rules": [
+   "G-R1",
+   "G-R2",
+   "CA-P1",
+   "CA-P3"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "C15"
+ },
+ "C16": {
+  "product": "cashmere",
+  "search_country": "Italy",
+  "company": "Ima Cashmere",
+  "website": "https://imacashmere.it",
+  "pages": [
+   "https://imacashmere.it/",
+   "https://imacashmere.it/en",
+   "https://imacashmere.it/en/collections/all",
+   "https://imacashmere.it/en/pages/contact"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 44,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "CA-P4"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "C16"
+ },
+ "C17": {
+  "product": "cashmere",
+  "search_country": "Italy",
+  "company": "Italy Cashmere",
+  "website": "https://www.italycashmere.it",
+  "pages": [
+   "https://www.italycashmere.it/"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "C17"
+ },
+ "C18": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "New Mill",
+  "website": "https://www.newmill.it",
+  "pages": [
+   "https://www.newmill.it/it/",
+   "https://www.newmill.it/en/",
+   "https://www.newmill.it/en/factory",
+   "https://www.newmill.it/en/our-story",
+   "https://www.newmill.it/en/collections/collection?codice_collezione=0127"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 58,
+  "rules": [
+   "G-R1",
+   "CA-P4"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "C18"
+ },
+ "C19": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Patasi Cashmere",
+  "website": "https://www.patasicashmere.com",
+  "pages": [
+   "https://www.patasicashmere.com/",
+   "https://www.patasicashmere.com/about",
+   "https://www.patasicashmere.com/shop",
+   "https://www.patasicashmere.com/contact"
+  ],
+  "system": "insufficient_evidence",
+  "score": 30,
+  "rules": [
+   "G-R1"
+  ],
+  "reason": "MISSING_MATERIAL",
+  "baseline_positive": true,
+  "id": "C19"
+ },
+ "C20": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Raw Cashmere",
+  "website": "https://www.rawcashmere.it",
+  "pages": [
+   "https://www.rawcashmere.it/it/",
+   "https://www.rawcashmere.it/gb/",
+   "https://www.rawcashmere.it/gb/content/12-sustainable-company",
+   "https://www.rawcashmere.it/gb/2-home",
+   "https://www.rawcashmere.it/gb/contact-us"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 75,
+  "rules": [
+   "G-R1",
+   "G-R2",
+   "CA-P2"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "C20"
+ },
+ "C21": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Roedeo Cashmere",
+  "website": "https://www.roedeocashmere.com",
+  "pages": [
+   "https://www.roedeocashmere.com/",
+   "https://www.roedeocashmere.com/about/",
+   "https://www.roedeocashmere.com/contact/",
+   "https://www.roedeocashmere.com/dehaired-goats-wool/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 80,
+  "rules": [
+   "G-R1",
+   "CA-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "C21"
+ },
+ "C22": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Sustainable Industries",
+  "website": "https://www.sustainableindustries.com",
+  "pages": [
+   "https://www.sustainableindustries.com/",
+   "https://www.sustainableindustries.com/suppliers/product-details/carded-yarns/materials/cashmere-non-certified/processes/spinning",
+   "https://www.sustainableindustries.com/blog/sustainability-business-strategy",
+   "https://www.sustainableindustries.com/suppliers/product-categories/dyed-fabrics"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G6-MIX"
+  ],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": true,
+  "id": "C22"
+ },
+ "C23": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "wfscashmere.com",
+  "website": "https://www.wfscashmere.com",
+  "pages": [
+   "https://www.wfscashmere.com/"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "C23"
+ },
+ "C24": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Wool and Fiber Arts",
+  "website": "https://woolandfiberarts.com",
+  "pages": [
+   "https://woolandfiberarts.com/",
+   "https://woolandfiberarts.com/pages/us-mill-directory",
+   "https://woolandfiberarts.com/pages/contact-us"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [
+   "G7"
+  ],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "C24"
+ },
+ "C25": {
+  "product": "cashmere",
+  "search_country": "any",
+  "company": "Yunshang Cashmere (Xi'an) Co., Ltd",
+  "website": "https://www.zianhitech.com",
+  "pages": [
+   "https://www.zianhitech.com/"
+  ],
+  "system": "confirmed_purchaser",
+  "score": 96,
+  "rules": [
+   "G-R1",
+   "G3a2",
+   "CA-P1",
+   "CA-P2",
+   "CA-P5"
+  ],
+  "reason": "DIRECT_PURCHASE",
+  "baseline_positive": true,
+  "id": "C25"
+ }
+}

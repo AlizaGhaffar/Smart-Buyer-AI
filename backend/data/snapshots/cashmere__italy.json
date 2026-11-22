@@ -1,0 +1,554 @@
+{
+ "product": "cashmere",
+ "country": "Italy",
+ "recorded_at": "2026-11-22T08:37:35+00:00",
+ "excluded": [
+  {
+   "url": "https://www.cariaggi.it/en/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.cariaggi.it/en/company/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://florencecashmereyarn.com/en/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://purelightfiber.com/italian-yarn-mills",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.rawcashmere.it/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.breschicashmere.com/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.rawcashmere.it/gb/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.cariaggi.it/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://tesmacashmere.com/en/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.rivieracashmere.it/en/news-9/fibers",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.volza.com/p/cashmere/buyers-directory/buyers-in-italy/",
+   "reason": "directory, marketplace, social media or news site (not a company website)",
+   "source": "search"
+  },
+  {
+   "url": "https://veloracashmere.com/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.tradewheel.com/buyers/cashmere/",
+   "reason": "directory, marketplace, social media or news site (not a company website)",
+   "source": "search"
+  },
+  {
+   "url": "https://www.tradewheel.com/buyers/cashmere/italy/",
+   "reason": "directory, marketplace, social media or news site (not a company website)",
+   "source": "search"
+  },
+  {
+   "url": "https://www.cariaggi.it/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  },
+  {
+   "url": "https://www.gschneider.com/",
+   "reason": "candidate limit reached",
+   "source": "search"
+  }
+ ],
+ "companies": [
+  {
+   "candidate": {
+    "key": "cashmere-company.it",
+    "start_url": "https://www.cashmere-company.it/",
+    "result_url": "https://www.cashmere-company.it/",
+    "title": "Cashmere Company - Cashmere per passione dal 1970",
+    "snippet": "Selezioniamo solo i migliori filati in cashmere proveniente dalla Mongolia cinese, proponendo esclusivamente capi di pregio, dal design italiano e dalla fattura inimitabile.",
+    "source": "search",
+    "queries": [
+     "cashmere dehairing company Italy"
+    ]
+   },
+   "official_website": "https://www.cashmere-company.it",
+   "identity": {
+    "name": "Cashmere Company",
+    "name_source": "og:site_name",
+    "country": "Italy",
+    "country_source": "inferred from domain ending (not verified)"
+   },
+   "errors": [
+    "https://www.cashmere-company.it/en/products/dune-pure-cashmere-brushed-animal-print-jacquard-bomber-jacket: HTTP 429"
+   ],
+   "robots_blocked": false,
+   "contacts": {
+    "emails": [
+     {
+      "value": "info@cashmere-company.it",
+      "source_url": "https://www.cashmere-company.it/en/pages/contacts"
+     }
+    ],
+    "phones": [
+     {
+      "value": "+390303762608",
+      "source_url": "https://www.cashmere-company.it/en/pages/contacts"
+     },
+     {
+      "value": "+393386375205",
+      "source_url": "https://www.cashmere-company.it/en/pages/contacts"
+     }
+    ]
+   },
+   "pages": [
+    {
+     "url": "https://www.cashmere-company.it/",
+     "page_type": "homepage",
+     "text": "Cashmere per passione dal 1970. Salta al contenuto. Consegna rapida. Restituzione entro 14 giorni. Servizio clienti entro 24 ore. Consegna rapida. Restituzione entro 14 giorni. Servizio clienti entro 24 ore. Consegna rapida. Restituzione entro 14 giorni. Servizio clienti entro 24 ore. Consegna rapida. Restituzione entro 14 giorni. Servizio clienti entro 24 ore. Consegna rapida. Restituzione entro 14 giorni. Servizio clienti entro 24 ore. Consegna rapida. Restituzione entro 14 giorni. Servizio clienti entro 24 ore. Consegna rapida. Restituzione entro 14 giorni. Servizio clienti entro 24 ore. Consegna rapida. Restituzione entro 14 giorni. Servizio clienti entro 24 ore. Consegna rapida. Restituzione entro 14 giorni. Servizio clienti entro 24 ore. Consegna rapida. Restituzione entro 14 giorni. Servizio clienti entro 24 ore. BLACK FRIDAY. DONNA. UOMO. ACCESSORI. CASA. Account. Carrello. Articolo aggiunto al tuo carrello. MENU. Accedi. ACQUISTA ORA. Scopri di più. BLACK FRIDAY. cashmere-company. Bomber Jacquard Animalier in Puro Cashmere Spazzolato Dune Leopard. Prezzo normale. €348,00. €348,00. -30%. Prezzo di vendita. Prezzo normale. €498,00. Prezzo unitario. /. per. cashmere-company. Abito Sottoveste in Puro Cashmere Terracotta. Prezzo normale. €202,00. €202,00. -30%. Prezzo di vendita. Prezzo normale. €289,00. Prezzo unitario. /. per. cashmere-company. Dolcevita a Trecce 12 Fili in Puro Cashmere Terracotta. Prezzo normale. €348,00. €348,00. -30%. Prezzo di vendita. Prezzo normale. €498,00. Prezzo unitario. /. per. cashmere-company. Girocollo Manica Raglan 10 Fili in Puro Cashmere Moulinè Spezie. Prezzo normale. €258,00. €258,00. -30%. Prezzo di vendita. Prezzo normale. €369,00. Prezzo unitario. /. per. cashmere-company. Maglia Girocollo a Trecce 6 Fili in Puro Cashmere Ghiaia. Prezzo normale. €255,00. €255,00. -30%. Prezzo di vendita. Prezzo normale. €365,00. Prezzo unitario. /. per. cashmere-company. Dolcevita 4 Fili in Puro Cashmere Moulinè Corteccia. Prezzo normale. €224,00. €224,00. -30%. Prezzo di vendita. Prezzo normale. €320,00. Prezzo unitario. /. per. cashmere-company. Cardigan 4 Fili in Puro Cashmere Mocha. Prezzo normale. €241,00. €241,00. -30%. Prezzo di vendita. Prezzo normale. €345,00. Prezzo unitario. /. per. cashmere-company. Lupetto Mezza Zip Jacquard in Puro Cashmere Corteccia. Prezzo normale. €217,00. €217,00. -30%. Prezzo di vendita. Prezzo normale. €310,00. Prezzo unitario. /. per. cashmere-company. Berretto Lungo Unisex a Coste in Puro Cashmere Terracotta. Prezzo normale. €54,00. €54,00. -30%. Prezzo di vendita. Prezzo normale. €78,00. Prezzo unitario. /. per. cashmere-company. Manicotti a Righe in Puro Cashmere Terracotta-Spezie. Prezzo normale. €43,00. €43,00. -30%. Prezzo di vendita. Prezzo normale. €62,00. Prezzo unitario. /. per. cashmere-company. Stola Velo in Puro Cashmere Spezie. Prezzo normale. €121,00. €121,00. -30%. Prezzo di vendita. Prezzo normale. €174,00. Prezzo unitario. /. per. cashmere-company. Calze in Puro Cashmere Terracotta. Prezzo normale. €48,00. €48,00. -30%. Prezzo di vendita. Prezzo normale. €69,00. Prezzo unitario. /. per. Donna. Scopri le collezioni. Uomo. Scopri le collezioni. Cashmere Company. Passione per il Cashmere dal 1970. Scopri chi siamo. Per aziende. Scopri di più. Guida al cashmere. Scopri il prodotto. Il lusso del cashmere, il calore della tradizione. Da oltre 50 anni, Cashmere Company rappresenta il punto di riferimento per l’acquisto di capi in cashmere dall’eccellente qualità. Selezioniamo solo i migliori filati in cashmere proveniente dalla Mongolia cinese, proponendo esclusivamente capi di pregio, dal design italiano e dalla fattura inimitabile. La lunga tradizione artigianale e familiare, l’impegno costante nella cura e nella selezione dei materiali, l’equilibrio tra alta qualità e prezzo si riflettono in ogni nostro prodotto. Morbidezza, resistenza e un lusso discreto che dura nel tempo: scopri la collezione uomo, donna e casa. Vivi l’eleganza e il fascino del cashmere in ogni istante! Pagamento sicuro. Carte di credito e PayPal. Consegna rapida. Consegna in 2-3 giorni lavorativi. Resi e Cambi. Restituzione entro 14 giorni. Hai una domanda? Il servizio clienti ti risponde entro 24 ore. carrello. Opzioni di localizzazione. Italia. |. EUR. €. Attualmente stai effettuando spedizioni in Italia e il tuo ordine sarà fatturato in EUR €. Afghanistan. EUR. €. Albania. EUR. €. Algeria. EUR. €. Altre isole americane del Pacifico. EUR. €. Andorra. EUR. €. Angola. EUR. €. Anguilla. EUR. €. Antigua e Barbuda. EUR. €. Arabia Saudita. EUR. €. Argentina. EUR. €. Armenia. EUR. €. Aruba. EUR. €. Australia. EUR. €. Austria. EUR. €. Azerbaigian. EUR. €. Bahamas. EUR. €. Bahrein. EUR. €. Bangladesh. EUR. €. Barbados. EUR. €. Belgio. EUR. €. Belize. EUR. €. Benin. EUR. €. Bermuda. EUR. €. Bhutan. EUR. €. Bielorussia. EUR. €. Bolivia. EUR. €. Bosnia ed Erzegovina. EUR. €. Botswana. EUR. €. Brasile. EUR. €. Brunei. EUR. €. Bulgaria. EUR. €. Burkina Faso. EUR. €. Burundi. EUR. €. Cambogia. EUR. €. Camerun. EUR. €. Canada. EUR. €. Capo Verde. EUR. €. Caraibi olandesi. EUR. €. Cechia. EUR. €. Ciad. EUR. €. Cile. EUR. €. Cina. EUR. €. Cipro. EUR. €. Città del Vaticano. EUR. €. Colombia. EUR. €. Comore. EUR. €. Congo - Kinshasa. EUR. €. Congo-Brazzaville. EUR. €. Corea del Sud. EUR. €. Costa Rica. EUR. €. Costa d’Avorio. EUR. €. Croazia. EUR. €. Curaçao. EUR. €. Danimarca. EUR. €. Dominica. EUR. €. Ecuador. EUR. €. Egitto. EUR. €. El Salvador. EUR. €. Emirati Arabi Uniti. EUR. €. Eritrea. EUR. €. Estonia. EUR. €. Etiopia. EUR. €. Figi. EUR. €. Filippine. EUR. €. Finlandia. EUR. €. Francia. EUR. €. Gabon. EUR. €. Gambia. EUR. €. Georgia. EUR. €. Georgia del Sud e Sandwich australi. EUR. €. Germania. EUR. €. Ghana. EUR. €. Giamaica. EUR. €. Giappone. EUR. €. Gibilterra. EUR. €. Gibuti. EUR. €. Giordania. EUR. €. Grecia. EUR. €. Grenada. EUR. €. Groenlandia. EUR. €. Guadalupa. EUR. €. Guatemala. EUR. €. Guernsey. EUR. €. Guinea. EUR. €. Guinea Equatoriale. EUR. €. Guinea-Bissau. EUR. €. Guyana. EUR. €. Guyana francese. EUR. €. Haiti. EUR. €. Honduras. EUR. €. India. EUR. €. Indonesia. EUR. €. Iraq. EUR. €. Irlanda. EUR. €. Islanda. EUR. €. Isola Ascensione. EUR. €. Isola Christmas. EUR. €. Isola Norfolk. EUR. €. Isola di Man. EUR. €. Isole Åland. EUR. €. Isole Cayman. EUR. €. Isole Cocos (Keeling). EUR. €. Isole Cook. EUR. €. Isole Fær Øer. EUR. €. Isole Falkland. EUR. €. Isole Pitcairn. EUR. €. Isole Salomone. EUR. €. Isole Turks e Caicos. EUR. €. Isole Vergini Britanniche. EUR. €. Israele. EUR. €. Jersey. EUR. €. Kazakistan. EUR. €. Kenya. EUR. €. Kirghizistan. EUR. €. Kiribati. EUR. €. Kosovo. EUR. €. Kuwait. EUR. €. Laos. EUR. €. Lesotho. EUR. €. Lettonia. EUR. €. Libano. EUR. €. Liberia. EUR. €. Libia. EUR. €. Liechtenstein. EUR. €. Lituania. EUR. €. Lussemburgo. EUR. €. Macedonia del Nord. EUR. €. Madagascar. EUR. €. Malawi. EUR. €. Malaysia. EUR. €. Maldive. EUR. €. Mali. EUR. €. Malta. EUR. €. Marocco. EUR. €. Martinica. EUR. €. Mauritania. EUR. €. Mauritius. EUR. €. Mayotte. EUR. €. Messico. EUR. €. Moldavia. EUR. €. Monaco. EUR. €. Mongolia. EUR. €. Montenegro. EUR. €. Montserrat. EUR. €. Mozambico. EUR. €. Myanmar (Birmania). EUR. €. Namibia. EUR. €. Nauru. EUR. €. Nepal. EUR. €. Nicaragua. EUR. €. Niger. EUR. €. Nigeria. EUR. €. Niue. EUR. €. Norvegia. EUR. €. Nuova Caledonia. EUR. €. Nuova Zelanda. EUR. €. Oman. EUR. €. Paesi Bassi. EUR. €. Pakistan. EUR. €. Panamá. EUR. €. Papua Nuova Guinea. EUR. €. Paraguay. EUR. €. Perù. EUR. €. Polinesia francese. EUR. €. Polonia. EUR. €. Portogallo. EUR. €. Qatar. EUR. €. RAS di Hong Kong. EUR. €. RAS di Macao. EUR. €. Regno Unito. EUR. €. Repubblica Centrafricana. EUR. €. Repubblica Dominicana. EUR. €. Riunione. EUR. €. Romania. EUR. €. Ruanda. EUR. €. Russia. EUR. €. Sahara occidentale. EUR. €. Saint Kitts e Nevis. EUR. €. Saint Lucia. EUR. €. Saint Martin. EUR. €. Saint Vincent e Grenadine. EUR. €. Saint-Barthélemy. EUR. €. Saint-Pierre e Miquelon. EUR. €. Samoa. EUR. €. San Marino. EUR. €. Sant’Elena. EUR. €. São Tomé e Príncipe. EUR. €. Senegal. EUR. €. Serbia. EUR. €. Seychelles. EUR. €. Sierra Leone. EUR. €. Singapore. EUR. €. Sint Maarten. EUR. €. Slovacchia. EUR. €. Slovenia. EUR. €. Somalia. EUR. €. Spagna. EUR. €. Sri Lanka. EUR. €. Stati Uniti. EUR. €. Sud Sudan. EUR. €. Sudafrica. EUR. €. Sudan. EUR. €. Suriname. EUR. €. Svalbard e Jan Mayen. EUR. €. Svezia. EUR. €. Svizzera. EUR. €. Tagikistan. EUR. €. Taiwan. EUR. €. Tanzania. EUR. €. Terre australi francesi. EUR. €. Territori palestinesi. EUR. €. Territorio britannico dell’Oceano Indiano. EUR. €. Thailandia. EUR. €. Timor Est. EUR. €. Togo. EUR. €. Tokelau. EUR. €. Tonga. EUR. €. Trinidad e Tobago. EUR. €. Tristan da Cunha. EUR. €. Tunisia. EUR. €. Turchia. EUR. €. Turkmenistan. EUR. €. Tuvalu. EUR. €. Ucraina. EUR. €. Uganda. EUR. €. Ungheria. EUR. €. Uruguay. EUR. €. Uzbekistan. EUR. €. Vanuatu. EUR. €. Venezuela. EUR. €. Vietnam. EUR. €. Wallis e Futuna. EUR. €. Yemen. EUR. €. Zambia. EUR. €. Zimbabwe. EUR. €. eSwatini. EUR. €. Scegliere un'opzione comporta un aggiornamento completo della pagina. Visualizza tutti i dettagli. Similar Products.",
+     "retrieved_at": "2026-11-22T08:37:11+00:00"
+    },
+    {
+     "url": "https://www.cashmere-company.it/en",
+     "page_type": "homepage",
+     "text": "Cashmere for passion since 1970. Skip to content. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. BLACK FRIDAY. WOMEN. MEN. ACCESSORIES. HOME. Account. Cart. Item added to your cart. MENU. Log in. SHOP NOW. Discover more. BLACK FRIDAY. cashmere-company. Dune Pure Cashmere Brushed Animal-print Jacquard Bomber Jacket. Regular price. €348,00. €348,00. -30%. Sale price. Regular price. €498,00. Unit price. /. per. cashmere-company. Terracotta Pure Cashmere Slip Dress. Regular price. €202,00. €202,00. -30%. Sale price. Regular price. €289,00. Unit price. /. per. cashmere-company. Terracotta Pure Cashmere 12-Ply Cable-Knit Turtleneck. Regular price. €348,00. €348,00. -30%. Sale price. Regular price. €498,00. Unit price. /. per. cashmere-company. Orange Pure Cashmere Moulinè 10-Ply Crew Neck with Raglan Sleeves. Regular price. €258,00. €258,00. -30%. Sale price. Regular price. €369,00. Unit price. /. per. cashmere-company. Greige Pure Cashmere 6-Ply Cable-Knit Crew Neck. Regular price. €255,00. €255,00. -30%. Sale price. Regular price. €365,00. Unit price. /. per. cashmere-company. Bark Brown Pure Cashmere Moulinè 4-Ply Turtleneck Pullover. Regular price. €224,00. €224,00. -30%. Sale price. Regular price. €320,00. Unit price. /. per. cashmere-company. Mocha Pure Cashmere 4-Ply Cardigan. Regular price. €241,00. €241,00. -30%. Sale price. Regular price. €345,00. Unit price. /. per. cashmere-company. Bark Brown Pure Cashmere Jacquard Half-Zip Mock Neck Sweater. Regular price. €217,00. €217,00. -30%. Sale price. Regular price. €310,00. Unit price. /. per. cashmere-company. Terracotta Unisex Pure Cashmere Long Ribbed Beanie. Regular price. €54,00. €54,00. -30%. Sale price. Regular price. €78,00. Unit price. /. per. cashmere-company. Terracotta-Orange Pure Cashmere Striped Fingerless Long Gloves. Regular price. €43,00. €43,00. -30%. Sale price. Regular price. €62,00. Unit price. /. per. cashmere-company. Orange Pure Cashmere Featherweight Wrap Scarf. Regular price. €121,00. €121,00. -30%. Sale price. Regular price. €174,00. Unit price. /. per. cashmere-company. Terracotta Pure Cashmere Socks. Regular price. €48,00. €48,00. -30%. Sale price. Regular price. €69,00. Unit price. /. per. Women. Discover the collections. Men. Discover the collections. Cashmere Company. Passion for Cashmere since 1970. Discover who we are. B2B. Discover more. Guide to cashmere. Discover the product. The luxury of cashmere, the warmth of tradition. For over 50 years, Cashmere Company has been the benchmark for purchasing excellent quality cashmere garments. We select only the finest cashmere yarns from Chinese Mongolia, offering exclusively high-quality garments with Italian design and inimitable craftsmanship. Our long tradition of craftsmanship and family values, our constant commitment to the care and selection of materials, and our balance between high quality and price are reflected in every one of our products. Softness, durability and discreet luxury that lasts over time: discover our men's, women's and home collections. Experience the elegance and charm of cashmere every moment! Secure payment. By credit card and PayPal. Fast delivery. Delivery in 2-3 working days. Returns and exchanges. Returns within 14 days. Do you have a question? Customer service will respond within 24 hours. Your cart. Localization options. Italy. |. EUR. €. You are currently shipping to Italy and your order will be billed in EUR €. Afghanistan. EUR. €. Åland Islands. EUR. €. Albania. EUR. €. Algeria. EUR. €. Andorra. EUR. €. Angola. EUR. €. Anguilla. EUR. €. Antigua & Barbuda. EUR. €. Argentina. EUR. €. Armenia. EUR. €. Aruba. EUR. €. Ascension Island. EUR. €. Australia. EUR. €. Austria. EUR. €. Azerbaijan. EUR. €. Bahamas. EUR. €. Bahrain. EUR. €. Bangladesh. EUR. €. Barbados. EUR. €. Belarus. EUR. €. Belgium. EUR. €. Belize. EUR. €. Benin. EUR. €. Bermuda. EUR. €. Bhutan. EUR. €. Bolivia. EUR. €. Bosnia & Herzegovina. EUR. €. Botswana. EUR. €. Brazil. EUR. €. British Indian Ocean Territory. EUR. €. British Virgin Islands. EUR. €. Brunei. EUR. €. Bulgaria. EUR. €. Burkina Faso. EUR. €. Burundi. EUR. €. Cambodia. EUR. €. Cameroon. EUR. €. Canada. EUR. €. Cape Verde. EUR. €. Caribbean Netherlands. EUR. €. Cayman Islands. EUR. €. Central African Republic. EUR. €. Chad. EUR. €. Chile. EUR. €. China. EUR. €. Christmas Island. EUR. €. Cocos (Keeling) Islands. EUR. €. Colombia. EUR. €. Comoros. EUR. €. Congo - Brazzaville. EUR. €. Congo - Kinshasa. EUR. €. Cook Islands. EUR. €. Costa Rica. EUR. €. Côte d’Ivoire. EUR. €. Croatia. EUR. €. Curaçao. EUR. €. Cyprus. EUR. €. Czechia. EUR. €. Denmark. EUR. €. Djibouti. EUR. €. Dominica. EUR. €. Dominican Republic. EUR. €. Ecuador. EUR. €. Egypt. EUR. €. El Salvador. EUR. €. Equatorial Guinea. EUR. €. Eritrea. EUR. €. Estonia. EUR. €. Eswatini. EUR. €. Ethiopia. EUR. €. Falkland Islands. EUR. €. Faroe Islands. EUR. €. Fiji. EUR. €. Finland. EUR. €. France. EUR. €. French Guiana. EUR. €. French Polynesia. EUR. €. French Southern Territories. EUR. €. Gabon. EUR. €. Gambia. EUR. €. Georgia. EUR. €. Germany. EUR. €. Ghana. EUR. €. Gibraltar. EUR. €. Greece. EUR. €. Greenland. EUR. €. Grenada. EUR. €. Guadeloupe. EUR. €. Guatemala. EUR. €. Guernsey. EUR. €. Guinea. EUR. €. Guinea-Bissau. EUR. €. Guyana. EUR. €. Haiti. EUR. €. Honduras. EUR. €. Hong Kong SAR. EUR. €. Hungary. EUR. €. Iceland. EUR. €. India. EUR. €. Indonesia. EUR. €. Iraq. EUR. €. Ireland. EUR. €. Isle of Man. EUR. €. Israel. EUR. €. Jamaica. EUR. €. Japan. EUR. €. Jersey. EUR. €. Jordan. EUR. €. Kazakhstan. EUR. €. Kenya. EUR. €. Kiribati. EUR. €. Kosovo. EUR. €. Kuwait. EUR. €. Kyrgyzstan. EUR. €. Laos. EUR. €. Latvia. EUR. €. Lebanon. EUR. €. Lesotho. EUR. €. Liberia. EUR. €. Libya. EUR. €. Liechtenstein. EUR. €. Lithuania. EUR. €. Luxembourg. EUR. €. Macao SAR. EUR. €. Madagascar. EUR. €. Malawi. EUR. €. Malaysia. EUR. €. Maldives. EUR. €. Mali. EUR. €. Malta. EUR. €. Martinique. EUR. €. Mauritania. EUR. €. Mauritius. EUR. €. Mayotte. EUR. €. Mexico. EUR. €. Moldova. EUR. €. Monaco. EUR. €. Mongolia. EUR. €. Montenegro. EUR. €. Montserrat. EUR. €. Morocco. EUR. €. Mozambique. EUR. €. Myanmar (Burma). EUR. €. Namibia. EUR. €. Nauru. EUR. €. Nepal. EUR. €. Netherlands. EUR. €. New Caledonia. EUR. €. New Zealand. EUR. €. Nicaragua. EUR. €. Niger. EUR. €. Nigeria. EUR. €. Niue. EUR. €. Norfolk Island. EUR. €. North Macedonia. EUR. €. Norway. EUR. €. Oman. EUR. €. Pakistan. EUR. €. Palestinian Territories. EUR. €. Panama. EUR. €. Papua New Guinea. EUR. €. Paraguay. EUR. €. Peru. EUR. €. Philippines. EUR. €. Pitcairn Islands. EUR. €. Poland. EUR. €. Portugal. EUR. €. Qatar. EUR. €. Réunion. EUR. €. Romania. EUR. €. Russia. EUR. €. Rwanda. EUR. €. Samoa. EUR. €. San Marino. EUR. €. São Tomé & Príncipe. EUR. €. Saudi Arabia. EUR. €. Senegal. EUR. €. Serbia. EUR. €. Seychelles. EUR. €. Sierra Leone. EUR. €. Singapore. EUR. €. Sint Maarten. EUR. €. Slovakia. EUR. €. Slovenia. EUR. €. Solomon Islands. EUR. €. Somalia. EUR. €. South Africa. EUR. €. South Georgia & South Sandwich Islands. EUR. €. South Korea. EUR. €. South Sudan. EUR. €. Spain. EUR. €. Sri Lanka. EUR. €. St. Barthélemy. EUR. €. St. Helena. EUR. €. St. Kitts & Nevis. EUR. €. St. Lucia. EUR. €. St. Martin. EUR. €. St. Pierre & Miquelon. EUR. €. St. Vincent & Grenadines. EUR. €. Sudan. EUR. €. Suriname. EUR. €. Svalbard & Jan Mayen. EUR. €. Sweden. EUR. €. Switzerland. EUR. €. Taiwan. EUR. €. Tajikistan. EUR. €. Tanzania. EUR. €. Thailand. EUR. €. Timor-Leste. EUR. €. Togo. EUR. €. Tokelau. EUR. €. Tonga. EUR. €. Trinidad & Tobago. EUR. €. Tristan da Cunha. EUR. €. Tunisia. EUR. €. Türkiye. EUR. €. Turkmenistan. EUR. €. Turks & Caicos Islands. EUR. €. Tuvalu. EUR. €. U.S. Outlying Islands. EUR. €. Uganda. EUR. €. Ukraine. EUR. €. United Arab Emirates. EUR. €. United Kingdom. EUR. €. United States. EUR. €. Uruguay. EUR. €. Uzbekistan. EUR. €. Vanuatu. EUR. €. Vatican City. EUR. €. Venezuela. EUR. €. Vietnam. EUR. €. Wallis & Futuna. EUR. €. Western Sahara. EUR. €. Yemen. EUR. €. Zambia. EUR. €. Zimbabwe. EUR. €. Choosing a selection results in a full page refresh. View all details. Similar Products.",
+     "retrieved_at": "2026-11-22T08:37:13+00:00"
+    },
+    {
+     "url": "https://www.cashmere-company.it/en/collections/nuovi-arrivi",
+     "page_type": "products",
+     "text": "Black Friday. Skip to content. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. BLACK FRIDAY. WOMEN. MEN. ACCESSORIES. HOME. Account. Cart. Item added to your cart. MENU. Log in. Home. Black Friday. Black Friday. Filter. 653 products. 653 products. Filter. Sort by: Sort by: Featured. Most relevant. Best selling. Alphabetically, A-Z. Alphabetically, Z-A. Price, low to high. Price, high to low. Date, old to new. Date, new to old. cashmere-company. Ivory Pure Cashmere Featherweight Turtleneck Sweater. Regular price. €143,00. €143,00. -20%. Sale price. Regular price. €179,00. Unit price. /. per. cashmere-company. Beige Pure Cashmere Featherweight Turtleneck Sweater. Regular price. €143,00. €143,00. -20%. Sale price. Regular price. €179,00. Unit price. /. per. cashmere-company. Bark Brown Pure Cashmere Featherweight Turtleneck Sweater. Regular price. €125,00. €125,00. -30%. Sale price. Regular price. €179,00. Unit price. /. per. cashmere-company. Ivory Pure Cashmere Mock Neck Sweater in English Rib Knit. Regular price. €374,00. €374,00. -20%. Sale price. Regular price. €468,00. Unit price. /. per. cashmere-company. Ivory Pure Cashmere Long Skirt in Milano Stitch. Regular price. €279,00. €279,00. -20%. Sale price. Regular price. €349,00. Unit price. /. per. cashmere-company. Ivory Pure Cashmere Bomber Jacket in Milano Stitch. Regular price. €388,00. €388,00. -20%. Sale price. Regular price. €486,00. Unit price. /. per. cashmere-company. Beige-Dune Pure Cashmere Two-tone Cape. Regular price. €432,00. €432,00. -20%. Sale price. Regular price. €540,00. Unit price. /. per. cashmere-company. Ivory Pure Cashmere Brushed Animal-print Jacquard Coat. Regular price. €609,00. €609,00. -30%. Sale price. Regular price. €870,00. Unit price. /. per. cashmere-company. Dune Pure Cashmere Brushed Animal-print Jacquard Bomber Jacket. Regular price. €348,00. €348,00. -30%. Sale price. Regular price. €498,00. Unit price. /. per. cashmere-company. Beige Pure Cashmere Sleeveless Crew Neck Sweater. Regular price. €124,00. €124,00. -20%. Sale price. Regular price. €156,00. Unit price. /. per. cashmere-company. Vanilla Pure Cashmere Crew Neck Short-sleeve Sweater. Regular price. €125,00. €125,00. -30%. Sale price. Regular price. €179,00. Unit price. /. per. cashmere-company. Camel Pure Cashmere Crew Neck Short-sleeve Sweater. Regular price. €125,00. €125,00. -30%. Sale price. Regular price. €179,00. Unit price. /. per. cashmere-company. Dune Pure Cashmere Crew Neck Short-sleeve Sweater. Regular price. €143,00. €143,00. -20%. Sale price. Regular price. €179,00. Unit price. /. per. cashmere-company. Mocha Pure Cashmere Crew Neck Short-sleeve Sweater. Regular price. €125,00. €125,00. -30%. Sale price. Regular price. €179,00. Unit price. /. per. cashmere-company. Maple Red Pure Cashmere Crew Neck Short-sleeve Sweater. Regular price. €125,00. €125,00. -30%. Sale price. Regular price. €179,00. Unit price. /. per. cashmere-company. Midnight Blue Pure Cashmere Crew Neck Short-sleeve Sweater. Regular price. €143,00. €143,00. -20%. Sale price. Regular price. €179,00. Unit price. /. per. cashmere-company. Medium Grey Pure Cashmere Crew Neck Short-sleeve Sweater. Regular price. €143,00. €143,00. -20%. Sale price. Regular price. €179,00. Unit price. /. per. cashmere-company. Black Pure Cashmere Crew Neck Short-sleeve Sweater. Regular price. €143,00. €143,00. -20%. Sale price. Regular price. €179,00. Unit price. /. per. cashmere-company. Midnight Blue Pure Cashmere Sleeveless Turtleneck Sweater. Regular price. €132,00. €132,00. -20%. Sale price. Regular price. €166,00. Unit price. /. per. cashmere-company. Maple Red Pure Cashmere Sleeveless Turtleneck Sweater. Regular price. €116,00. €116,00. -30%. Sale price. Regular price. €166,00. Unit price. /. per. cashmere-company. Medium Grey Pure Cashmere Sleeveless Turtleneck Sweater. Regular price. €132,00. €132,00. -20%. Sale price. Regular price. €166,00. Unit price. /. per. cashmere-company. Black Pure Cashmere Sleeveless Turtleneck Sweater. Regular price. €132,00. €132,00. -20%. Sale price. Regular price. €166,00. Unit price. /. per. cashmere-company. Camel Pure Cashmere Turtleneck Cape with Neck Slit. Regular price. €188,00. €188,00. -30%. Sale price. Regular price. €269,00. Unit price. /. per. cashmere-company. Medium Grey Pure Cashmere Turtleneck Cape with Neck Slit. Regular price. €215,00. €215,00. -20%. Sale price. Regular price. €269,00. Unit price. /. per. cashmere-company. Black Pure Cashmere Turtleneck Cape with Neck Slit. Regular price. €215,00. €215,00. -20%. Sale price. Regular price. €269,00. Unit price. /. per. cashmere-company. Black Pure Cashmere Featherweight Turtleneck Sweater. Regular price. €143,00. €143,00. -20%. Sale price. Regular price. €179,00. Unit price. /. per. cashmere-company. Maple Red Pure Cashmere Featherweight Turtleneck Sweater. Regular price. €125,00. €125,00. -30%. Sale price. Regular price. €179,00. Unit price. /. per. cashmere-company. Ruby Red Pure Cashmere Featherweight Turtleneck Sweater. Regular price. €143,00. €143,00. -20%. Sale price. Regular price. €179,00. Unit price. /. per. cashmere-company. Ivory Pure Cashmere Crew Neck Sweater in Plain Stitch. Regular price. €183,00. €183,00. -20%. Sale price. Regular price. €229,00. Unit price. /. per. cashmere-company. Mocha Pure Cashmere Crew Neck Sweater in Plain Stitch. Regular price. €160,00. €160,00. -30%. Sale price. Regular price. €229,00. Unit price. /. per. cashmere-company. Black Pure Cashmere Crew Neck Sweater in Plain Stitch. Regular price. €183,00. €183,00. -20%. Sale price. Regular price. €229,00. Unit price. /. per. cashmere-company. Ivory Pure Cashmere Turtle Neck Sweater in Plain Stitch. Regular price. €191,00. €191,00. -20%. Sale price. Regular price. €239,00. Unit price. /. per. cashmere-company. Camel Pure Cashmere Turtle Neck Sweater in Plain Stitch. Regular price. €167,00. €167,00. -30%. Sale price. Regular price. €239,00. Unit price. /. per. cashmere-company. Black Pure Cashmere Turtle Neck Sweater in Plain Stitch. Regular price. €191,00. €191,00. -20%. Sale price. Regular price. €239,00. Unit price. /. per. cashmere-company. Midnight Blue Pure Cashmere Turtle Neck Sweater in Plain Stitch. Regular price. €191,00. €191,00. -20%. Sale price. Regular price. €239,00. Unit price. /. per. cashmere-company. Medium Grey Pure Cashmere Turtle Neck Sweater in Plain Stitch. Regular price. €191,00. €191,00. -20%. Sale price. Regular price. €239,00. Unit price. /. per. Secure payment. By credit card and PayPal. Fast delivery. Delivery in 2-3 working days. Returns and exchanges. Returns within 14 days. Do you have a question? Customer service will respond within 24 hours. Your cart. Localization options. Italy. |. EUR. €. You are currently shipping to Italy and your order will be billed in EUR €. Afghanistan. EUR. €. Åland Islands. EUR. €. Albania. EUR. €. Algeria. EUR. €. Andorra. EUR. €. Angola. EUR. €. Anguilla. EUR. €. Antigua & Barbuda. EUR. €. Argentina. EUR. €. Armenia. EUR. €. Aruba. EUR. €. Ascension Island. EUR. €. Australia. EUR. €. Austria. EUR. €. Azerbaijan. EUR. €. Bahamas. EUR. €. Bahrain. EUR. €. Bangladesh. EUR. €. Barbados. EUR. €. Belarus. EUR. €. Belgium. EUR. €. Belize. EUR. €. Benin. EUR. €. Bermuda. EUR. €. Bhutan. EUR. €. Bolivia. EUR. €. Bosnia & Herzegovina. EUR. €. Botswana. EUR. €. Brazil. EUR. €. British Indian Ocean Territory. EUR. €. British Virgin Islands. EUR. €. Brunei. EUR. €. Bulgaria. EUR. €. Burkina Faso. EUR. €. Burundi. EUR. €. Cambodia. EUR. €. Cameroon. EUR. €. Canada. EUR. €. Cape Verde. EUR. €. Caribbean Netherlands. EUR. €. Cayman Islands. EUR. €. Central African Republic. EUR. €. Chad. EUR. €. Chile. EUR. €. China. EUR. €. Christmas Island. EUR. €. Cocos (Keeling) Islands. EUR. €. Colombia. EUR. €. Comoros. EUR. €. Congo - Brazzaville. EUR. €. Congo - Kinshasa. EUR. €. Cook Islands. EUR. €. Costa Rica. EUR. €. Côte d’Ivoire. EUR. €. Croatia. EUR. €. Curaçao. EUR. €. Cyprus. EUR. €. Czechia. EUR. €. Denmark. EUR. €. Djibouti. EUR. €. Dominica. EUR. €. Dominican Republic. EUR. €. Ecuador. EUR. €. Egypt. EUR. €. El Salvador. EUR. €. Equatorial Guinea. EUR. €. Eritrea. EUR. €. Estonia. EUR. €. Eswatini. EUR. €. Ethiopia. EUR. €. Falkland Islands. EUR. €. Faroe Islands. EUR. €. Fiji. EUR. €. Finland. EUR. €. France. EUR. €. French Guiana. EUR. €. French Polynesia. EUR. €. French Southern Territories. EUR. €. Gabon. EUR. €. Gambia. EUR. €. Georgia. EUR. €. Germany. EUR. €. Ghana. EUR. €. Gibraltar. EUR. €. Greece. EUR. €. Greenland. EUR. €. Grenada. EUR. €. Guadeloupe. EUR. €. Guatemala. EUR. €. Guernsey. EUR. €. Guinea. EUR. €. Guinea-Bissau. EUR. €. Guyana. EUR. €. Haiti. EUR. €. Honduras. EUR. €. Hong Kong SAR. EUR. €. Hungary. EUR. €. Iceland. EUR. €. India. EUR. €. Indonesia. EUR. €. Iraq. EUR. €. Ireland. EUR. €. Isle of Man. EUR. €. Israel. EUR. €. Jamaica. EUR. €. Japan. EUR. €. Jersey. EUR. €. Jordan. EUR. €. Kazakhstan. EUR. €. Kenya. EUR. €. Kiribati. EUR. €. Kosovo. EUR. €. Kuwait. EUR. €. Kyrgyzstan. EUR. €. Laos. EUR. €. Latvia. EUR. €. Lebanon. EUR. €. Lesotho. EUR. €. Liberia. EUR. €. Libya. EUR. €. Liechtenstein. EUR. €. Lithuania. EUR. €. Luxembourg. EUR. €. Macao SAR. EUR. €. Madagascar. EUR. €. Malawi. EUR. €. Malaysia. EUR. €. Maldives. EUR. €. Mali. EUR. €. Malta. EUR. €. Martinique. EUR. €. Mauritania. EUR. €. Mauritius. EUR. €. Mayotte. EUR. €. Mexico. EUR. €. Moldova. EUR. €. Monaco. EUR. €. Mongolia. EUR. €. Montenegro. EUR. €. Montserrat. EUR. €. Morocco. EUR. €. Mozambique. EUR. €. Myanmar (Burma). EUR. €. Namibia. EUR. €. Nauru. EUR. €. Nepal. EUR. €. Netherlands. EUR. €. New Caledonia. EUR. €. New Zealand. EUR. €. Nicaragua. EUR. €. Niger. EUR. €. Nigeria. EUR. €. Niue. EUR. €. Norfolk Island. EUR. €. North Macedonia. EUR. €. Norway. EUR. €. Oman. EUR. €. Pakistan. EUR. €. Palestinian Territories. EUR. €. Panama. EUR. €. Papua New Guinea. EUR. €. Paraguay. EUR. €. Peru. EUR. €. Philippines. EUR. €. Pitcairn Islands. EUR. €. Poland. EUR. €. Portugal. EUR. €. Qatar. EUR. €. Réunion. EUR. €. Romania. EUR. €. Russia. EUR. €. Rwanda. EUR. €. Samoa. EUR. €. San Marino. EUR. €. São Tomé & Príncipe. EUR. €. Saudi Arabia. EUR. €. Senegal. EUR. €. Serbia. EUR. €. Seychelles. EUR. €. Sierra Leone. EUR. €. Singapore. EUR. €. Sint Maarten. EUR. €. Slovakia. EUR. €. Slovenia. EUR. €. Solomon Islands. EUR. €. Somalia. EUR. €. South Africa. EUR. €. South Georgia & South Sandwich Islands. EUR. €. South Korea. EUR. €. South Sudan. EUR. €. Spain. EUR. €. Sri Lanka. EUR. €. St. Barthélemy. EUR. €. St. Helena. EUR. €. St. Kitts & Nevis. EUR. €. St. Lucia. EUR. €. St. Martin. EUR. €. St. Pierre & Miquelon. EUR. €. St. Vincent & Grenadines. EUR. €. Sudan. EUR. €. Suriname. EUR. €. Svalbard & Jan Mayen. EUR. €. Sweden. EUR. €. Switzerland. EUR. €. Taiwan. EUR. €. Tajikistan. EUR. €. Tanzania. EUR. €. Thailand. EUR. €. Timor-Leste. EUR. €. Togo. EUR. €. Tokelau. EUR. €. Tonga. EUR. €. Trinidad & Tobago. EUR. €. Tristan da Cunha. EUR. €. Tunisia. EUR. €. Türkiye. EUR. €. Turkmenistan. EUR. €. Turks & Caicos Islands. EUR. €. Tuvalu. EUR. €. U.S. Outlying Islands. EUR. €. Uganda. EUR. €. Ukraine. EUR. €. United Arab Emirates. EUR. €. United Kingdom. EUR. €. United States. EUR. €. Uruguay. EUR. €. Uzbekistan. EUR. €. Vanuatu. EUR. €. Vatican City. EUR. €. Venezuela. EUR. €. Vietnam. EUR. €. Wallis & Futuna. EUR. €. Western Sahara. EUR. €. Yemen. EUR. €. Zambia. EUR. €. Zimbabwe. EUR. €. Choosing a selection results in a full page refresh. View all details. Similar Products.",
+     "retrieved_at": "2026-11-22T08:37:16+00:00"
+    },
+    {
+     "url": "https://www.cashmere-company.it/en/pages/contacts",
+     "page_type": "contact",
+     "text": "Contact us. Skip to content. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. BLACK FRIDAY. WOMEN. MEN. ACCESSORIES. HOME. Account. Cart. Item added to your cart. MENU. Log in. Contact us. Fill out the form for questions regarding your order, inquiries about Cashmere Company products, or to receive assistance. A member of our team will respond to any of your concerns as soon as possible. cashmere company srls. Headquarter. Viale Piave 56, Brescia. +39 3386375205 | +39 030 3762608. info@cashmere-company.it. Secure payment. By credit card and PayPal. Fast delivery. Delivery in 2-3 working days. Returns and exchanges. Returns within 14 days. Do you have a question? Customer service will respond within 24 hours. Your cart. Localization options. Italy. |. EUR. €. You are currently shipping to Italy and your order will be billed in EUR €. Afghanistan. EUR. €. Åland Islands. EUR. €. Albania. EUR. €. Algeria. EUR. €. Andorra. EUR. €. Angola. EUR. €. Anguilla. EUR. €. Antigua & Barbuda. EUR. €. Argentina. EUR. €. Armenia. EUR. €. Aruba. EUR. €. Ascension Island. EUR. €. Australia. EUR. €. Austria. EUR. €. Azerbaijan. EUR. €. Bahamas. EUR. €. Bahrain. EUR. €. Bangladesh. EUR. €. Barbados. EUR. €. Belarus. EUR. €. Belgium. EUR. €. Belize. EUR. €. Benin. EUR. €. Bermuda. EUR. €. Bhutan. EUR. €. Bolivia. EUR. €. Bosnia & Herzegovina. EUR. €. Botswana. EUR. €. Brazil. EUR. €. British Indian Ocean Territory. EUR. €. British Virgin Islands. EUR. €. Brunei. EUR. €. Bulgaria. EUR. €. Burkina Faso. EUR. €. Burundi. EUR. €. Cambodia. EUR. €. Cameroon. EUR. €. Canada. EUR. €. Cape Verde. EUR. €. Caribbean Netherlands. EUR. €. Cayman Islands. EUR. €. Central African Republic. EUR. €. Chad. EUR. €. Chile. EUR. €. China. EUR. €. Christmas Island. EUR. €. Cocos (Keeling) Islands. EUR. €. Colombia. EUR. €. Comoros. EUR. €. Congo - Brazzaville. EUR. €. Congo - Kinshasa. EUR. €. Cook Islands. EUR. €. Costa Rica. EUR. €. Côte d’Ivoire. EUR. €. Croatia. EUR. €. Curaçao. EUR. €. Cyprus. EUR. €. Czechia. EUR. €. Denmark. EUR. €. Djibouti. EUR. €. Dominica. EUR. €. Dominican Republic. EUR. €. Ecuador. EUR. €. Egypt. EUR. €. El Salvador. EUR. €. Equatorial Guinea. EUR. €. Eritrea. EUR. €. Estonia. EUR. €. Eswatini. EUR. €. Ethiopia. EUR. €. Falkland Islands. EUR. €. Faroe Islands. EUR. €. Fiji. EUR. €. Finland. EUR. €. France. EUR. €. French Guiana. EUR. €. French Polynesia. EUR. €. French Southern Territories. EUR. €. Gabon. EUR. €. Gambia. EUR. €. Georgia. EUR. €. Germany. EUR. €. Ghana. EUR. €. Gibraltar. EUR. €. Greece. EUR. €. Greenland. EUR. €. Grenada. EUR. €. Guadeloupe. EUR. €. Guatemala. EUR. €. Guernsey. EUR. €. Guinea. EUR. €. Guinea-Bissau. EUR. €. Guyana. EUR. €. Haiti. EUR. €. Honduras. EUR. €. Hong Kong SAR. EUR. €. Hungary. EUR. €. Iceland. EUR. €. India. EUR. €. Indonesia. EUR. €. Iraq. EUR. €. Ireland. EUR. €. Isle of Man. EUR. €. Israel. EUR. €. Jamaica. EUR. €. Japan. EUR. €. Jersey. EUR. €. Jordan. EUR. €. Kazakhstan. EUR. €. Kenya. EUR. €. Kiribati. EUR. €. Kosovo. EUR. €. Kuwait. EUR. €. Kyrgyzstan. EUR. €. Laos. EUR. €. Latvia. EUR. €. Lebanon. EUR. €. Lesotho. EUR. €. Liberia. EUR. €. Libya. EUR. €. Liechtenstein. EUR. €. Lithuania. EUR. €. Luxembourg. EUR. €. Macao SAR. EUR. €. Madagascar. EUR. €. Malawi. EUR. €. Malaysia. EUR. €. Maldives. EUR. €. Mali. EUR. €. Malta. EUR. €. Martinique. EUR. €. Mauritania. EUR. €. Mauritius. EUR. €. Mayotte. EUR. €. Mexico. EUR. €. Moldova. EUR. €. Monaco. EUR. €. Mongolia. EUR. €. Montenegro. EUR. €. Montserrat. EUR. €. Morocco. EUR. €. Mozambique. EUR. €. Myanmar (Burma). EUR. €. Namibia. EUR. €. Nauru. EUR. €. Nepal. EUR. €. Netherlands. EUR. €. New Caledonia. EUR. €. New Zealand. EUR. €. Nicaragua. EUR. €. Niger. EUR. €. Nigeria. EUR. €. Niue. EUR. €. Norfolk Island. EUR. €. North Macedonia. EUR. €. Norway. EUR. €. Oman. EUR. €. Pakistan. EUR. €. Palestinian Territories. EUR. €. Panama. EUR. €. Papua New Guinea. EUR. €. Paraguay. EUR. €. Peru. EUR. €. Philippines. EUR. €. Pitcairn Islands. EUR. €. Poland. EUR. €. Portugal. EUR. €. Qatar. EUR. €. Réunion. EUR. €. Romania. EUR. €. Russia. EUR. €. Rwanda. EUR. €. Samoa. EUR. €. San Marino. EUR. €. São Tomé & Príncipe. EUR. €. Saudi Arabia. EUR. €. Senegal. EUR. €. Serbia. EUR. €. Seychelles. EUR. €. Sierra Leone. EUR. €. Singapore. EUR. €. Sint Maarten. EUR. €. Slovakia. EUR. €. Slovenia. EUR. €. Solomon Islands. EUR. €. Somalia. EUR. €. South Africa. EUR. €. South Georgia & South Sandwich Islands. EUR. €. South Korea. EUR. €. South Sudan. EUR. €. Spain. EUR. €. Sri Lanka. EUR. €. St. Barthélemy. EUR. €. St. Helena. EUR. €. St. Kitts & Nevis. EUR. €. St. Lucia. EUR. €. St. Martin. EUR. €. St. Pierre & Miquelon. EUR. €. St. Vincent & Grenadines. EUR. €. Sudan. EUR. €. Suriname. EUR. €. Svalbard & Jan Mayen. EUR. €. Sweden. EUR. €. Switzerland. EUR. €. Taiwan. EUR. €. Tajikistan. EUR. €. Tanzania. EUR. €. Thailand. EUR. €. Timor-Leste. EUR. €. Togo. EUR. €. Tokelau. EUR. €. Tonga. EUR. €. Trinidad & Tobago. EUR. €. Tristan da Cunha. EUR. €. Tunisia. EUR. €. Türkiye. EUR. €. Turkmenistan. EUR. €. Turks & Caicos Islands. EUR. €. Tuvalu. EUR. €. U.S. Outlying Islands. EUR. €. Uganda. EUR. €. Ukraine. EUR. €. United Arab Emirates. EUR. €. United Kingdom. EUR. €. United States. EUR. €. Uruguay. EUR. €. Uzbekistan. EUR. €. Vanuatu. EUR. €. Vatican City. EUR. €. Venezuela. EUR. €. Vietnam. EUR. €. Wallis & Futuna. EUR. €. Western Sahara. EUR. €. Yemen. EUR. €. Zambia. EUR. €. Zimbabwe. EUR. €. Choosing a selection results in a full page refresh. View all details. Similar Products.",
+     "retrieved_at": "2026-11-22T08:37:16+00:00"
+    },
+    {
+     "url": "https://www.cashmere-company.it/en/pages/guide-to-cashmere",
+     "page_type": "materials",
+     "text": "Cashmere Guide. Skip to content. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. Fast delivery. Returns within 14 days. Customer service within 24 hours. BLACK FRIDAY. WOMEN. MEN. ACCESSORIES. HOME. Account. Cart. Item added to your cart. MENU. Log in. Guide to cashmere. Cashmere: a treasure waiting to be discovered. From the heart of Chinese Mongolia to your wardrobe: discover everything there is to know about the world's most precious and authentic fibre. A rare fibre, an exclusive selection. Thanks to its softness, lightness and warmth, cashmere is considered one of the most precious and extraordinary fabrics in the world. This natural fibre comes from the Hyrcus goat in the heart of Chinese Mongolia. The extreme landscapes of the mountainous regions of Asia, due to frequent temperature changes, prompt the Hyrcus goat to develop a very soft undercoat, ten times warmer and lighter than traditional wool. Cashmere Company selects the longest and finest fibres for its collections, ensuring superior quality and an unrivalled feel against the skin. Each journey to the land of origin, which we undertake with passion and regularity, is a ritual: amid regenerating silence and extreme temperatures, our bond with this rare and precious raw material is renewed. Cashmere Soap: the eco-friendly detergent for cashmere garments. To maintain the softness and beauty of cashmere garments over time, it is essential to use specific, top-quality detergents. Cashmere Soap is a natural eco-friendly detergent specially designed for washing fine and delicate garments. Effective even in small doses, this detergent protects the cashmere fibre while respecting the environment and your skin. An essential ally for those who love to take care of their garments with awareness and attention. Discover cashmere soap. How to care for cashmere garments. Cashmere is a natural, living fibre: with the right care, it can retain its softness, shape and beauty for many years. Discover the Cashmere Company's washing instructions: simple to follow and designed to ensure a long life for women's and men's cashmere knitwear. Washing instructions. Secure payment. By credit card and PayPal. Fast delivery. Delivery in 2-3 working days. Returns and exchanges. Returns within 14 days. Do you have a question? Customer service will respond within 24 hours. Your cart. Localization options. Italy. |. EUR. €. You are currently shipping to Italy and your order will be billed in EUR €. Afghanistan. EUR. €. Åland Islands. EUR. €. Albania. EUR. €. Algeria. EUR. €. Andorra. EUR. €. Angola. EUR. €. Anguilla. EUR. €. Antigua & Barbuda. EUR. €. Argentina. EUR. €. Armenia. EUR. €. Aruba. EUR. €. Ascension Island. EUR. €. Australia. EUR. €. Austria. EUR. €. Azerbaijan. EUR. €. Bahamas. EUR. €. Bahrain. EUR. €. Bangladesh. EUR. €. Barbados. EUR. €. Belarus. EUR. €. Belgium. EUR. €. Belize. EUR. €. Benin. EUR. €. Bermuda. EUR. €. Bhutan. EUR. €. Bolivia. EUR. €. Bosnia & Herzegovina. EUR. €. Botswana. EUR. €. Brazil. EUR. €. British Indian Ocean Territory. EUR. €. British Virgin Islands. EUR. €. Brunei. EUR. €. Bulgaria. EUR. €. Burkina Faso. EUR. €. Burundi. EUR. €. Cambodia. EUR. €. Cameroon. EUR. €. Canada. EUR. €. Cape Verde. EUR. €. Caribbean Netherlands. EUR. €. Cayman Islands. EUR. €. Central African Republic. EUR. €. Chad. EUR. €. Chile. EUR. €. China. EUR. €. Christmas Island. EUR. €. Cocos (Keeling) Islands. EUR. €. Colombia. EUR. €. Comoros. EUR. €. Congo - Brazzaville. EUR. €. Congo - Kinshasa. EUR. €. Cook Islands. EUR. €. Costa Rica. EUR. €. Côte d’Ivoire. EUR. €. Croatia. EUR. €. Curaçao. EUR. €. Cyprus. EUR. €. Czechia. EUR. €. Denmark. EUR. €. Djibouti. EUR. €. Dominica. EUR. €. Dominican Republic. EUR. €. Ecuador. EUR. €. Egypt. EUR. €. El Salvador. EUR. €. Equatorial Guinea. EUR. €. Eritrea. EUR. €. Estonia. EUR. €. Eswatini. EUR. €. Ethiopia. EUR. €. Falkland Islands. EUR. €. Faroe Islands. EUR. €. Fiji. EUR. €. Finland. EUR. €. France. EUR. €. French Guiana. EUR. €. French Polynesia. EUR. €. French Southern Territories. EUR. €. Gabon. EUR. €. Gambia. EUR. €. Georgia. EUR. €. Germany. EUR. €. Ghana. EUR. €. Gibraltar. EUR. €. Greece. EUR. €. Greenland. EUR. €. Grenada. EUR. €. Guadeloupe. EUR. €. Guatemala. EUR. €. Guernsey. EUR. €. Guinea. EUR. €. Guinea-Bissau. EUR. €. Guyana. EUR. €. Haiti. EUR. €. Honduras. EUR. €. Hong Kong SAR. EUR. €. Hungary. EUR. €. Iceland. EUR. €. India. EUR. €. Indonesia. EUR. €. Iraq. EUR. €. Ireland. EUR. €. Isle of Man. EUR. €. Israel. EUR. €. Jamaica. EUR. €. Japan. EUR. €. Jersey. EUR. €. Jordan. EUR. €. Kazakhstan. EUR. €. Kenya. EUR. €. Kiribati. EUR. €. Kosovo. EUR. €. Kuwait. EUR. €. Kyrgyzstan. EUR. €. Laos. EUR. €. Latvia. EUR. €. Lebanon. EUR. €. Lesotho. EUR. €. Liberia. EUR. €. Libya. EUR. €. Liechtenstein. EUR. €. Lithuania. EUR. €. Luxembourg. EUR. €. Macao SAR. EUR. €. Madagascar. EUR. €. Malawi. EUR. €. Malaysia. EUR. €. Maldives. EUR. €. Mali. EUR. €. Malta. EUR. €. Martinique. EUR. €. Mauritania. EUR. €. Mauritius. EUR. €. Mayotte. EUR. €. Mexico. EUR. €. Moldova. EUR. €. Monaco. EUR. €. Mongolia. EUR. €. Montenegro. EUR. €. Montserrat. EUR. €. Morocco. EUR. €. Mozambique. EUR. €. Myanmar (Burma). EUR. €. Namibia. EUR. €. Nauru. EUR. €. Nepal. EUR. €. Netherlands. EUR. €. New Caledonia. EUR. €. New Zealand. EUR. €. Nicaragua. EUR. €. Niger. EUR. €. Nigeria. EUR. €. Niue. EUR. €. Norfolk Island. EUR. €. North Macedonia. EUR. €. Norway. EUR. €. Oman. EUR. €. Pakistan. EUR. €. Palestinian Territories. EUR. €. Panama. EUR. €. Papua New Guinea. EUR. €. Paraguay. EUR. €. Peru. EUR. €. Philippines. EUR. €. Pitcairn Islands. EUR. €. Poland. EUR. €. Portugal. EUR. €. Qatar. EUR. €. Réunion. EUR. €. Romania. EUR. €. Russia. EUR. €. Rwanda. EUR. €. Samoa. EUR. €. San Marino. EUR. €. São Tomé & Príncipe. EUR. €. Saudi Arabia. EUR. €. Senegal. EUR. €. Serbia. EUR. €. Seychelles. EUR. €. Sierra Leone. EUR. €. Singapore. EUR. €. Sint Maarten. EUR. €. Slovakia. EUR. €. Slovenia. EUR. €. Solomon Islands. EUR. €. Somalia. EUR. €. South Africa. EUR. €. South Georgia & South Sandwich Islands. EUR. €. South Korea. EUR. €. South Sudan. EUR. €. Spain. EUR. €. Sri Lanka. EUR. €. St. Barthélemy. EUR. €. St. Helena. EUR. €. St. Kitts & Nevis. EUR. €. St. Lucia. EUR. €. St. Martin. EUR. €. St. Pierre & Miquelon. EUR. €. St. Vincent & Grenadines. EUR. €. Sudan. EUR. €. Suriname. EUR. €. Svalbard & Jan Mayen. EUR. €. Sweden. EUR. €. Switzerland. EUR. €. Taiwan. EUR. €. Tajikistan. EUR. €. Tanzania. EUR. €. Thailand. EUR. €. Timor-Leste. EUR. €. Togo. EUR. €. Tokelau. EUR. €. Tonga. EUR. €. Trinidad & Tobago. EUR. €. Tristan da Cunha. EUR. €. Tunisia. EUR. €. Türkiye. EUR. €. Turkmenistan. EUR. €. Turks & Caicos Islands. EUR. €. Tuvalu. EUR. €. U.S. Outlying Islands. EUR. €. Uganda. EUR. €. Ukraine. EUR. €. United Arab Emirates. EUR. €. United Kingdom. EUR. €. United States. EUR. €. Uruguay. EUR. €. Uzbekistan. EUR. €. Vanuatu. EUR. €. Vatican City. EUR. €. Venezuela. EUR. €. Vietnam. EUR. €. Wallis & Futuna. EUR. €. Western Sahara. EUR. €. Yemen. EUR. €. Zambia. EUR. €. Zimbabwe. EUR. €. Choosing a selection results in a full page refresh. View all details. Similar Products.",
+     "retrieved_at": "2026-11-22T08:37:18+00:00"
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "key": "cashmerecompanyitaly.com",
+    "start_url": "https://cashmerecompanyitaly.com/",
+    "result_url": "https://cashmerecompanyitaly.com/",
+    "title": "Cashmere Company | Italian Knitwear EST 1955",
+    "snippet": "Maglieria in cashmere dal 1955, nel cuore dell'Umbria. Cashmere Company crea capi in fibre pregiate con la maestria artigianale del made in Italy.",
+    "source": "search",
+    "queries": [
+     "cashmere dehairing company Italy"
+    ]
+   },
+   "official_website": "https://cashmerecompanyitaly.com",
+   "identity": {
+    "name": "Cashmere Company",
+    "name_source": "schema.org Organization",
+    "country": null,
+    "country_source": null
+   },
+   "errors": [],
+   "robots_blocked": false,
+   "contacts": {
+    "emails": [
+     {
+      "value": "info@blucashmere.eu",
+      "source_url": "https://cashmerecompanyitaly.com/"
+     }
+    ],
+    "phones": [
+     {
+      "value": "+39 075 8038799",
+      "source_url": "https://cashmerecompanyitaly.com/"
+     }
+    ]
+   },
+   "pages": [
+    {
+     "url": "https://cashmerecompanyitaly.com/",
+     "page_type": "homepage",
+     "text": "Cashmere Company | Italian Knitwear EST 1955. Chi siamo. Manifesto. Collezione Fall Winter 2025. Collezione Spring Summer 2026. Contatti. About Us. Manifesto. Fall Winter 2025 Collection. Spring Summer 2026 Collection. Contacts. IT. EN. nel cuore dell’italia,. immersa nelle incantevoli colline dell’umbria, si trova un’azienda che da quasi settant’anni incarna l’eccellenza nella maglieria in cashmere. SCOPRI. collezione. FALL WINTER. 2025. SCOPRI. collezione. SPRING SUMMER. 2026. SCOPRI. La verità ha un suo modo di cambiare ogni giorno, ogni secondo. si resta attaccati al proprio stile e la verità cambia intorno a noi. se hai stile hai il tuo metodo. che continua mentre tutte le cose vacillano. Charles Bukowski. Cashmere Company lavora fibre preziose che rappresentano il cuore di ogni suo capo. MANIFESTO. Il modo di vestirsi è la rappresentazione esteriore della nostra filosofia.",
+     "retrieved_at": "2026-11-22T08:37:11+00:00"
+    },
+    {
+     "url": "https://cashmerecompanyitaly.com/en/",
+     "page_type": "homepage",
+     "text": "Cashmere Company | Italian Knitwear EST 1955. Chi siamo. Manifesto. Collezione Fall Winter 2025. Collezione Spring Summer 2026. Contatti. About Us. Manifesto. Fall Winter 2025 Collection. Spring Summer 2026 Collection. Contacts. IT. EN. In the heart of Italy, nestled among the enchanting hills of Umbria, lies a company that for nearly seventy years has embodied excellence in cashmere knitwear. DISCOVER. collection. FALL WINTER. 2025. DISCOVER. collection. SPRING SUMMER. 2026. DISCOVER. Truth has its own way of changing every day, every second. You hold on to your own style, and truth shifts around you. If you have style, you have your own way, which endures while everything else wavers. Charles Bukowski. Cashmere Company works with precious fibres that lie at the heart of every garment it creates. MANIFESTO. The way we dress is the outward expression of our philosophy.",
+     "retrieved_at": "2026-11-22T08:37:13+00:00"
+    },
+    {
+     "url": "https://cashmerecompanyitaly.com/en/about-us/",
+     "page_type": "about",
+     "text": "About Us | Cashmere Company. Chi siamo. Manifesto. Collezione Fall Winter 2025. Collezione Spring Summer 2026. Contatti. About Us. Manifesto. Fall Winter 2025 Collection. Spring Summer 2026 Collection. Contacts. IT. EN. Our story began in 1955, guided by a clear mission: to craft knitwear that blends artisanal tradition with contemporary style, giving life to a wardrobe that is at once classic and innovative, versatile and timeless. Our garments are created by skilled, expert hands that design, cut, sew and embroider each piece with care and attention. It matters to us that our customers take home something truly exceptional: a one-of-a-kind garment made from the finest fabrics. Each piece is unique, owing to the distinctive nature of the materials used. Our garments are designed for the modern, dynamic man who lives and works in urban settings but never compromises on quality or elegance. The metropolitan man seeks clothes that reflect who he is, striking the perfect balance between style and comfort — an elegance expressed through the timeless refinement of knitwear, without ever sacrificing comfort at any moment of the day. Since its founding, the company’s mission has been to create garments that combine the extraordinary quality of cashmere with a design capable of blending classic style with contemporary trends, offering pieces that are both modern and timeless. Cashmere knitwear is the symbol of an artisanal tradition long associated with luxury and refinement. Cashmere Company carries this centuries-old tradition forward, working with skill and passion to create garments that offer an unmatched sensation of softness and warmth, as well as elegance and style. Every piece is the result of an artisanal process that respects the quality of the raw materials and the care given to every detail, ensuring a final product that is not only unique but also beautiful, durable and long-lasting. The beauty of a Cashmere Company garment lies precisely in its ability to be at once classic and modern. Every collection reflects this delicate balance: on one hand, we propose clean, understated lines typical of a classic style that never goes out of fashion; on the other, we introduce innovative elements and modern details that give our garments a contemporary touch — suited to those who live in the present yet appreciate the quality of the past. Everyday luxury: quality, elegance, style. Our purpose is to offer knitwear that speaks to the needs of the modern man without ever losing sight of its roots in tradition. For us, the classic is a starting point — a timeless value that inspires the creation of elegant, refined garments suitable for any occasion. At the same time, we firmly believe that fashion must evolve with the times, and so our style is also deeply contemporary, designed for those who want a sophisticated look with a modern fit.",
+     "retrieved_at": "2026-11-22T08:37:14+00:00"
+    },
+    {
+     "url": "https://cashmerecompanyitaly.com/en/fall-winter-2025-collection/",
+     "page_type": "products",
+     "text": "Fall Winter 2025 Collection | Cashmere Company. Chi siamo. Manifesto. Collezione Fall Winter 2025. Collezione Spring Summer 2026. Contatti. About Us. Manifesto. Fall Winter 2025 Collection. Spring Summer 2026 Collection. Contacts. IT. EN. Fall Winter 2025 Collection. Cashmere Company tells the story of a season shaped by matter, silence and depth. Yarns become soft architecture, building enveloping, natural volumes. Surfaces come alive, moving between rich textures and weightless lightness. The palette travels through warm, dusty, sophisticated tones: earth, sand, charcoal. Every garment is made to last, beyond time and beyond the season. The gesture is measured; luxury is discreet, never flaunted. A collection that interprets the present with an essential gaze — where comfort and identity meet in authentic balance. For a contemporary man: aware, timeless. Cashmere Company FW25. THE QUIET FORM OF LUXURY.",
+     "retrieved_at": "2026-11-22T08:37:15+00:00"
+    },
+    {
+     "url": "https://cashmerecompanyitaly.com/en/contacts/",
+     "page_type": "contact",
+     "text": "Contacts | Cashmere Company. Chi siamo. Manifesto. Collezione Fall Winter 2025. Collezione Spring Summer 2026. Contatti. About Us. Manifesto. Fall Winter 2025 Collection. Spring Summer 2026 Collection. Contacts. IT. EN. Contacts. Garments created by skilled, expert hands that design, cut, sew and embroider each piece with care and attention. Viale dei Pini, 28. 06081 Petrignano PG. +39 075 80 387 99. info@blucashmere.eu.",
+     "retrieved_at": "2026-11-22T08:37:16+00:00"
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "key": "arcashmere.it",
+    "start_url": "https://arcashmere.it/",
+    "result_url": "https://arcashmere.it/",
+    "title": "ARCASHMERE ITA - Arcashmere",
+    "snippet": "Grazie alla tessitura interna, che conta 14 macchine tessili fra cui telai a navetta e telai automatici a grande altezza (350-400 cm), Arcashmere realizza articoli artigianali di altissimo pregio in 100% Cashmere delle migliori provenienze.",
+    "source": "search",
+    "queries": [
+     "cashmere dehairing company Italy",
+     "raw cashmere fibre trader Italy",
+     "dehaired cashmere fibre buyer Italy"
+    ]
+   },
+   "official_website": "https://arcashmere.it",
+   "identity": {
+    "name": "Arcashmere",
+    "name_source": "schema.org Organization",
+    "country": "Italy",
+    "country_source": "inferred from domain ending (not verified)"
+   },
+   "errors": [],
+   "robots_blocked": false,
+   "contacts": {
+    "emails": [
+     {
+      "value": "info@arcashmere.it",
+      "source_url": "https://arcashmere.it/"
+     }
+    ],
+    "phones": [
+     {
+      "value": "+390574023550",
+      "source_url": "https://arcashmere.it/"
+     }
+    ]
+   },
+   "pages": [
+    {
+     "url": "https://arcashmere.it/",
+     "page_type": "homepage",
+     "text": "ARCASHMERE ITA - Arcashmere. Arcashmere. L'IDEA. L’intento di Arcashmere è quello di dare “Voce e Bellezza“ al Cashmere, trasformando questa preziosa fibra in meravigliosi manufatti (sciarpe, stole, koefie, plaid e coperte) grazie al lavoro dei migliori maestri artigiani del “ Made in Italy “. Un lavoro condotto nel rispetto della natura che ci circonda, e volto alla valorizzazione del lavoro umano. Comprando il nostro cashmere indosserete quindi un oggetto d’arte. L'AZIENDA. La società Arcashmere nasce a Prato, dopo una lunga esperienza di famiglia nel settore tessile; era il 1956 quando Cino Cini iniziò a produrre tessuti pettinati per drapperia. La società, attualmente guidata dal figlio Fabrizio e dal nipote Andrea, produce accessori tessili e arredo casa di alta e altissima qualità, con una particolare attenzione all’impiego di tecnologia di tipo “telai jacquard” a navetta modificati per realizzare prodotti artigianali esclusivi. Grazie a queste tecnologie Arcashmere dedica il suo knowhow generazionale nella realizzazione di manufatti per marchi internazionali del lusso, instaurando veri e propri progetti di partnership. Il vero punto di forza di Arcashmere è tessere filati per trasformare sogni in realtà da generazioni. Andrea Cini. IL PRODOTTO. Il lavoro di Arcashmere inizia della scelta delle materie prime di 100% Cashmere, misto seta/cashmere e altre fibre pregiate. Grazie alla tessitura interna, che conta 14 macchine tessili fra cui telai a navetta e telai automatici a grande altezza (350-400 cm), Arcashmere realizza articoli artigianali di altissimo pregio in 100% Cashmere delle migliori provenienze. ARCASHEMERE. Via Danubio 44/46. 59100 Prato. RICHIESTA INFO. info@arcashmere.it. CHIAMA OGGI! +39 0574 023550.",
+     "retrieved_at": "2026-11-22T08:37:14+00:00"
+    },
+    {
+     "url": "https://arcashmere.it/arcashmere-eng/",
+     "page_type": "homepage",
+     "text": "ARCASHMERE ENG - Arcashmere. Arcashmere. THE IDEA. The intent of Artcashmere is to give “Voice and Beauty” to Cashmere, transforming this precious fibres into wonderful artefacts (scarves, stoles, koefie, poncho, plaid and blankets) thanks to the vocation of the best “Made in Italy” craftsmen masters. A work made respecting the nature that surrounds us, to enrich the human value in its work; that’s to say, buying our cashmere you are wearing art, not only a garment. THE COMPANY. The company Arcashmere was born in Prato, after a long family experience in the textile area; far in 1956 Cino Cini began to produce combed fabrics for drapery. The company, currently led by his son Fabrizio and his nephew Andrea, produces extremely high quality textile accessories and home furnishings, using special technology such as “jacquard looms”, shuttle ones, modified to realize manufacture for exclusive productions. Thanks to these technologies, Arcashmere dedicate its knowhow to forge partnerships with international luxury brands. Arcashmere’s real strength is weaving yarn to turn dreams into reality from generations. Andrea Cini. THE PRODUCT. The first aim of Arcashmere is to select precious raw materials of 100% Cashmere, silk/cashmere blend and other fine fibres. Thanks to its internal weaving, that counts 14 textile machines between shuttle looms and automatic large height looms (350-400 cms), Arcashmere can afford to offer its customers a continuous and constant control in the production of real handicrafts in highest quality of 100% cashmere. ARCASHEMERE. Via Danubio 44/46. 59100 Prato. INFORMATION REQUEST. info@arcashmere.it. CALL US TODAY! +39 0574 023550.",
+     "retrieved_at": "2026-11-22T08:37:15+00:00"
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "key": "italycashmere.it",
+    "start_url": "https://www.italycashmere.it/",
+    "result_url": "https://www.italycashmere.it/",
+    "title": "Homepage - Italy Cashmere",
+    "snippet": "ITALY CASHMERE infatti da sempre fornisce i propri prodotti ai più famosi negozi di abbigliamento italiani in luoghi famosi per la moda come Milano, Porto Cervo, Veneto, Liguria, Roma in Italia, Salzburg in Austria, Barcellona e Madrid in Spagna e altri paesi Europei.",
+    "source": "search",
+    "queries": [
+     "cashmere dehairing company Italy"
+    ]
+   },
+   "official_website": "https://www.italycashmere.it",
+   "identity": {
+    "name": "Italy Cashmere",
+    "name_source": "schema.org Organization",
+    "country": "Italy",
+    "country_source": "inferred from domain ending (not verified)"
+   },
+   "errors": [],
+   "robots_blocked": false,
+   "contacts": {
+    "emails": [
+     {
+      "value": "info@italycashmere.it",
+      "source_url": "https://www.italycashmere.it/"
+     }
+    ],
+    "phones": [
+     {
+      "value": "+39 02 40042512",
+      "source_url": "https://www.italycashmere.it/"
+     }
+    ]
+   },
+   "pages": [
+    {
+     "url": "https://www.italycashmere.it/",
+     "page_type": "homepage",
+     "text": "Homepage - Italy Cashmere. VANESSA. Continue Reading. TANIA. Continue Reading. POKER. Continue Reading. GINA. Continue Reading. Homepage. 100% MADE IN ITALY. MAGLIERIA DI ALTA QUALITA’ IN CASHMERE E ALTRI FILATI PREZIOSI. RETAIL – B2B – PRIVATE LABEL. DAL 1979 PIU’ DI 40 ANNI DI ESPERIENZA NELLO STYLING E CREAZIONE DI CAPI IN CASHMERE E FILATI PREGIATI. ITALY CASHMERE è un marchio che rappresenta la PASSIONE di persone che da più di 40 anni producono capi di abbigliamento di altissima qualità in CASHMERE e altri filati pregiati. Le persone che hanno creato ITALY CASHMERE hanno sempre lavorato questa materia prima in modo solo artigianale, in casa con macchine semplici o a mano da signore di altri tempi, poi, in tempi più recenti con macchine professionali come le SHIMA. Quello che ha sempre contraddistinto questa piccola azienda è l’attenzione per il prodotto, la passione per la perfezione e l’attenzione ai dettagli. La competenza delle persone, l’ attenzione per il cliente e l’amore per il prodotto hanno sempre fatto in modo da essere riconosciuti come l’eccellenza della produzione di cashmere. ITALY CASHMERE infatti da sempre fornisce i propri prodotti ai più famosi negozi di abbigliamento italiani in luoghi famosi per la moda come Milano, Porto Cervo, Veneto, Liguria, Roma in Italia, Salzburg in Austria, Barcellona e Madrid in Spagna e altri paesi Europei. Tutte le nostre produzioni sono 100% made in Italy. Forniamo un servizio completo dalla ideazione alla produzione al controllo alla spedizione al supporto cliente dopo la vendita. I nostri prodotti sono creati per durare nel tempo grazie a materie prime di elevata qualità e processi produttivi di eccellenza. La nostra esperienza è iniziata più di 40 anni fa. Produciamo anche per il tuo Brand. Tutto quello che facciamo lo facciamo con amore da più di 40 anni. Se siete importatori, negozi o rivenditori e/o siete interessati al nostro servizio private label potete chiedere l’iscrizione wholesaler compilando il form presente a questa pagina. Sareti contattati al più presto da un nostro commerciale per attivare l’iscrizione per accedere a prezzi e quantità a Voi riservati. Cerca. Categorie. Cappotto. Coperta. Donna. Fall Winter 22 – 23. Giacca. Gilet. Maglia. Parka. Polo. Poncho. Sciarpa. Stola. Tuta.",
+     "retrieved_at": "2026-11-22T08:37:11+00:00"
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "key": "imacashmere.it",
+    "start_url": "https://imacashmere.it/",
+    "result_url": "https://imacashmere.it/",
+    "title": "Ima Cashmere",
+    "snippet": "Nel cuore dell’Italia più autentica, in Umbria, dove lo stile si confonde con l’arte, il maglificio Ima Cashmere, fondato da Cetra Ivo e sua moglie Baccaille Alberta, realizza raffinati capi artigianali dal 1985.",
+    "source": "search",
+    "queries": [
+     "cashmere dehairing company Italy"
+    ]
+   },
+   "official_website": "https://imacashmere.it",
+   "identity": {
+    "name": "Ima Cashmere",
+    "name_source": "schema.org Organization",
+    "country": "Italy",
+    "country_source": "inferred from domain ending (not verified)"
+   },
+   "errors": [],
+   "robots_blocked": false,
+   "contacts": {
+    "emails": [
+     {
+      "value": "commerciale@imacashmere.it",
+      "source_url": "https://imacashmere.it/"
+     }
+    ],
+    "phones": [
+     {
+      "value": "+39 075 982 426",
+      "source_url": "https://imacashmere.it/"
+     }
+    ]
+   },
+   "pages": [
+    {
+     "url": "https://imacashmere.it/",
+     "page_type": "homepage",
+     "text": "Ima Cashmere. Vai al contenuto. Ima Cashmere. Home. Shop. Contatti. Login. Lingua. Carrello. Il tuo carrello è vuoto. Passione, Artigianalità e Innovazione Made in Italy. Cashmere 100% Made in Italy. CONTATTACI. SPEDIZIONI RAPIDE. Resi facili. PAGAMENTI SICURI. La Nostra Storia. Nel cuore dell’Italia più autentica, in Umbria, dove lo stile si confonde con l’arte, il maglificio Ima Cashmere, fondato da Cetra Ivo e sua moglie Baccaille Alberta, realizza raffinati capi artigianali dal 1985. PROMO APPLICA CODICE SCONTO IMA25. UOMO. DONNA. BAMBINO. I nostri servizi esclusivi. Personal Assistant. Clicca sull'icona della chat in basso a destra per entrare in contatto con i nostri stylist. realizzati con fibra di alta qualità. Garantiamo che i nostri capi in cashmere sono realizzati con fibra di alta qualità, sottoposti a rigorosi controlli per assicurarne la morbidezza e la durata. Resi facili. Accettiamo resi entro un certo periodo dall'acquisto. Consulta la nostra sezione dedicata alle politiche di reso per maggiori dettagli sulle procedure e i tempi di rimborso. Collezione donna. Maglie, maglioni e sciarpe perfetti per chi ama distinguersi con uno stile iconico e raffinato. Ogni capo unisce comfort e qualità, interpretando il classico motivo a tartan con un approccio moderno e versatile. Collezione uomo. Maglioni morbidi, giacche dal taglio sartoriale e cardigan dalla linea moderna. Ogni strato è una promessa di raffinatezza e funzionalità, per chi non vuole mai rinunciare a un look sofisticato, anche durante le stagioni più rigide. Come viene prodotto il cashmere. La nostra esperienza. Cosa dicono di noi. Acquista il look. Acquista il look. Risparmia €80,00. Scollo a Barca. Prezzo scontato €119,00. Prezzo €199,00. Colore. Rosa. Panna. Beige. Nero. Grigio. Risparmia €80,00. Scollo a Barca. Prezzo scontato €119,00. Prezzo €199,00. Colore. Rosa. Panna. Beige. Nero. Grigio. Visualizza prodotto. Resi facili. Pagamenti sicuri. Gift card.",
+     "retrieved_at": "2026-11-22T08:37:12+00:00"
+    },
+    {
+     "url": "https://imacashmere.it/en",
+     "page_type": "homepage",
+     "text": "Ima Cashmere. Skip to content. Ima Cashmere. Home. Shop. Contacts. Login. Language. Cart. Your cart is empty. Passion, Craftsmanship and Innovation Made in Italy. Cashmere 100% Made in Italy. CONTATTACI. Easy returns. Resi facili. SECURE PAYMENTS. Our History. In the heart of the most authentic Italy, in Umbria, where style merges with art, the Ima Cashmere knitwear factory, founded by Cetra Ivo and his wife Baccaille Alberta, has been creating refined handcrafted garments since 1985. PROMO APPLICA CODICE SCONTO IMA25. MAN. WOMAN. CHILD. Our exclusive services. Personal Assistant. Click on the chat icon at the bottom right to get in touch with our stylists. made with high quality fiber. We guarantee that our cashmere garments are made from high quality fiber, subjected to rigorous controls to ensure their softness and durability. Easy returns. We accept returns within a certain period of purchase. Please see our Returns Policy section for more details on refund procedures and times. Women's collection. Sweaters, pullovers and scarves perfect for those who love to stand out with an iconic and refined style. Each piece combines comfort and quality, interpreting the classic tartan pattern with a modern and versatile approach. Men's collection. Soft sweaters, tailored jackets and modern cardigans. Each layer is a promise of refinement and functionality, for those who never want to give up a sophisticated look, even during the coldest seasons. How Cashmere is Made. Our experience. What they say about us. Shop the look. Shop the look. Save €80,00. Women's Cashmere and Merino Wool Boat Neck Sweater Teal. Sale price €119,00. Regular price €199,00. Save €80,00. Women's Cashmere and Merino Wool Boat Neck Sweater Teal. Sale price €119,00. Regular price €199,00. View product. Easy returns. Secure payments. Gift cards.",
+     "retrieved_at": "2026-11-22T08:37:14+00:00"
+    },
+    {
+     "url": "https://imacashmere.it/en/collections/all",
+     "page_type": "products",
+     "text": "Products. Skip to content. Ima Cashmere. Home. Shop. Contacts. Login. Language. Cart. Your cart is empty. Sort by. 38 products. Filters. Women's dress with braids at the neck and cuffs. Sale price €250,00. COLOR. CREAM. GREY. BLACK. BORDEAUX. Men's bomber jacket with double slider wool zip. Sale price €119,00. Save €47,00. Women's Asymmetric Cardigan in Babà. Sale price €119,00. Regular price €166,00. Save €80,00. Men's Merino Wool Cardigan with V-Neck and Buttons Light Grey. Sale price €119,00. Regular price €199,00. Men's Cardigan Shawl Collar in Pure Cashmere Avio. Sale price €249,00. Women's cyclist babà 70% wool and 30% cashmere. Sale price €129,00. Women's Turtleneck 100% Cashmere Light Blue Ring Neck. Sale price €249,00. Women's Pure Cashmere V-Neck English Rib Sweater in Bluette. Sale price €249,00. color. electric blue. rose. light blue. anthracite. black. cream. walnuts. Men's Crewneck in English Rib in 100% Cashmere Cream. Sale price €229,00. color. red. grey. blue. brown. cream. Men's 100% Cashmere Blue Cycling Turtleneck. Sale price €219,00. Women's Cyclist Turtleneck in 100% Cashmere Light Blue Ocean. Sale price €219,00. Men's Sweatshirt with Hood in Blue Brushed Virgin Wool. Sale price €119,00. Men's Merino Wool Sweatshirt with Short Zip Sand. Sale price €129,00. Double face double cashmere men's sweatshirt/jacket. Sale price €590,00. Women's Cream-Grey Wool Blend Shawl Jacket. Sale price €89,00. Women's Herringbone Wool Jacket with Shirt Collar. Sale price €89,00. Gilet girocollo. Sale price €179,00. Men's Crewneck 100% Cashmere Sky Blue. Sale price €209,00. 100% Cashmere Crewneck. Sale price €199,00. Babà Crewneck with Cashmere and Pink Merino Wool Workmanship. Sale price €119,00. Baba crewneck 70% wool and 30% cashmere. Sale price €119,00. 100% Cashmere Crewneck Light Blue Kids. Sale price From €69,00. Striped baby crewneck. Sale price €59,00. Girocollo lavorato. Sale price €119,00. Save €40,00. Men's crewneck 100% Merino wool. Sale price €59,00. Regular price €99,00. Men's crewneck in 70% wool and 30% cashmere babà. Sale price €129,00. color. light blue. black. grey. red. blue. 100% Cashmere Saddle Shoulder Crewneck Grey. Sale price €238,00. Women's V-neck Sweater in 100% Cashmere Cream. Sale price €199,00. Save €10,00. Naples woman cloak. Sale price €120,00. Regular price €130,00. color. Ottanio. rose. blue. Bordeaux. burned. Men's polo shirt 100% cashmere. Sale price €219,00. color. light blue. walnuts. green. grey. beige. Men's Polo Shirt with Buttons in 100% Merino Wool Military Green. Sale price €119,00. color. green. blue. black. grey. red. Noce. Panna. Men's crewneck 100% wool with triangle neckline and sleeve patches. Sale price €109,00. color. light blue. cream. anthracite. blue. black. red. English Rib Scarf in Pure Cashmere for Kids. Sale price €39,00. Save €80,00. Women's Cashmere and Merino Wool Boat Neck Sweater Teal. Sale price €119,00. Regular price €199,00. Men's V-neck Sweater in 100% Cashmere Grey. Sale price €209,00. color. grey. anthracite. light blue. red. green. Women's V-neck English rib babà 70% wool and 30% cashmere. Sale price €129,00. Save €10,00. 100% Cashmere V-Neck Sweater for Kids Blue. Sale price €69,00. Regular price €79,00. Save €39,00. V-neck sweater with braids in 100% wool Grey child. Sale price €30,00. Regular price €69,00. Easy returns. Secure payments. Gift cards.",
+     "retrieved_at": "2026-11-22T08:37:14+00:00"
+    },
+    {
+     "url": "https://imacashmere.it/en/pages/contact",
+     "page_type": "contact",
+     "text": "Contact. Skip to content. Ima Cashmere. Home. Shop. Contacts. Login. Language. Cart. Your cart is empty. Contact us. Easy returns. Secure payments. Gift cards.",
+     "retrieved_at": "2026-11-22T08:37:15+00:00"
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "key": "alfacashmere.com",
+    "start_url": "https://www.alfacashmere.com/",
+    "result_url": "https://www.alfacashmere.com/",
+    "title": "Alfa Cashmere | Italian Knitting Factory",
+    "snippet": "Alfa Cashmere has over 30 years of experience in the knitting field and focuses on the production of high-quality cashmere items, using Made in Italy yarns only.",
+    "source": "search",
+    "queries": [
+     "cashmere yarn spinning mill Italy"
+    ]
+   },
+   "official_website": "https://www.alfacashmere.com",
+   "identity": {
+    "name": "Alfa Cashmere Srl",
+    "name_source": "og:site_name",
+    "country": null,
+    "country_source": null
+   },
+   "errors": [],
+   "robots_blocked": false,
+   "contacts": {
+    "emails": [
+     {
+      "value": "info@alfacashmere.com",
+      "source_url": "https://www.alfacashmere.com/"
+     }
+    ],
+    "phones": []
+   },
+   "pages": [
+    {
+     "url": "https://www.alfacashmere.com/",
+     "page_type": "homepage",
+     "text": "Alfa Cashmere | Italian Knitting Factory. top of page. ALFA CASHMERE. Italian Knitting Factory. About us. About us. Alfa Cashmere ’s team has over 30 years of experience in the knitting field and focuses on the production of high-quality cashmere items. Alfa Cashmere exclusively uses Made in Italy yarns and all the steps involved in the production are Made in Italy, from start to finish. ​. Our mission is to bring Italian craftsmanship to the luxury knitting market all over the world by using the best existing raw material, cashmere. ​. We are located in Prato, about 30 minutes from Florence, in the heart of Tuscany. 2024-25 Collection. Find out more about our New Collection. 2024-25 FULL CATALOG COMING SOON. Our Strenghts. EXPERIENCE & COMPETENCE. Over 30 years of experience in fashion products manufacturing brought Alfa to shift its focus on the best raw material, cashmere. MADE IN ITALY PROCESS. Both the raw material used and full production are exclusively Made in Italy. COMPETITIVE PRICES. Compared to cashmere production prices found on the market. STOCK SERVICE AVAILABILITY. Alfa Cashmere also offers its cashmere stock items, ready to be shipped worldwide in just a few days from your purchase. SHORT EXECUTION TIME. All the steps are made inside the company; therefore, Alfa Cashmere can cut off production time and provide you with the fastest manufacturing and deliveries. Contact us. ALFA CASHMERE SRL. Headquarters. Via dello Sprone 9, Prato (PO), Italy. ​. Email. info@alfacashmere.com. bottom of page.",
+     "retrieved_at": "2026-11-22T08:37:17+00:00"
+    },
+    {
+     "url": "https://www.alfacashmere.com/contact",
+     "page_type": "products",
+     "text": "Contact Us | Alfa Cashmere. top of page. Contact us. ALFA CASHMERE SRL. Headquarters. Via dello Sprone 9, Prato (PO), Italy. ​. Email. info@alfacashmere.com. Contact us. bottom of page.",
+     "retrieved_at": "2026-11-22T08:37:18+00:00"
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "key": "casadelfilato.com",
+    "start_url": "https://casadelfilato.com/",
+    "result_url": "https://casadelfilato.com/en/",
+    "title": "Italian Yarn - Casa del Filato",
+    "snippet": "Cashmere, silk, wool, angora, cotton, viscose: all the fibers used and the range of our yarns tell a lot about who we are. The great part of our production is based on the carded spinning using these premium fibers.",
+    "source": "search",
+    "queries": [
+     "cashmere yarn spinning mill Italy"
+    ]
+   },
+   "official_website": "https://casadelfilato.com",
+   "identity": {
+    "name": "Casa del Filato",
+    "name_source": "page title",
+    "country": null,
+    "country_source": null
+   },
+   "errors": [],
+   "robots_blocked": false,
+   "contacts": {
+    "emails": [
+     {
+      "value": "info@casafilato.it",
+      "source_url": "https://casadelfilato.com/"
+     }
+    ],
+    "phones": [
+     {
+      "value": "055 - 8705983",
+      "source_url": "https://casadelfilato.com/"
+     }
+    ]
+   },
+   "pages": [
+    {
+     "url": "https://casadelfilato.com/",
+     "page_type": "homepage",
+     "text": "Casa del Filato | Italian Yarn. ITA. ENG. Dal 1962. L'Azienda. Casa del Filato sorge nel 1962 come una piccola ditta familiare e rapidamente si sviluppa sulla produzione di filati cardati avvalendosi di impianti industriali interni. Negli anni, con tenacia passione e serieta’, Casa del Filato si afferma sul mercato italiano ed estero, collaborando con i migliori brands della maglieria e tessitura mondiale. Scopri diu più. Artigianalità. Made in Italy. In un momento storico in cui l’artigianalità, soprattutto made in Italy, è sempre più rara da preservare, Casa del Filato si conferma una delle certezze nel settore. Nata nel 1962, in pieno boom economico in provincia di Firenze, l’azienda ha sviluppato negli anni una sempre più forte familiarità con l’artigianato, affinando la propria produzione nel nome del MADE IN ITALY e creando così un’identità forte e riconoscibile nel mercato italiano ed estero, collezionando importanti collaborazioni sia nel campo della tessitura sia in quello della maglieria a livello mondiale. Scopri diu più. Produzione. FIBRE PREGIATE. Cashmere, seta, lana, angora, cotone, viscosa: le fibre da noi usate e la gamma dei nostri filati raccontano molto su di noi. Gran parte della nostra produzione è basata sulla filatura cardata con l’uso di queste fibre pregiate. Ci premuriamo di garantire sempre un prodotto di alta qualità e con i migliori materiali, frutto di un’accurata selezione da noi effettuata. Casa del Filato si avvale di impianti propri: la conoscenza minuziosa del loro funzionamento e la cura per la loro manutenzione, ci permettono di lavorare in serenità e sicurezza, consentendoci così una continua ricerca e specializzazione. Ogni passaggio, dalla tintura e assemblaggio della fibra, fino alla preparazione, la filatura ed infine roccatura e confezionatura, viene eseguito con cura da noi. Lana. Cashmere. Cotone. Angora. Viscosa. Seta. I nostri filati. Negli anni, la nostra azienda si è adeguata allo scorrere delle tendenze, rimanendo sempre al passo con le novità e il progresso: questo anche grazie ad una continua ricerca ed attenzione verso l’innovazione, oltre alla creatività, con annessa una cura particolare verso i desideri del cliente. Tutto questo ci ha permesso di rispondere in modo concreto al mercato crescente, con un’ampia scelta e diversificazione dei nostri filati. Ogni macchina di filatura di cui disponiamo, è infatti progettata per creare prodotti di alto livello. Scopri diu più. Modernità, Creatività e Progresso. Collezioni. Le nostre collezioni riflettono l'anima della nostra azienda: filati pregiati, che nascono dall'innata creatività e dalla solida storicità che appartengono da generazioni a Casa del Filato, rendendola ciò che è oggi. AUTUNNO / INVERNO. 25/26. Scopri diu più. PRIMAVERA / ESTATE. 2025. Scopri diu più. Eventi. 28/30 Gennaio 2025. Pitti Immagine Filati. FORTEZZA DA BASSO (FI). Anche quest'anno Casa del Filato sarà presente all'edizione di Pitti Filati.L'appuntamento internazionale di riferimento del settore dei filati per m... Scopri di più. Newsletter.",
+     "retrieved_at": "2026-11-22T08:37:18+00:00"
+    },
+    {
+     "url": "https://casadelfilato.com/en/",
+     "page_type": "homepage",
+     "text": "Casa del Filato | Italian Yarn. ITA. ENG. Since 1962. The company. Casa del Filato was founded as a small family business in 1962. After the acquisition of machineries, the company rapidly specialized in the production of carded yarns. Year after year, Casa del Filato established its national and international presence, thanks to a superior passion and reliability and to the collaborations with the most famous and premium global knitwear brands and knitters. Read More. Made in Italy craftsmanship. In a more and more competitive scenario full of threats for the craftsmanship, especially the Made in Italy one, Casa del Filato emerges as a certainty and point of reference in the sector. Founded in 1962, during the peak of the Florence economic boom, the company has developed its strong legacy with the handicraft, mastering its production for the sake of the Made in Italy. In this way it created a unique and recognizable identity both in the Italian and the international markets, gathering fundamental collaborations and partnerships in the weaving and knitting fields all around the world. Read More. Production. PREMIUM FIBERS. Cashmere, silk, wool, angora, cotton, viscose: all the fibers used and the range of our yarns tell a lot about who we are. The great part of our production is based on the carded spinning using these premium fibers. Our main goal is always to guarantee and supply a high-quality product thanks to the use of the finest raw materials, after a detailed and thorough selection. Casa del Filato has its own plant and machineries: the meticulous know-how and the attention for their maintenance allow us to work thoughtlessly and safely, focusing our energy on a continuous development and specialization. Every step, from the dyeing and the fiber assembling, to the yarn preparation, spinning and packaging, is entirely followed by us. Wool. Cashmere. Cotton. Angora. Viscose. Silk. Our Yarns. During the years, our company has adapted to the continuous change of the fashion trends, always keeping up with the new technologies and the progress: this has been possible thanks to a constant research and attention towards the innovation, beyond the creativity, with a meticulous care for the customers’ needs. This allowed us to concretely satisfy the growing market, with a vast supply and diversification of our yarns. Each knitting machine we own is indeed set up to produce high quality products. Read More. Modernity, creativity and progress. Collections. Our collections reflect our company’s soul: precious yarns born from the Casa del Filato’s inner creativity and historicity. These characteristics belong to the company from generations to generations, letting it become the company as we know it. AUTUMN / WINTER. 25/26. Read More. SPRING / SUMMER. 2025. Read More. Events. 28/30 Gennaio 2025. Pitti Immagine Filati. FORTEZZA DA BASSO (FI). Anche quest'anno Casa del Filato sarà presente all'edizione di Pitti Filati.L'appuntamento internazionale di riferimento del settore dei filati per m... Read more. Newsletter.",
+     "retrieved_at": "2026-11-22T08:37:23+00:00"
+    },
+    {
+     "url": "https://www.casadelfilato.com/en/company",
+     "page_type": "about",
+     "text": "Fine yarn producer | Made in Italy | Casa del Filato. ITA. ENG. Casa del Filato was born in 1962, in province of Florence, during the social and industrial boom, a flourishing period for Italy, in which the passion for our job found its way to grow luxuriant, permanently and lasting sinking its roots. Thanks to the growing economy during that time, the company, originally founded to trade yarns, rapidly became a direct producer of its whole line, establishing its presence both nationally and internationally, building partnerships with the best knitting and weaving brands around the world. We supply to our clientele only precious yarns, thanks to their outstanding quality and our detailed selection: we also bring these qualities to the best fashion shows where we exhibit: cashmere, silk, wool, angora are only a small portion of the yarns we use, together with the novelties that vary from the viscose to the cottons. Due to logistic reasons, our headquarter is in the industrial area of Seano, in the province of Prato. We firmly believe in the Made in Italy’s values and potential; in fact, at Casa del Filato you can only find high quality raw materials, carefully selected by our specialized team. Not only: the machineries, completely owned, let us work with commitment and dedication, allowing also a continuous research and specialization in the sector. A great part of our production is based on carded yarns, using fibers as cashmere, silk, wool and angora. Each step takes place within our district, carefully executed by our technicians, starting from the dyeing and assembling of the fiber to the preparation, knitting, spooling and boxing. A complete process in which we put our effort to provide one of the best products in the market. Every single step is meticulously supervised, ensuring their perfect and complete cycle, thanks to our expertise and maturity build during the years in the sector. Each creation tells about us: from 1962 to nowadays.",
+     "retrieved_at": "2026-11-22T08:37:29+00:00"
+    },
+    {
+     "url": "https://www.casadelfilato.com/en/contacts",
+     "page_type": "contact",
+     "text": "Contact me | Casa del Filato | Italian Yarn. ITA. ENG. Tel. 055 - 8705983 Fax 055 - 8706404. CASA DEL FILATO S.R.L. Via Galilei, 72/74. 59011 SEANO - Carmignano (PO). info@casafilato.it. Contact us for more Information. Casa del Filato s.r.l. - P.IVA 01715310973. Via Galilei, 72/74. 59011 SEANO - Carmignano (PO). info@casafilato.it. Tel. 055 - 8705983 / Fax 055 - 8706404.",
+     "retrieved_at": "2026-11-22T08:37:35+00:00"
+    }
+   ]
+  },
+  {
+   "candidate": {
+    "key": "newmill.it",
+    "start_url": "https://www.newmill.it/",
+    "result_url": "https://www.newmill.it/en/factory",
+    "title": "Factory - New Mill",
+    "snippet": "Highly specialized carded spinning mill particularly for pure cashmere, pure wool, cashmere blends, angora and other yarns containing noble and special fibres. All these yarns are produced internally.",
+    "source": "search",
+    "queries": [
+     "cashmere yarn spinning mill Italy"
+    ]
+   },
+   "official_website": "https://www.newmill.it",
+   "identity": {
+    "name": "New Mill",
+    "name_source": "og:site_name",
+    "country": "Italy",
+    "country_source": "inferred from domain ending (not verified)"
+   },
+   "errors": [],
+   "robots_blocked": false,
+   "contacts": {
+    "emails": [],
+    "phones": []
+   },
+   "pages": [
+    {
+     "url": "https://www.newmill.it/it/",
+     "page_type": "other_official",
+     "text": "Home - New Mill. AUTUNNO INVERNO 2027-2028. BOOK AI 27-28. PUNTI AI 27-28. PRIMAVERA-ESTATE 2027. BOOK PE 2027. AUTUNNO INVERNO 2026-2027. BOOK AI 2026-27. PUNTI AI 26-27. PRIMAVERA-ESTATE 2026. BOOK PE 2026. PUNTI PE 26. AUTUNNO INVERNO 2025-2026. BOOK AI 2025-2026. PUNTI AI 25-26. PRIMAVERA-ESTATE 2025. BOOK PE 2025. STOCK SERVICE. Collezioni precedenti. NEW MILL. IT. EN. La storia. Collezioni. AUTUNNO INVERNO 2027-2028. PRIMAVERA-ESTATE 2027. AUTUNNO INVERNO 2026-2027. PRIMAVERA-ESTATE 2026. AUTUNNO INVERNO 2025-2026. PRIMAVERA-ESTATE 2025. Collezioni precedenti. Sostenibilità. Stock Service. Punti. Fall Winter 2027-2028. Fall Winter 2026-2027. Fall Winter 2025-2026. Spring Summer 2026. Fall Winter 2024-2025. Fall Winter 2023-2024. Fall Winter 2022-2023. Spring Summer 2022. Fall Winter 2021-2022. Video. Struttura Produttiva. WebProtex. Contatti.",
+     "retrieved_at": "2026-11-22T08:37:19+00:00"
+    },
+    {
+     "url": "https://www.newmill.it/en/",
+     "page_type": "homepage",
+     "text": "Home - New Mill. FALL WINTER 2027 2028. BOOK FW 27-28. STITCHES FW 27-28. SPRING SUMMER 2027. BOOK SS 2027. FALL WINTER 2026 2027. BOOK FW 2026-27. STITCHES FW 26-27. SPRING - SUMMER 2026. BOOK SS 2026. STITCHES SS 26. FALL WINTER 2025 2026. BOOK FW 2025-2026. STITCHES FW 25-26. SPRING - SUMMER 2025. BOOK SS 2025. STOCK SERVICE. Previous collections. NEW MILL. IT. EN. Our Story. Stitches. Fall Winter 2027-2028. Fall Winter 2026-2027. Spring Summer 2026. Fall Winter 2025-2026. Fall Winter 2024-2025. Fall Winter 2023-2024. Fall Winter 2022-2023. Fall Winter 2021-2022. Spring Summer 2022. Collections. FALL WINTER 2027 2028. SPRING SUMMER 2027. FALL WINTER 2026 2027. SPRING - SUMMER 2026. FALL WINTER 2025 2026. SPRING - SUMMER 2025. Previous collections. Stock Service. Video. Sustainability. Factory. WebProtex. Contacts.",
+     "retrieved_at": "2026-11-22T08:37:20+00:00"
+    },
+    {
+     "url": "https://www.newmill.it/en/factory",
+     "page_type": "manufacturing",
+     "text": "Factory - New Mill. Finishing process and quality control. The final production stage is very important to improve the quality of the product. This is the reason why New Mill has decided to make an investment and create internally a highly specialized section to be able to follow directly and completely the entire yarn production process. In this way New Mill can offer, thanks to specific internal laboratories checking the quality of each production step, a very high level product. Raw materials and stock service. Raw materials coming in big quantities from Australia, China, Mongolia, South America and South Africa are stored based on their finesse and cleanliness. The ready yarn is then kept as “stock service” for the customers. Highly specialized carded spinning mill. Highly specialized carded spinning mill particularly for pure cashmere, pure wool, cashmere blends, angora and other yarns containing noble and special fibres. All these yarns are produced internally. To be able to follow at its best the whole production process we have further modified our already high-level structures to achieve the best possible quality. NEW MILL. IT. EN. Our Story. Stitches. Fall Winter 2027-2028. Fall Winter 2026-2027. Spring Summer 2026. Fall Winter 2025-2026. Fall Winter 2024-2025. Fall Winter 2023-2024. Fall Winter 2022-2023. Fall Winter 2021-2022. Spring Summer 2022. Collections. FALL WINTER 2027 2028. SPRING SUMMER 2027. FALL WINTER 2026 2027. SPRING - SUMMER 2026. FALL WINTER 2025 2026. SPRING - SUMMER 2025. Previous collections. Stock Service. Video. Sustainability. Factory. WebProtex. Contacts.",
+     "retrieved_at": "2026-11-22T08:37:21+00:00"
+    },
+    {
+     "url": "https://www.newmill.it/en/our-story",
+     "page_type": "about",
+     "text": "Our Story - New Mill. MAKING YARNS IS LIKE TELLING OUR STORY. Our story, besides being the story of an enterprise, is first of all the story of a family with an essential target: the art of creating yarns. In 1966, in full economic recovery, Giuseppe Milanesi founded Milanesi Filati in Prato, a place home of textiles in general and recycled products in particular. In Prato rag people used to select second hand products coming from America, to recycle them and to create new textile products. Fully embracing this philosophy, Milanesi Filati was started, a company producing carded yarns with its own internal machinery and a verticalized structure that has always been its main feature. In 1988 the historical Milanesi Filati decided to change its name and became NEW MILL SpA, the second generation joined the company with new concepts and new ideas and started to work with the most important fashion brands. Today NEW MILL is run by the 4 sons of Giuseppe, with the same passion as their father, with the support of about 50 employees. What has always characterized the company, is the particular attention to the environment and its resources, believing in a story that is our story. Our yarns are the result of the efforts of people that, thanks to their experience and capacity, give their contribution to create these products in a land traditionally very closely linked to textile. For the creation of our yarns we only use noble fibres, with particular attention to quality and ethics. New Mill in fact boasts several certifications both for the products and the company. Vai alla pagina sulla sostenibilità. The fashion research, the passion and the particular attention that we put in our yarns guarantee to our customers the highest level of professionalism. Key point is for us the possibility of offering a quick service with our stock service supported qualities, available in many colours. Go to Stock Service. New Mill today is a company that looks into the future, investing in structures and human resources. Yesterday as today the quality of our staff is the most important raw material. According to the history of our family, New Mill yarns must tell a story made of passions, innovations, feelings and love towards our activity, which is the heritage of our family. Famiglia Milanesi. Follow Us. NEW MILL. IT. EN. Our Story. Stitches. Fall Winter 2027-2028. Fall Winter 2026-2027. Spring Summer 2026. Fall Winter 2025-2026. Fall Winter 2024-2025. Fall Winter 2023-2024. Fall Winter 2022-2023. Fall Winter 2021-2022. Spring Summer 2022. Collections. FALL WINTER 2027 2028. SPRING SUMMER 2027. FALL WINTER 2026 2027. SPRING - SUMMER 2026. FALL WINTER 2025 2026. SPRING - SUMMER 2025. Previous collections. Stock Service. Video. Sustainability. Factory. WebProtex. Contacts.",
+     "retrieved_at": "2026-11-22T08:37:22+00:00"
+    },
+    {
+     "url": "https://www.newmill.it/en/collections/collection?codice_collezione=0127",
+     "page_type": "products",
+     "text": "Collection FALL WINTER 2027 2028 - New Mill. FALL WINTER 2027 2028. GREEN MILL. Nm.2.500. 13% WP-SUPER SUPERFINE ALPACA. 12% WO WOOL. 13% PC ACRYLIC. 11% PA NYLON. 51% CO COTTON. AIR SOFT TECHNOLOGY. SOME COLORS STOCK. BELLINO RWS NM 2.500. Nm.2/12.000. 23% WO-RECYCL RECYCLED WOOL (GRS). 47% WO WOOL. 30% PA-RECYCL RECYCLED POLYAMIDE (GRS). STOCK SERVICE. BIRT GRS NM 2/12. Nm.2/12..000. 23% WO-RECYCL RECYCLED WOOL (GRS). 47% WO WOOL. 30% PA-RECYCL RECYCLED POLYAMIDE (GRS). NEW ARTICLE. SINGLE PLY STOCK SERVICE. BIRT MOULINE' GRS NM 2/12. Nm.2.250. 40% WO-RECYCL RECYCLED WOOL (GRS). 40% WO WOOL. 20% PA-RECYCL RECYCLED POLYAMIDE (GRS). NEW ARTCLE. BIT GRS NM 2.250 C3257. Nm.2.000. 67% WO-MACRO WOOL MACROWASH TREATMENT RWS. 33% PA NYLON. BRUGNON RWS NM 2.000. Nm.2/7.000. 40% WO-RECYCL RECYCLED WOOL (GRS). 40% WO WOOL. 20% PA-RECYCL RECYCLED POLYAMIDE (GRS). SOME COLORS STOCK. C.D. GRS NM 2/7.000. Nm.7.000. 40% WO-RECYCL RECYCLED WOOL (GRS). 20% PA-RECYCL RECYCLED POLYAMIDE (GRS). 40% WO WOOL. SOME COLORS STOCK. C.D. GRS NM 1/7.000. Nm.2.800. 29% WP-SUPER SUPERFINE ALPACA. 29% WO WOOL. 29% PC ACRYLIC. 12% PA NYLON. 1% EA ELASTOMERO. SOME COLORS STOCK. CANCUN RWS. Nm.6.800. 68% CO COTTON. 32% PA NYLON. WARM BOUCLE MULTISEASON. SOLID AND PRINTED COLORS. COLORI UNITI E STAMPATI. COCCOLINO NM 6.800. Nm.3.600. 14% WP-SUPER SUPERFINE ALPACA. 51% WO-MACRO WOOL MACROWASH TREATMENT RWS. 35% PA NYLON. AIR SOFT TECHNOLOGY. COCKTAIL RWS NM 3.600. Nm.4.800. 73% LY LYOCELL. 27% PA NYLON. NEW ARTICLE. CRINIERA C3319 NM 4.800. Nm.2.600. 25% WP-SUPER SUPERFINE ALPACA. 25% WO WOOL. 25% PC ACRYLIC. 25% PA NYLON. AIR SOFT TECHNOLOGY. SOME COLORS STOCK. CUZCO RWS NM 2.600. Nm.2.400. 77% WO-RWS WOOL RWS. 23% PA NYLON. NEW ARTICLE. DRIPS RWS NM 2.400. Nm.3/14..500. 5% WS CASHMERE. 25% WO WOOL. 40% VI-ECOVERO ECOVERO VISCOSE. 30% PA NYLON. SINGLE PLY STOCK SERVICE. ECO DANIEL MOULINE' 3/14.500. Nm.2/14..500. 5% WS CASHMERE. 25% WO WOOL. 40% VI-ECOVERO ECOVERO VISCOSE. 30% PA NYLON. NEW ARTICLE. SINGLE PLY STOCK SERVICE. ECO DANIEL MOULINE' Nm 2/14.5. Nm.14.500. 5% WS CASHMERE. 30% PA NYLON. 25% WO WOOL. 40% VI-ECOVERO ECOVERO VISCOSE. STOCK SERVICE. ECO DANIEL Nm 1/14500. Nm.14.500. 20% WS CASHMERE. 35% WO WOOL. 15% PA NYLON. 30% VI-ECOVERO ECOVERO VISCOSE. ECO GAMMA COLORATO Nm 1/14.5. Nm.18.000. 5% WS CASHMERE. 25% WO WOOL. 40% VI-ECOVERO ECOVERO VISCOSE. 30% PA NYLON. ECO LEAL Nm 1/18.000. Nm.14.500. 40% WV FLECCE WOOL. 25% PA NYLON. 10% WS CASHMERE. 25% VI-ECOVERO ECOVERO VISCOSE. STOCK SERVICE. ECO VELOX Nm 1/14.5. Nm.2.300. 56% WO-MACRO WOOL MACROWASH TREATMENT RWS. 21% CO-ORGANIC ORGANIC COTTON. 23% PA NYLON. NEW ARTICLE. AIR SOFT TECHNOLOGY. FANCY KING RWS NM 2.300. Nm.2/14..000. 50% WS-RECYCL RECYCLED CASHMERE (GRS). 50% WO-RWS WOOL RWS. FIFTY FIFTY GRS/RWS NM 2/14000. Nm.1.850. 59% WO-RWS WOOL RWS MACROWASH. 23% PL-RECYCL RECYCLED POLIESTER (GRS). NEW ARTICLE. FLUO PANTHER RWS/GRS NM 1850. Nm.1.900. 36% WO-RECYCL RECYCLED WOOL (GRS). 36% WO WOOL. 19% PA-RECYCL RECYCLED POLYAMIDE (GRS). 9% PA NYLON. GIMLET GRS NM 1.900. Nm.2.000. 17% WP-SUPER SUPERFINE ALPACA. 64% WO-MACRO WOOL MACROWASH TREATMENT RWS. 19% PA NYLON. AIR SOFT TECHNOLOGY. NEW ARTICLE. GOLEADOR RWS NM 2.000. Nm.2/14.000. 75% WS-RECYCL RECYCLED CASHMERE (GRS). 22% WS CASHMERE. 3% WO-RECYCL RECYCLED WOOL (GRS). STOCK SERVICE. GREEN CASH GRS 2/14. Nm.4.800. 40% WO-RECYCL RECYCLED WOOL (GRS). 20% PA-RECYCL RECYCLED POLYAMIDE (GRS). NEW ARTICLE. HORSE GRS NM 4.800. Nm.2.500. 100% WV FLECCE WOOL. NEW ARTICLE. SINGLE PLY-CAPO UNICO STOCK SERVICE. HUGO NM 2.500. Nm.2/13..000. 50% WO-RECYCL RECYCLED WOOL (GRS). 50% WO WOOL. NEW ARTICLE. SINGLE PLY-CAPO UNICO STOCK SERVICE. LANRIG GRS MOULINE' 2/13. Nm.1/13.000. 50% WO-RECYCL RECYCLED WOOL (GRS). 50% WO WOOL. LANRIG GRS NM 1/13000. Nm.2/13.000. 50% WO-RECYCL RECYCLED WOOL (GRS). 50% WO WOOL. LANRIG GRS Nm 2/13. Nm.4.400. 35% WO-RECYCL RECYCLED WOOL (GRS). 34% WO WOOL. 17% PA-RECYCL RECYCLED POLYAMIDE (GRS). 14% PA NYLON. SINGLE PLY STOCK SERVICE. LITTLE ERMES GRS NM 4.400. Nm.4.400. SINGLE PLY STOCK SERVICE. LITTLE ERMES GT GRS NM 4.400. Nm.2/15.000. 40% WO-RECYCL RECYCLED WOOL (GRS). 40% WO WOOL. 20% PA-RECYCL RECYCLED POLYAMIDE (GRS). STOCK SERVICE. MAGREB GRS COLORATO 2/15. Nm.15.000. 40% WO WOOL. 40% WO-RECYCL RECYCLED WOOL (GRS). 20% PA-RECYCL RECYCLED POLYAMIDE (GRS). STOCK SERVICE. MAGREB GRS COLORATO Nm 1/15. Nm.2/15.000. 40% WO-RECYCL RECYCLED WOOL (GRS). 40% WO WOOL. 20% PA-RECYCL RECYCLED POLYAMIDE (GRS). SINGLE PLY STOCK SERVICE. MAGREB GRS MOULINE' Nm 2/15. Nm.3/15.000. 40% WO-RECYCL RECYCLED WOOL (GRS). 40% WO WOOL. 20% PA-RECYCL RECYCLED POLYAMIDE (GRS). SINGLE PLY STOCK SERVICE. MAGREB MOULINE' GRS NM 3/15. Nm.13.000. 35% WO-RECYCL RECYCLED WOOL (GRS). 35% WO WOOL. 17% PA-RECYCL RECYCLED POLYAMIDE (GRS). 10% PA NYLON. 3% EA ELASTOMERO. SINGLE PLY STOCK SERVICE. NEW SHERPA GRS 13.000. Nm.13.000. 100% WV-TEC MERINO EXTRAFINE WOOL TOTAL EASY CARE. MACHINE WASHABLE & TUMBLE DRY. NEW SUPER TEC RWS NM 1/13000. Nm.2/13..000. 100% WV-TEC MERINO EXTRAFINE WOOL TOTAL EASY CARE. MACHINE WASHABLE & TUMBLE DRY. NEW SUPER TEC RWS NM 2/13.000. Nm.2.600. 75% WO-RWS WOOL RWS MACROWASH. 25% PA NYLON. NEW ARTICLE. AIR SOFT TECHNOLOGY. PADDOCK RWS NM 2.600. Nm.1.350. 5% WS CASHMERE. 25% WO WOOL. 40% VI-ECOVERO ECOVERO VISCOSE. 30% PA NYLON. NEW ARTICLE. SINGLE PLY-CAPO UNICO STOCK SERVICE. PONY C3270 NM 1.350. Nm.2.800. 35% WO WOOL. 35% WO-RECYCL RECYCLED WOOL (GRS). 17% PA-RECYCL RECYCLED POLYAMIDE (GRS). 13% PA NYLON. NEW ARTICLE. RIBOT GRS NM 2.800. Nm.2.600. 40% WO WOOL. 40% WO-RECYCL RECYCLED WOOL (GRS). 20% PA-RECYCL RECYCLED POLYAMIDE (GRS). NEW ARTICLE. RIDER GRS NM 2.600. Nm.7.500. 10% WP-SUPER SUPERFINE ALPACA. 40% WO-RWS WOOL RWS MACROWASH. 50% PA NYLON. NEW ARTICLE. SPUMOSO RWS NM 7.500. Nm.2.800. 29% WP-SUPER SUPERFINE ALPACA. 29% WO WOOL. 29% PC ACRYLIC. 12% PA NYLON. 1% EA ELASTOMERO. SOME COLORS STOCK. TIKAL RWS. Nm.3.000. 65% VI-ECOVERO ECOVERO VISCOSE. 7% PA NYLON. 28% ME METALLISED FIBRE. LUREX YARN. TONCHINESE NM 3.000. Nm.1.550. SINGLE PLY STOCK SERVICE. VODKA NM 1.550. Nm.2/13..000. 100% WO-RECYCL RECYCLED WOOL (GRS). NEW ARTICLE. WOOL GRS 2/13.000. NEW MILL. Nm.2/16.000. 50% WA ANGORA. 45% PA NYLON. 5% WO WOOL. READY TO DYE. ANGORA 50/45 SPIKY 5WO NM 2/16. Nm.2/16.000. 70% WA ANGORA. 10% WV FLECCE WOOL. 20% PA NYLON. READY TO DYE. ANGORA 70 SPIKY 2/16. Nm.2/15.000. 90% WA ANGORA. 10% PA NYLON. READY TO DYE. ANGORA 90 2/15. Nm.2/13..000. 50% WM-SUPER SUPERKID MOHAIR. 50% WV FLECCE WOOL. NEW ARTICLE. READY TO DYE. BRUMA 2/13.000. Nm.3/13..000. 50% WM-SUPER SUPERKID MOHAIR. 50% WV FLECCE WOOL. NEW ARTICLE. READY TO DYE. BRUMA 3/13.000. Nm.2/15.000. 10% WS CASHMERE. 90% WV-SUPER MERINO EXTRAFINE SUPERIOR. STOCK SERVICE. CAMBRIDGE 2/15. Nm.15.000. 90% WV-SUPER MERINO EXTRAFINE SUPERIOR. 10% WS CASHMERE. STOCK SERVICE. CAMBRIDGE Nm 1/15. Nm.4/15..000. 100% WV FLECCE WOOL. SINGLE PLY STOCK SERVICE. CAMPARI NM 4/15.000. Nm.2.600. 100% WV FLECCE WOOL. NEW ARTICLE. CHEESECAKE NM 2.600. Nm.15.000. 100% WV-SUPER MERINO EXTRAFINE SUPERIOR. DAY EXTRAFINE 130's. Nm.4.400. 86% WV FLECCE WOOL. 14% PA NYLON. SINGLE PLY STOCK SERVICE. DIONISO GT NM 4.400. Nm.4.400. 86% WV FLECCE WOOL. 14% PA NYLON. SINGLE PLY STOCK SERVICE. DIONISO NM 4.400. Nm.2/30..000. 100% WV FLECCE WOOL. NEW ARTICLE. DRESSAGE 2/30 C3223. Nm.2/28.000. 20% WS CASHMERE. 25% SE SILK. 55% WV FLECCE WOOL. HARVARD Nm 2/28. Nm.2/20..000. 15% WS CASHMERE. 85% WV FLECCE WOOL. SINGLE PLY STOCK SERVICE. ILLIMITY Nm 2/20.000. Nm.2/30..000. 10% WS CASHMERE. 90% WV FLECCE WOOL. STOCK SERVICE. INFINITY 2/30. Nm.3.550. 70% WV FLECCE WOOL. 30% CO-ORGANIC ORGANIC COTTON. SINGLE PLY STOCK SERVICE. IRISH COFFEE GT ORG 3.550. Nm.3.550. 70% WV FLECCE WOOL. 30% CO-ORGANIC ORGANIC COTTON. SINGLE PLY STOCVK SERVICE. IRISH COFFEE ORG NM 3.550. Nm.3.900. 87% WV FLECCE WOOL. 13% PA NYLON. LAST WORD NM 3.900. Nm.4.000. 96% WV FLECCE WOOL. 4% PA NYLON. NEW ARTICLE. MUSTANG NM 4.000. Nm.15.000. 50% WV FLECCE WOOL. 50% CO COTTON. NILO Nm 1/15. Nm.2/15..000. 50% WV FLECCE WOOL. 50% CO COTTON. NILO Nm 2/15. Nm.1/8.800. 100% WV FLECCE WOOL. PLUMCAKE Nm 1/8800. Nm.2/8.800. 100% WV FLECCE WOOL. PLUMCAKE NM 2/8800. Nm.8.000. 84% WV FLECCE WOOL. 16% PA NYLON. NEW ARTICLE. POLO NM 8.000. Nm.2/13..000. 25% WM-SUPER SUPERKID MOHAIR. 25% WO WOOL. 50% PA NYLON. NEW ARTICLE. READY TO DYE. SELVA NM 2/13.000. Nm.3/13..000. 25% WM-SUPER SUPERKID MOHAIR. 25% WO WOOL. 50% PA NYLON. NEW ARTICLE. READY TO DYE. SELVA NM 3/13.000. Nm.13.000. 87% WV FLECCE WOOL. 10% PA NYLON. 3% EA ELASTOMERO. SINGLE PLY STOCK SERVICE. SOFTLASTIC 13.000. Nm.1.350. 100% WV FLECCE WOOL. NEW ARTICLE. SUPER CORD NM 1.350. Nm.2/15.000. 100% WV FLECCE WOOL. SINGLE PLY STOCK SERVICE. SUPER SOFT MOULINE' 2/15. Nm.3/15.000. 100% WV FLECCE WOOL. SINGLE PLY STOCK SERVICE. SUPER SOFT MOULINE' 3/15. Nm.15.000. 100% WV FLECCE WOOL. STOCK SERVICE. SUPER SOFT Nm 1/15. Nm.2/15.000. 100% WV FLECCE WOOL. STOCK SERVICE. SUPER SOFT Nm 2/15. FASHION MILL. Nm.14.600. 66% WV-TEC MERINO EXTRAFINE WOOL TOTAL EASY CARE. 34% PA NYLON. NEW ARTICLE. JACOB NM 14.600. Nm.4.150. 76% WV-TEC MERINO EXTRAFINE WOOL TOTAL EASY CARE. 24% PA NYLON. NEW ARTICLE. MARION NM 4.150. Nm.1.850. 57% WO-RWS WOOL RWS MACROWASH. 10% WO WOOL. 10% WO-RECYCL RECYCLED WOOL (GRS). 18% PA NYLON. 5% PA-RECYCL RECYCLED POLYAMIDE (GRS). NEW ARTICLE. PINK PANTHER NM 1850. GREEN MILL. NEW MILL. FASHION MILL. Follow Us. NEW MILL. IT. EN. Our Story. Stitches. Fall Winter 2027-2028. Fall Winter 2026-2027. Spring Summer 2026. Fall Winter 2025-2026. Fall Winter 2024-2025. Fall Winter 2023-2024. Fall Winter 2022-2023. Fall Winter 2021-2022. Spring Summer 2022. Collections. FALL WINTER 2027 2028. SPRING SUMMER 2027. FALL WINTER 2026 2027. SPRING - SUMMER 2026. FALL WINTER 2025 2026. SPRING - SUMMER 2025. Previous collections. Stock Service. Video. Sustainability. Factory. WebProtex. Contacts.",
+     "retrieved_at": "2026-11-22T08:37:24+00:00"
+    }
+   ]
+  }
+ ]
+}

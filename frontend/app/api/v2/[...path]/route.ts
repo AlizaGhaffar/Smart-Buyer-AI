@@ -1,0 +1,48 @@
+import { NextResponse } from "next/server";
+
+// Proxy for the FastAPI /api/v2 endpoints. Only known paths are forwarded.
+const ALLOWED = [
+  /^search$/,
+  /^search\/[a-f0-9]{32}$/,
+  /^products$/,
+  /^knowledge\/(raw_sheep_wool|duck_down|cashmere)$/,
+];
+
+async function forward(request: Request, segments: string[]) {
+  const path = segments.join("/");
+  if (!ALLOWED.some((pattern) => pattern.test(path))) {
+    return NextResponse.json({ detail: "Not found." }, { status: 404 });
+  }
+  const backendUrl = (process.env.BACKEND_API_URL ?? "http://127.0.0.1:8000").replace(/\/$/, "");
+  try {
+    const response = await fetch(`${backendUrl}/api/v2/${path}`, {
+      method: request.method,
+      headers: { "Content-Type": "application/json" },
+      body: request.method === "POST" ? await request.text() : undefined,
+      cache: "no-store",
+    });
+    return new Response(await response.text(), {
+      status: response.status,
+      headers: {
+        "Content-Type": response.headers.get("content-type") ?? "application/json",
+        "Cache-Control": "no-store",
+      },
+    });
+  } catch (error) {
+    console.error("Could not reach the Smart Buyer AI backend.", error);
+    return NextResponse.json(
+      { detail: "The analysis service is not reachable. Is the backend running on port 8000?" },
+      { status: 502 },
+    );
+  }
+}
+
+type Context = { params: Promise<{ path: string[] }> };
+
+export async function GET(request: Request, context: Context) {
+  return forward(request, (await context.params).path);
+}
+
+export async function POST(request: Request, context: Context) {
+  return forward(request, (await context.params).path);
+}

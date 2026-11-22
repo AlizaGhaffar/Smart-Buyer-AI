@@ -1,0 +1,5 @@
+beautifulsoup4>=4.12,<5
+ddgs>=9,<10
+duckduckgo-search>=7,<9  # legacy /api/search (finder.py) only; remove after the frontend uses /api/v2
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
