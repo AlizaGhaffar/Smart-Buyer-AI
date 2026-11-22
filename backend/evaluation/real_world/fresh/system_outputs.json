@@ -1,0 +1,1170 @@
+{
+ "FW01": {
+  "key": "biellathewoolcompany.it",
+  "product": "raw_sheep_wool",
+  "search_country": "Italy",
+  "company": "Biella Wool Company",
+  "website": "https://www.biellathewoolcompany.it",
+  "pages": [
+   "https://www.biellathewoolcompany.it/",
+   "https://www.biellathewoolcompany.it/en/",
+   "https://www.biellathewoolcompany.it/en/wool-collection-center/",
+   "https://www.biellathewoolcompany.it/en/contact/",
+   "https://www.biellathewoolcompany.it/en/processing-proposal/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 79,
+  "rules": [
+   "G-R1",
+   "G-R2",
+   "SW-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": false,
+  "id": "FW01"
+ },
+ "FW02": {
+  "key": "ecopartnersheep.eu",
+  "product": "raw_sheep_wool",
+  "search_country": "Italy",
+  "company": "EcoPartnerSheep",
+  "website": "https://www.ecopartnersheep.eu",
+  "pages": [
+   "https://www.ecopartnersheep.eu/",
+   "https://www.ecopartnersheep.eu/contact"
+  ],
+  "system": "confirmed_purchaser",
+  "score": 92,
+  "rules": [
+   "G-R1",
+   "SW-P4a",
+   "SW-P5"
+  ],
+  "reason": "DIRECT_PURCHASE",
+  "baseline_positive": false,
+  "id": "FW02"
+ },
+ "FW03": {
+  "key": "exporters.sg",
+  "product": "raw_sheep_wool",
+  "search_country": "Italy",
+  "company": "exporters.sg",
+  "website": "https://exporters.sg/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "FW03"
+ },
+ "FW04": {
+  "key": "papifabio.com",
+  "product": "raw_sheep_wool",
+  "search_country": "Italy",
+  "company": "Filatura Papi Fabio, filati cardati e pettinati di alta gamma",
+  "website": "https://www.papifabio.com",
+  "pages": [
+   "https://www.papifabio.com/it/home",
+   "https://www.papifabio.com/en/home",
+   "https://www.papifabio.com/en/1/Papi-Fabio",
+   "https://www.papifabio.com/en/collections",
+   "https://www.papifabio.com/en/contacts"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": false,
+  "id": "FW04"
+ },
+ "FW05": {
+  "key": "filaturac4.it",
+  "product": "raw_sheep_wool",
+  "search_country": "Italy",
+  "company": "filaturac4.it",
+  "website": "https://filaturac4.it/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "FW05"
+ },
+ "FW06": {
+  "key": "inpaddock.com",
+  "product": "raw_sheep_wool",
+  "search_country": "Italy",
+  "company": "inpaddock.com",
+  "website": "https://inpaddock.com/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "FW06"
+ },
+ "FW07": {
+  "key": "lanificiobottoli.com",
+  "product": "raw_sheep_wool",
+  "search_country": "Italy",
+  "company": "lanificio bottoli",
+  "website": "https://www.lanificiobottoli.com",
+  "pages": [
+   "https://www.lanificiobottoli.com/",
+   "https://www.lanificiobottoli.com/en",
+   "https://www.lanificiobottoli.com/en/pages/il-lanificio",
+   "https://www.lanificiobottoli.com/en/pages/larchivio",
+   "https://www.lanificiobottoli.com/en/pages/le-collezioni"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": false,
+  "id": "FW07"
+ },
+ "FW08": {
+  "key": "marcoliani.it",
+  "product": "raw_sheep_wool",
+  "search_country": "Italy",
+  "company": "Marcoliani Milano",
+  "website": "https://www.marcoliani.it",
+  "pages": [
+   "https://www.marcoliani.it/",
+   "https://www.marcoliani.it/en/",
+   "https://www.marcoliani.it/en/yarns/",
+   "https://www.marcoliani.it/en/about-us/",
+   "https://www.marcoliani.it/en/products/"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G-ROLE2",
+   "SW-N1"
+  ],
+  "reason": "RETAILER_OR_BRAND",
+  "baseline_positive": false,
+  "id": "FW08"
+ },
+ "FW09": {
+  "key": "ecofriendsheep.eu",
+  "product": "raw_sheep_wool",
+  "search_country": "Italy",
+  "company": "Natural Sheep Wool Insulation",
+  "website": "https://ecofriendsheep.eu",
+  "pages": [
+   "https://ecofriendsheep.eu/",
+   "https://ecofriendsheep.eu/products/",
+   "https://ecofriendsheep.eu/wool-insulation/"
+  ],
+  "system": "confirmed_purchaser",
+  "score": 100,
+  "rules": [
+   "G-R1",
+   "SW-P1",
+   "SW-P4a",
+   "SW-P5"
+  ],
+  "reason": "DIRECT_PURCHASE",
+  "baseline_positive": false,
+  "id": "FW09"
+ },
+ "FW10": {
+  "key": "newmill.it",
+  "product": "raw_sheep_wool",
+  "search_country": "Italy",
+  "company": "New Mill",
+  "website": "https://www.newmill.it",
+  "pages": [
+   "https://www.newmill.it/it/",
+   "https://www.newmill.it/en/",
+   "https://www.newmill.it/en/factory",
+   "https://www.newmill.it/en/our-story",
+   "https://www.newmill.it/en/collections/collection?codice_collezione=0127"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 58,
+  "rules": [
+   "G-R1",
+   "SW-P3"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": false,
+  "id": "FW10"
+ },
+ "FW11": {
+  "key": "sustainableindustries.com",
+  "product": "raw_sheep_wool",
+  "search_country": "Italy",
+  "company": "Sustainable Industries",
+  "website": "https://www.sustainableindustries.com",
+  "pages": [
+   "https://www.sustainableindustries.com/",
+   "https://www.sustainableindustries.com/suppliers/countries/italy/materials/wool-responsible/processes/spinning",
+   "https://www.sustainableindustries.com/blog/sustainability-business-strategy",
+   "https://www.sustainableindustries.com/suppliers/product-categories/dyed-fabrics"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G6-MIX"
+  ],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": true,
+  "id": "FW11"
+ },
+ "FD01": {
+  "key": "6wresearch.com",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "6Wresearch",
+  "website": "https://www.6wresearch.com",
+  "pages": [
+   "https://www.6wresearch.com/",
+   "https://www.6wresearch.com/industry-report/hungary-down-jacket-market",
+   "https://www.6wresearch.com/about",
+   "https://www.6wresearch.com/services/advisory-consulting"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": true,
+  "id": "FD01"
+ },
+ "FD02": {
+  "key": "amw.pl",
+  "product": "duck_down",
+  "search_country": "Poland",
+  "company": "AMW Nawrot",
+  "website": "https://amw.pl",
+  "pages": [
+   "https://amw.pl/",
+   "https://amw.pl/en/",
+   "https://amw.pl/en/down-feather-supply-contract-sewing/",
+   "https://amw.pl/en/solutions/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 72,
+  "rules": [
+   "G-R1",
+   "G-R2",
+   "G6-MIX",
+   "DD-P2",
+   "DD-P4"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "FD02"
+ },
+ "FD03": {
+  "key": "aurabedding.com",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "Aura Down Bedding",
+  "website": "https://aurabedding.com",
+  "pages": [
+   "https://aurabedding.com/",
+   "https://aurabedding.com/about/",
+   "https://aurabedding.com/duvets/",
+   "https://aurabedding.com/contact/"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": true,
+  "id": "FD03"
+ },
+ "FD04": {
+  "key": "bekestex.hu",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "BekesTex Trade LTD.",
+  "website": "https://bekestex.hu",
+  "pages": [
+   "https://bekestex.hu/",
+   "https://bekestex.hu/en/outwear-manufacturing/",
+   "https://bekestex.hu/en/about-us/",
+   "https://bekestex.hu/en/professional-outerwear-production/",
+   "https://bekestex.hu/en/outerwear-manufacturing/"
+  ],
+  "system": "insufficient_evidence",
+  "score": 30,
+  "rules": [
+   "G-R1",
+   "DD-N3"
+  ],
+  "reason": "MISSING_MATERIAL",
+  "baseline_positive": false,
+  "id": "FD04"
+ },
+ "FD05": {
+  "key": "downrightltd.com",
+  "product": "duck_down",
+  "search_country": "Poland",
+  "company": "Downright",
+  "website": "https://downrightltd.com",
+  "pages": [
+   "https://downrightltd.com/",
+   "https://downrightltd.com/product/himalaya-polish-wgd-pillow/",
+   "https://downrightltd.com/about/",
+   "https://downrightltd.com/product-category/down-alternative-comforters/"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G6-MIX",
+   "DD-N2"
+  ],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": true,
+  "id": "FD05"
+ },
+ "FD06": {
+  "key": "eiderdownusa.com",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "Eiderdown & Z Land Bedding",
+  "website": "https://www.eiderdownusa.com",
+  "pages": [
+   "https://www.eiderdownusa.com/",
+   "https://www.eiderdownusa.com/collections/hungarian-duck-down-pillows",
+   "https://www.eiderdownusa.com/pages/customer-reviews",
+   "https://www.eiderdownusa.com/collections/new-zealand-made-comforters"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": true,
+  "id": "FD06"
+ },
+ "FD07": {
+  "key": "pehelypaplan.hu",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "Elfenbein Bedding",
+  "website": "https://pehelypaplan.hu",
+  "pages": [
+   "https://pehelypaplan.hu/",
+   "https://pehelypaplan.hu/pages/our-story",
+   "https://pehelypaplan.hu/collections/down-comforters",
+   "https://pehelypaplan.hu/pages/enviromental-quality"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "DD-N2"
+  ],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": false,
+  "id": "FD07"
+ },
+ "FD08": {
+  "key": "en.puhslowinscy.pl",
+  "product": "duck_down",
+  "search_country": "Poland",
+  "company": "en.puhslowinscy.pl",
+  "website": "http://en.puhslowinscy.pl",
+  "pages": [
+   "http://en.puhslowinscy.pl/"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": true,
+  "id": "FD08"
+ },
+ "FD09": {
+  "key": "en.pyzynski.pl",
+  "product": "duck_down",
+  "search_country": "Poland",
+  "company": "en.pyzynski.pl",
+  "website": "https://en.pyzynski.pl/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "FD09"
+ },
+ "FD10": {
+  "key": "asasfashion.com",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "Fashion Coats & Jackets",
+  "website": "https://www.asasfashion.com",
+  "pages": [
+   "https://www.asasfashion.com/",
+   "https://www.asasfashion.com/local/down-jackets-manufacturer-factory-in-hungary/",
+   "https://www.asasfashion.com/about/",
+   "https://www.asasfashion.com/products/"
+  ],
+  "system": "insufficient_evidence",
+  "score": 30,
+  "rules": [
+   "G-R1",
+   "DD-N3"
+  ],
+  "reason": "MISSING_MATERIAL",
+  "baseline_positive": true,
+  "id": "FD10"
+ },
+ "FD11": {
+  "key": "fbzgroup.com",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "FBZ Group",
+  "website": "https://fbzgroup.com",
+  "pages": [
+   "https://fbzgroup.com/"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "FD11"
+ },
+ "FD12": {
+  "key": "featherland.hu",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "featherland.hu",
+  "website": "https://featherland.hu/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "FD12"
+ },
+ "FD13": {
+  "key": "featherprocessing.eu",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "featherprocessing.eu",
+  "website": "https://featherprocessing.eu/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "FD13"
+ },
+ "FD14": {
+  "key": "fepp.pl",
+  "product": "duck_down",
+  "search_country": "Poland",
+  "company": "Federacja Eksporterów Polskiego Puchu i Pierza",
+  "website": "https://fepp.pl",
+  "pages": [
+   "https://fepp.pl/",
+   "https://fepp.pl/en/",
+   "https://fepp.pl/en/about-us/",
+   "https://fepp.pl/en/contact/",
+   "https://fepp.pl/en/feather-processing-in-poland-past-and-present/"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 60,
+  "rules": [
+   "G-R1",
+   "DD-P3",
+   "DD-N2"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "FD14"
+ },
+ "FD15": {
+  "key": "eljotfirma.pl",
+  "product": "duck_down",
+  "search_country": "Poland",
+  "company": "Firma „ELJOT” Jacek Leśnik",
+  "website": "https://eljotfirma.pl",
+  "pages": [
+   "https://eljotfirma.pl/",
+   "https://eljotfirma.pl/en/home",
+   "https://eljotfirma.pl/en/down-feather-products",
+   "https://eljotfirma.pl/en/about",
+   "https://eljotfirma.pl/en/sewing-services/furniture-filling-and-cushion-production"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 60,
+  "rules": [
+   "G-R1",
+   "DD-P3"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": false,
+  "id": "FD15"
+ },
+ "FD16": {
+  "key": "gevifeder.com",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "Gevi Feder",
+  "website": "https://www.gevifeder.com",
+  "pages": [
+   "https://www.gevifeder.com/en",
+   "https://www.gevifeder.com/en/processing",
+   "https://www.gevifeder.com/en/about",
+   "https://www.gevifeder.com/en/products"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 60,
+  "rules": [
+   "G-R1",
+   "DD-P3",
+   "DD-N2"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "FD16"
+ },
+ "FD17": {
+  "key": "hamvay-lang.com",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "Hamvay-Láng",
+  "website": "https://www.hamvay-lang.com",
+  "pages": [
+   "https://www.hamvay-lang.com/",
+   "https://www.hamvay-lang.com/en-hu/collections/hungarian-goose-down-duvets",
+   "https://www.hamvay-lang.com/pages/hamvay-lang",
+   "https://www.hamvay-lang.com/collections/all"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G-ROLE1",
+   "DD-N2",
+   "DD-N4"
+  ],
+  "reason": "RETAILER_OR_BRAND",
+  "baseline_positive": false,
+  "id": "FD17"
+ },
+ "FD18": {
+  "key": "hungariangoosedown.com",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "Hungarian Goose Down Comforter llc",
+  "website": "https://hungariangoosedown.com",
+  "pages": [
+   "https://hungariangoosedown.com/",
+   "https://hungariangoosedown.com/hungoose-about/",
+   "https://hungariangoosedown.com/cart-2/",
+   "https://hungariangoosedown.com/contact-hungarian-goose-down-bedding/"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 56,
+  "rules": [
+   "G-R1",
+   "DD-N2"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": false,
+  "id": "FD18"
+ },
+ "FD19": {
+  "key": "huntoll.hu",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "Huntoll - Hungária Pehely Feldolgozó Ipari Kft.",
+  "website": "https://huntoll.hu",
+  "pages": [
+   "https://huntoll.hu/",
+   "https://huntoll.hu/en/",
+   "https://huntoll.hu/en/down-and-feather/",
+   "https://huntoll.hu/en/about-us/",
+   "https://huntoll.hu/en/product-guide/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 72,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "DD-P2"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "FD19"
+ },
+ "FD20": {
+  "key": "amidown.eu",
+  "product": "duck_down",
+  "search_country": "Poland",
+  "company": "Luxury Sweet Dreams",
+  "website": "https://amidown.eu",
+  "pages": [
+   "https://amidown.eu/",
+   "https://amidown.eu/en/",
+   "https://amidown.eu/en/about-us/",
+   "https://amidown.eu/en/our-shop/",
+   "https://amidown.eu/en/kontakt/"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G-ROLE1",
+   "DD-N4"
+  ],
+  "reason": "RETAILER_OR_BRAND",
+  "baseline_positive": true,
+  "id": "FD20"
+ },
+ "FD21": {
+  "key": "minatex.hu",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "Minatex - Külkereskedelmi tanácsadás; lakástextil export-import",
+  "website": "https://www.minatex.hu",
+  "pages": [
+   "https://www.minatex.hu/",
+   "https://www.minatex.hu/?lang=en"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G-R2"
+  ],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": true,
+  "id": "FD21"
+ },
+ "FD22": {
+  "key": "en.naturtex.hu",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "Naturtex Wool Feather and Down Processing Ltd.",
+  "website": "http://en.naturtex.hu",
+  "pages": [
+   "http://en.naturtex.hu/",
+   "http://en.naturtex.hu/about-us/",
+   "http://en.naturtex.hu/main-products/",
+   "http://en.naturtex.hu/contact-us/"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "DD-N2"
+  ],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": false,
+  "id": "FD22"
+ },
+ "FD23": {
+  "key": "hungoose.com",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "Original Fluffy Hungarian Goose Down Comforter, Pillow, Duve",
+  "website": "https://hungoose.com",
+  "pages": [
+   "https://hungoose.com/",
+   "https://hungoose.com/index.html",
+   "https://hungoose.com/collection.html",
+   "https://hungoose.com/information.html"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 76,
+  "rules": [
+   "G-R1",
+   "DD-P2"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "FD23"
+ },
+ "FD24": {
+  "key": "byourbed.com",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "Oversized Comforters by Byourbed, where our Queen is a King Sized Comforter and our King is an Oversized Comforter for your bedding comfort and decor. From Comforters and Duvets to Sheet Sets and Blankets, Byourbed provides luxury bedding without the luxury cost.",
+  "website": "https://byourbed.com",
+  "pages": [
+   "https://byourbed.com/",
+   "https://byourbed.com/Hungarian_Goose_Down_and_Feather_Bedding_Essentials_s/569.htm",
+   "https://byourbed.com/our-story",
+   "https://byourbed.com/cart"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 47,
+  "rules": [
+   "G-R1",
+   "G-R2",
+   "G6-MIX",
+   "DD-P3",
+   "DD-N2"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": false,
+  "id": "FD24"
+ },
+ "FD25": {
+  "key": "piorex.pl",
+  "product": "duck_down",
+  "search_country": "Poland",
+  "company": "PIÓREX S.A.",
+  "website": "https://piorex.pl",
+  "pages": [
+   "https://piorex.pl/",
+   "https://piorex.pl/en/",
+   "https://piorex.pl/en/about-piorex/",
+   "https://piorex.pl/en/piorex-products-services/",
+   "https://piorex.pl/en/piorex-poland-swarzedz/"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 51,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "DD-P3",
+   "DD-N2"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "FD25"
+ },
+ "FD26": {
+  "key": "poldaun.pl",
+  "product": "duck_down",
+  "search_country": "Poland",
+  "company": "Poldaun - producent najlepszych kołder i poduszek",
+  "website": "https://poldaun.pl",
+  "pages": [
+   "https://poldaun.pl/",
+   "https://poldaun.pl/en/home/"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "FD26"
+ },
+ "FD27": {
+  "key": "bing.com",
+  "product": "duck_down",
+  "search_country": "Hungary",
+  "company": "Search - Microsoft Bing",
+  "website": "https://www.bing.com",
+  "pages": [
+   "https://www.bing.com/"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "FD27"
+ },
+ "FD28": {
+  "key": "tatra-duvet.pl",
+  "product": "duck_down",
+  "search_country": "Poland",
+  "company": "TATRA DUVET",
+  "website": "https://tatra-duvet.pl",
+  "pages": [
+   "https://tatra-duvet.pl/pl/",
+   "https://tatra-duvet.pl/en/",
+   "https://tatra-duvet.pl/en/content/4-about-us",
+   "https://tatra-duvet.pl/en/2-home",
+   "https://tatra-duvet.pl/en/contact-us"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "DD-N2"
+  ],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": false,
+  "id": "FD28"
+ },
+ "FC01": {
+  "key": "bronteglen.co.uk",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "Bronte Glen",
+  "website": "https://www.bronteglen.co.uk",
+  "pages": [
+   "https://www.bronteglen.co.uk/",
+   "https://www.bronteglen.co.uk/craft-range/raw-cashmere-fibre/",
+   "https://www.bronteglen.co.uk/about/",
+   "https://www.bronteglen.co.uk/craft-range/"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 68,
+  "rules": [
+   "G-R1",
+   "G-R2",
+   "G6-MIX",
+   "CA-P2"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "FC01"
+ },
+ "FC02": {
+  "key": "craftyfibres.uk",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "Crafty Fibres",
+  "website": "https://www.craftyfibres.uk",
+  "pages": [
+   "https://www.craftyfibres.uk/",
+   "https://www.craftyfibres.uk/natural-handcrafting-fibres/",
+   "https://www.craftyfibres.uk/shop-crafting-fibres/",
+   "https://www.craftyfibres.uk/contact/"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G6-MIX"
+  ],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": true,
+  "id": "FC02"
+ },
+ "FC03": {
+  "key": "croftmill.co.uk",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "Croft Mill",
+  "website": "https://www.croftmill.co.uk",
+  "pages": [
+   "https://www.croftmill.co.uk/",
+   "https://www.croftmill.co.uk/collections/cashmere-fabric",
+   "https://www.croftmill.co.uk/collections/friday-pattern-company",
+   "https://www.croftmill.co.uk/collections/black-friday"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 48,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "CA-P4"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "FC03"
+ },
+ "FC04": {
+  "key": "ebay.co.uk",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "ebay.co.uk",
+  "website": "https://ebay.co.uk/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "FC04"
+ },
+ "FC05": {
+  "key": "todd-duncan.co.uk",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "English",
+  "website": "https://www.todd-duncan.co.uk",
+  "pages": [
+   "https://www.todd-duncan.co.uk/",
+   "https://www.todd-duncan.co.uk/collection/aw-2027-28",
+   "https://www.todd-duncan.co.uk/contact",
+   "https://www.todd-duncan.co.uk/cashmere"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 71,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "CA-P1"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "FC05"
+ },
+ "FC06": {
+  "key": "fromthemountain.com",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "From The Mountain",
+  "website": "https://www.fromthemountain.com",
+  "pages": [
+   "https://www.fromthemountain.com/",
+   "https://www.fromthemountain.com/our-story",
+   "https://www.fromthemountain.com/contact",
+   "https://www.fromthemountain.com/afghan-cashmere"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "FC06"
+ },
+ "FC07": {
+  "key": "innowearcashmere.com",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "innowearcashmere.com",
+  "website": "https://innowearcashmere.com/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "FC07"
+ },
+ "FC08": {
+  "key": "jmcooperknitwear.com",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "jmcooperknitwear.com",
+  "website": "https://jmcooperknitwear.com/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": false,
+  "id": "FC08"
+ },
+ "FC09": {
+  "key": "kofibres.com",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "KoFibres",
+  "website": "https://www.kofibres.com",
+  "pages": [
+   "https://www.kofibres.com/",
+   "https://www.kofibres.com/contact-us",
+   "https://www.kofibres.com/manufacturers",
+   "https://www.kofibres.com/fibre-growers"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G-R2"
+  ],
+  "reason": "LOW_RELEVANCE",
+  "baseline_positive": true,
+  "id": "FC09"
+ },
+ "FC10": {
+  "key": "lecashmere.co.uk",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "Le Cashmere",
+  "website": "http://lecashmere.co.uk",
+  "pages": [
+   "http://lecashmere.co.uk/",
+   "http://lecashmere.co.uk/about-us/",
+   "http://lecashmere.co.uk/product/lc-1042/",
+   "http://lecashmere.co.uk/contact-us/"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 74,
+  "rules": [
+   "G-R1",
+   "CA-P2b"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "FC10"
+ },
+ "FC11": {
+  "key": "lovecashmere.com",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "Love Cashmere",
+  "website": "https://lovecashmere.com",
+  "pages": [
+   "https://lovecashmere.com/",
+   "https://lovecashmere.com/en-us",
+   "https://lovecashmere.com/en-us/pages/about-us",
+   "https://lovecashmere.com/en-us/collections/cashmere-knitwear-sweaters",
+   "https://lovecashmere.com/en-us/pages/contact"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 74,
+  "rules": [
+   "G-R1",
+   "CA-P2b"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "FC11"
+ },
+ "FC12": {
+  "key": "papaverai.com",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "papaverAI",
+  "website": "https://papaverai.com",
+  "pages": [
+   "https://papaverai.com/",
+   "https://papaverai.com/about/",
+   "https://papaverai.com/contact/",
+   "https://papaverai.com/sourcing/"
+  ],
+  "system": "not_relevant",
+  "score": null,
+  "rules": [
+   "G7"
+  ],
+  "reason": "UNRELATED_INDUSTRY",
+  "baseline_positive": true,
+  "id": "FC12"
+ },
+ "FC13": {
+  "key": "pauljamesknitwear.com",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "Paul James Knitwear",
+  "website": "https://www.pauljamesknitwear.com",
+  "pages": [
+   "https://www.pauljamesknitwear.com/",
+   "https://www.pauljamesknitwear.com/pages/luxury-cashmere-knitwear-manufacturer",
+   "https://www.pauljamesknitwear.com/pages/about",
+   "https://www.pauljamesknitwear.com/collections/men"
+  ],
+  "system": "possible_potential_buyer",
+  "score": 48,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "CA-P4"
+  ],
+  "reason": "PARTIAL_FIT",
+  "baseline_positive": true,
+  "id": "FC13"
+ },
+ "FC14": {
+  "key": "scottishcashmereonline.com",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "Scottish Cashmere Collection",
+  "website": "https://scottishcashmereonline.com",
+  "pages": [
+   "https://scottishcashmereonline.com/",
+   "https://scottishcashmereonline.com/pages/about-us-new",
+   "https://scottishcashmereonline.com/collections/all",
+   "https://scottishcashmereonline.com/pages/contact"
+  ],
+  "system": "insufficient_evidence",
+  "score": 25,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "CA-P4"
+  ],
+  "reason": "CONFLICT",
+  "baseline_positive": true,
+  "id": "FC14"
+ },
+ "FC15": {
+  "key": "textileservsolutions.com",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "Textile Services and Solutions",
+  "website": "https://www.textileservsolutions.com",
+  "pages": [
+   "https://www.textileservsolutions.com/",
+   "https://www.textileservsolutions.com/en-gb",
+   "https://www.textileservsolutions.com/en-gb/cashmere",
+   "https://www.textileservsolutions.com/en-gb/contatti"
+  ],
+  "system": "strong_potential_buyer",
+  "score": 80,
+  "rules": [
+   "G-R1",
+   "CA-P1",
+   "CA-P3"
+  ],
+  "reason": "STRONG_FIT",
+  "baseline_positive": true,
+  "id": "FC15"
+ },
+ "FC16": {
+  "key": "veloracashmere.com",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "Velora Cashmere",
+  "website": "https://veloracashmere.com",
+  "pages": [
+   "https://veloracashmere.com/"
+  ],
+  "system": "insufficient_evidence",
+  "score": 30,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "FC16"
+ },
+ "FC17": {
+  "key": "yarnatelier.co.uk",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "Yarn Atelier",
+  "website": "https://www.yarnatelier.co.uk",
+  "pages": [
+   "https://www.yarnatelier.co.uk/",
+   "https://www.yarnatelier.co.uk/collections/all-yarns"
+  ],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "FC17"
+ },
+ "FC18": {
+  "key": "yarnoncone.co.uk",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "yarnoncone.co.uk",
+  "website": "https://yarnoncone.co.uk/ (not reachable)",
+  "pages": [],
+  "system": "insufficient_evidence",
+  "score": 0,
+  "rules": [],
+  "reason": "SUFFICIENCY",
+  "baseline_positive": true,
+  "id": "FC18"
+ },
+ "FC19": {
+  "key": "zhinchliffe.co.uk",
+  "product": "cashmere",
+  "search_country": "United Kingdom",
+  "company": "Z. Hinchliffe & Sons",
+  "website": "https://zhinchliffe.co.uk",
+  "pages": [
+   "https://zhinchliffe.co.uk/",
+   "https://zhinchliffe.co.uk/our-story/",
+   "https://zhinchliffe.co.uk/collections/",
+   "https://zhinchliffe.co.uk/contact-us/"
+  ],
+  "system": "insufficient_evidence",
+  "score": 26,
+  "rules": [
+   "G-R1",
+   "G6-MIX",
+   "CA-P2b"
+  ],
+  "reason": "CONFLICT",
+  "baseline_positive": true,
+  "id": "FC19"
+ }
+}

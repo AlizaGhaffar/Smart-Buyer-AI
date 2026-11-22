@@ -1,0 +1,59 @@
+﻿id,label,notes
+FC01,buyer,"UK textile manufacturer and fibre processor (carding, bespoke processing) that sells balled cashmere fibre and cashmere-filled duvets."
+FC02,buyer,Bradford supplier of natural crafting fibres that stocks and resells cashmere fibre for hand crafters (fibre trader; small scale).
+FC03,not_buyer,Online fabric retailer selling dress fabrics including cashmere fabric made by others; no own production.
+FC04,not_buyer,Site returned an eBay error page; eBay is an online marketplace.
+FC05,buyer,"Spinner in Kinross: 'Our cashmere is the only yarn spun, coloured and crafted in Scotland' for knitwear manufacturers."
+FC06,not_buyer,Sells hand-spun Afghan cashmere yarn made by partner artisans to knitters; does not process fibre itself.
+FC07,buyer,"Mauritius cashmere knitwear manufacturer with own factory, custom production and custom-created yarn."
+FC08,not_buyer,Leicestershire knitwear factory but all products are made from 100% British wool; no cashmere mentioned.
+FC09,not_buyer,Sourcing intermediary connecting fibre growers with manufacturers; wool/alpaca/camel focus and no cashmere processing.
+FC10,buyer,About page: leading manufacturer of cashmere knitwear with own knitwear and woven factories in Scotland and Kashmir (uses cashmere yarn).
+FC11,buyer,"Designs and manufactures cashmere knitwear and accessories in Hawick, Scotland using cashmere yarn (yarn only)."
+FC12,not_buyer,AI-powered outbound sales service for B2B manufacturers; unrelated to fibre.
+FC13,buyer,Knitwear manufacturer owning factories in Leicester and India; sells cashmere knitwear knitted in-house (yarn only).
+FC14,buyer,"Small Hawick family business that hand-makes cashmere gloves, scarves and accessories, buying yarn in small batches (yarn only; small scale)."
+FC15,buyer,"Biella company buying cashmere, silk and wool raw materials directly in origin markets and processing them into semi-finished products."
+FC16,buyer,Supplier of Afghan dehaired carded cashmere sliver (200 MT capacity) to mills and spinners; raw-fibre trader/processor (page title/meta only).
+FC17,not_buyer,Online yarn shop reselling cashmere yarns from mills such as Loro Piana and Todd & Duncan; no manufacturing.
+FC18,unsure,Site returned 403 Forbidden; could not see any content.
+FC19,buyer,"Huddersfield spinner since 1766 that sources dehaired cashmere from China/Inner Mongolia and dyes, cards and spins it into yarn."
+FD01,not_buyer,Market research and consulting firm selling reports.
+FD02,buyer,Polish duvet/pillow maker with own feather washing and sorting plant processing up to 2400 kg of feather per shift.
+FD03,buyer,Hand-sewn duvets and pillows filled with Hungarian goose and duck down in its own atelier in Mezőkovácsháza.
+FD04,buyer,Hungarian OEM/ODM sewing plant specialised in down jackets (tollkabát) and outerwear.
+FD05,buyer,Down comforters and pillows handcrafted in New York for 50 years.
+FD06,buyer,RDS-certified New Zealand-made comforters and pillows filled with Hungarian goose and duck down.
+FD07,buyer,Hand-made Hungarian goose down comforters and pillows since 1957; goose only.
+FD08,buyer,Processes and trades Polish and imported goose and duck down and feather (washing and sorting).
+FD09,buyer,"en. subdomain failed but pyzynski.pl loaded: feather processing plant (Zakład Pierzarski), RDS-certified down."
+FD10,buyer,Chinese OEM apparel manufacturer whose product lines include down jackets and parkas.
+FD11,buyer,Describes itself as the largest down and feather manufacturer in Central Europe processing Hungarian goose and duck down.
+FD12,unsure,Site returned only an anti-bot verification page.
+FD13,unsure,Site could not be reached (connection timed out).
+FD14,not_buyer,Trade federation of Polish down and feather exporters.
+FD15,buyer,"Feather plant that washes, dries and sorts natural down and feather and sews duvets and pillows."
+FD16,buyer,Hungarian down and feather processing company handling duck and goose feathers.
+FD17,buyer,Family company making Hungarian goose down bedding and cleaning the down itself; goose only.
+FD18,buyer,Claims own factory in Hungary handcrafting Hungarian goose down comforters and pillows; goose only.
+FD19,buyer,Hungarian down processing company (Pehely Feldolgozó) manufacturing down-filled pillows and duvets.
+FD20,buyer,Supplier and processor of Polish goose down and goose/duck down-feather blends that also makes duvets.
+FD21,buyer,Hungarian trading/agency firm that exports and imports raw and washed down and feather fillings.
+FD22,buyer,Wool feather and down processing company making quilts and pillows and wholesaling raw material.
+FD23,buyer,Claims own Hungarian factory filling goose down comforters and pillows; goose only.
+FD24,buyer,"Describes itself as a leading manufacturer of comforters, including Hungarian down bedding (HGoose), alongside down-alternative lines."
+FD25,buyer,Polish duvet/pillow producer processing tonnes of down yearly and supplying down and feather filling.
+FD26,buyer,Polish duvet and pillow producer offering goose and duck down filled products.
+FD27,not_buyer,Bing search engine.
+FD28,buyer,Polish producer of goose down duvets/pillows with RDS-certified down plant; goose only.
+FW01,buyer,"Consortium of Biella contract processors forming a wool chain for breeders (greasy to scoured, spun and combed) with a wool collection centre."
+FW02,buyer,Site describes an innovative wool processing factory in Romania making 100% natural sheep wool insulation.
+FW03,not_buyer,"B2B marketplace (Exporters.SG) for posting buying/selling leads, not a wool processor."
+FW04,buyer,Italian spinning mill (woollen and worsted spinning) producing superfine wool yarns at about 1M kg/year.
+FW05,buyer,"Spinning mill whose raw materials page lists natural fibres such as wool, plus linen, silk and synthetics."
+FW06,not_buyer,"Online community/forum for trade professionals (boards, HS codes, news), not a wool processor."
+FW07,buyer,Vertically integrated wool mill since 1861 weaving fabrics from selected wool fleeces in natural shades.
+FW08,buyer,Sock manufacturer knitting socks from fine yarns (e.g. extrafine merino) bought from Italian yarn producers; buys yarn rather than raw fibre.
+FW09,buyer,Manufacturer of insulation products made from 100% natural sheep wool.
+FW10,buyer,"Prato carded spinning mill sourcing raw materials from Australia, South America etc. to spin pure wool and cashmere yarns."
+FW11,not_buyer,"Software platform for sustainable supplier discovery and product passports, unrelated to wool processing."

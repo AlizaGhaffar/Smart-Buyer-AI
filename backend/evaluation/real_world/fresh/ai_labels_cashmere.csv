@@ -1,0 +1,20 @@
+id,label,notes
+FC01,buyer,"UK textile manufacturer and fibre processor (carding, bespoke processing) that sells balled cashmere fibre and cashmere-filled duvets."
+FC02,buyer,Bradford supplier of natural crafting fibres that stocks and resells cashmere fibre for hand crafters (fibre trader; small scale).
+FC03,not_buyer,"Online fabric retailer selling dress fabrics including cashmere fabric made by others; no own production."
+FC04,not_buyer,Site returned an eBay error page; eBay is an online marketplace.
+FC05,buyer,"Spinner in Kinross: 'Our cashmere is the only yarn spun, coloured and crafted in Scotland' for knitwear manufacturers."
+FC06,not_buyer,Sells hand-spun Afghan cashmere yarn made by partner artisans to knitters; does not process fibre itself.
+FC07,buyer,"Mauritius cashmere knitwear manufacturer with own factory, custom production and custom-created yarn."
+FC08,not_buyer,"Leicestershire knitwear factory but all products are made from 100% British wool; no cashmere mentioned."
+FC09,not_buyer,Sourcing intermediary connecting fibre growers with manufacturers; wool/alpaca/camel focus and no cashmere processing.
+FC10,buyer,"About page: leading manufacturer of cashmere knitwear with own knitwear and woven factories in Scotland and Kashmir (uses cashmere yarn)."
+FC11,buyer,"Designs and manufactures cashmere knitwear and accessories in Hawick, Scotland using cashmere yarn (yarn only)."
+FC12,not_buyer,AI-powered outbound sales service for B2B manufacturers; unrelated to fibre.
+FC13,buyer,"Knitwear manufacturer owning factories in Leicester and India; sells cashmere knitwear knitted in-house (yarn only)."
+FC14,buyer,"Small Hawick family business that hand-makes cashmere gloves, scarves and accessories, buying yarn in small batches (yarn only; small scale)."
+FC15,buyer,"Biella company buying cashmere, silk and wool raw materials directly in origin markets and processing them into semi-finished products."
+FC16,buyer,"Supplier of Afghan dehaired carded cashmere sliver (200 MT capacity) to mills and spinners; raw-fibre trader/processor (page title/meta only)."
+FC17,not_buyer,"Online yarn shop reselling cashmere yarns from mills such as Loro Piana and Todd & Duncan; no manufacturing."
+FC18,unsure,Site returned 403 Forbidden; could not see any content.
+FC19,buyer,"Huddersfield spinner since 1766 that sources dehaired cashmere from China/Inner Mongolia and dyes, cards and spins it into yarn."

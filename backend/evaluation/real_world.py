@@ -44,10 +44,25 @@ LABEL_ALIASES = {"buyer": "buyer", "y": "buyer", "yes": "buyer",
                  "unsure": "unsure", "?": "unsure", "u": "unsure"}
 
 
-def collect(snapshot_dir: Path = SNAPSHOT_DIR) -> list[dict]:
-    """Re-analyse every saved live snapshot; one row per (product, company)."""
-    rows, seen = [], set()
-    for path in sorted(snapshot_dir.glob("*.json")):
+# The first labelled set (90 companies). Later snapshots belong to other sets.
+ORIGINAL_SET = ("cashmere__any", "cashmere__italy", "duck_down__any", "duck_down__germany",
+                "duck_down__japan", "raw_sheep_wool__any", "raw_sheep_wool__united-kingdom")
+# Fresh validation set: new countries, searched after v2 was frozen (git tag v2-tuned).
+FRESH_SET = ("raw_sheep_wool__italy", "duck_down__poland", "cashmere__united-kingdom", "duck_down__hungary")
+FRESH = HERE / "fresh"
+
+
+def collect(snapshot_dir: Path = SNAPSHOT_DIR, names=None, exclude=frozenset(), id_prefix: str = "") -> list[dict]:
+    """Re-analyse saved live snapshots; one row per (product, company).
+
+    names: snapshot file stems to use (None = every snapshot in the folder).
+    exclude: (product, company_key) pairs to leave out, e.g. companies already labelled.
+    """
+    rows, seen = [], set(exclude)
+    paths = sorted(snapshot_dir.glob("*.json"))
+    if names is not None:
+        paths = [p for p in paths if p.stem in names]
+    for path in paths:
         snap = json.loads(path.read_text(encoding="utf-8"))
         texts = {c["candidate"]["key"]: " ".join(p["text"] for p in c["pages"]) for c in snap["companies"]}
         result = run_pipeline(PipelineRequest(snap["product"], snap["country"], mode="replay"), snapshot_dir=snapshot_dir)
@@ -58,6 +73,7 @@ def collect(snapshot_dir: Path = SNAPSHOT_DIR) -> list[dict]:
             seen.add(key)
             baseline_text = " ".join([lead["found_via"]["title"], lead["found_via"]["snippet"], texts.get(lead["company_key"], "")])
             rows.append({
+                "key": lead["company_key"],
                 "product": snap["product"],
                 "search_country": snap["country"] or "any",
                 "company": lead["company_name"],
@@ -73,22 +89,31 @@ def collect(snapshot_dir: Path = SNAPSHOT_DIR) -> list[dict]:
     counters = {p: 0 for p in PREFIX}
     for r in rows:
         counters[r["product"]] += 1
-        r["id"] = f"{PREFIX[r['product']]}{counters[r['product']]:02d}"
+        r["id"] = f"{id_prefix}{PREFIX[r['product']]}{counters[r['product']]:02d}"
     return rows
 
 
-def make_sheet(snapshot_dir: Path = SNAPSHOT_DIR) -> None:
-    rows = collect(snapshot_dir)
-    HERE.mkdir(parents=True, exist_ok=True)
-    with SHEET.open("w", encoding="utf-8-sig", newline="") as f:
+def make_sheet(snapshot_dir: Path = SNAPSHOT_DIR, names=None, sheet: Path | None = None,
+               outputs: Path | None = None, exclude=frozenset(), id_prefix: str = "") -> None:
+    sheet, outputs = sheet or SHEET, outputs or OUTPUTS
+    rows = collect(snapshot_dir, names, exclude, id_prefix)
+    sheet.parent.mkdir(parents=True, exist_ok=True)
+    with sheet.open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["id", "product", "company", "website", "pages_the_system_read", "label", "notes"])
         for r in rows:
             writer.writerow([r["id"], PRODUCT_NAMES[r["product"]], r["company"], r["website"],
                              " ".join(r["pages"][:4]), "", ""])
-    OUTPUTS.write_text(json.dumps({r["id"]: r for r in rows}, indent=1, ensure_ascii=False), encoding="utf-8")
+    outputs.write_text(json.dumps({r["id"]: r for r in rows}, indent=1, ensure_ascii=False), encoding="utf-8")
     per = {PRODUCT_NAMES[p]: sum(r["product"] == p for r in rows) for p in PREFIX}
-    print(f"Wrote {len(rows)} companies to {SHEET}  ({per})")
+    print(f"Wrote {len(rows)} companies to {sheet}  ({per})")
+
+
+def make_fresh_sheet(snapshot_dir: Path = SNAPSHOT_DIR) -> None:
+    """Blind sheet for the fresh validation set, leaving out every already-labelled company."""
+    seen = {(r["product"], r["key"]) for r in collect(snapshot_dir, ORIGINAL_SET)}
+    make_sheet(snapshot_dir, FRESH_SET, FRESH / "labelling_sheet.csv", FRESH / "system_outputs.json",
+               exclude=seen, id_prefix="F")
 
 
 def _read_labels(path: Path) -> dict[str, dict]:
@@ -110,15 +135,16 @@ def _read_labels(path: Path) -> dict[str, dict]:
     return labels
 
 
-def score(sheet: Path = SHEET, source: str = "by hand") -> str:
-    outputs = json.loads(OUTPUTS.read_text(encoding="utf-8"))
+def score(sheet: Path = SHEET, source: str = "by hand", outputs_path: Path | None = None,
+          results_path: Path | None = None, title: str = "Real-world evaluation") -> str:
+    outputs = json.loads((outputs_path or OUTPUTS).read_text(encoding="utf-8"))
     labels = _read_labels(sheet)
     rows = [{**outputs[i], **labels[i]} for i in outputs if i in labels]
     if not rows:
         raise SystemExit("No labels found. Fill the `label` column in the sheet first.")
     decided = [r for r in rows if r["label"] != "unsure"]
     pct = lambda v: f"{v * 100:.0f}%"
-    lines = ["# Real-world evaluation", "",
+    lines = [f"# {title}", "",
              f"{len(rows)} companies from live searches were labelled {source}, without seeing the system's answer "
              f"({len(decided)} buyer / not_buyer, {len(rows) - len(decided)} unsure; unsure rows are left out of the metrics).",
              "", "Positive = the system says Confirmed / Strong / Possible. Baseline = the original keyword rule.", ""]
@@ -142,14 +168,14 @@ def score(sheet: Path = SHEET, source: str = "by hand") -> str:
     for r in disagreements:
         lines.append(f"| {r['id']} | {r['company']} | {r['label']} | {r['system']} | {', '.join(r['rules']) or '-'} | {r['notes']} |")
     report = "\n".join(lines) + "\n"
-    RESULTS.write_text(report, encoding="utf-8")
+    (results_path or RESULTS).write_text(report, encoding="utf-8")
     return report
 
 
 def refresh_outputs(snapshot_dir: Path = SNAPSHOT_DIR) -> None:
     """Re-run the current system on the same companies; keeps the sheet and its labels."""
     old = json.loads(OUTPUTS.read_text(encoding="utf-8"))
-    new = {r["id"]: r for r in collect(snapshot_dir)}
+    new = {r["id"]: r for r in collect(snapshot_dir, ORIGINAL_SET)}
     mismatched = [i for i in old if i not in new or new[i]["website"] != old[i]["website"]]
     if mismatched:
         raise SystemExit(f"Company ids changed ({mismatched[:5]}); not overwriting the outputs.")
@@ -162,18 +188,20 @@ CHECK_SHEET = HERE / "human_check_sheet.csv"
 CHECK_SIZE = {"raw_sheep_wool": 7, "duck_down": 7, "cashmere": 6}
 
 
-def merge_ai() -> None:
+def merge_ai(base: Path | None = None) -> None:
+    base = base or HERE
+    target = base / "ai_labels.csv"
     rows = []
     for name in ("wool", "down", "cashmere"):
-        part = HERE / f"ai_labels_{name}.csv"
+        part = base / f"ai_labels_{name}.csv"
         if not part.exists():
             raise SystemExit(f"{part.name} is missing; the AI annotator for it has not finished.")
         rows += [(i, v["label"], v["notes"]) for i, v in _read_labels(part).items()]
-    with AI_LABELS.open("w", encoding="utf-8-sig", newline="") as f:
+    with target.open("w", encoding="utf-8-sig", newline="") as f:
         writer = csv.writer(f)
         writer.writerow(["id", "label", "notes"])
         writer.writerows(sorted(rows))
-    print(f"Merged {len(rows)} AI labels into {AI_LABELS}")
+    print(f"Merged {len(rows)} AI labels into {target}")
 
 
 def make_check_sheet(seed: int = 2026) -> list[str]:
@@ -246,6 +274,16 @@ if __name__ == "__main__":
         merge_ai()
     elif command == "check-sheet":
         make_check_sheet()
+    elif command == "fresh-sheet":
+        make_fresh_sheet()
+    elif command == "fresh-merge":
+        merge_ai(FRESH)
+    elif command == "fresh-score":
+        # labels from the blind AI annotators for the fresh set
+        print(score(FRESH / "ai_labels.csv", source="by blind AI annotators",
+                    outputs_path=FRESH / "system_outputs.json",
+                    results_path=Path(__file__).parent / "FRESH_VALIDATION_RESULTS.md",
+                    title="Fresh validation: new companies, system frozen at git tag v2-tuned"))
     elif command == "agreement":
         print(agreement())
     else:

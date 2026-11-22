@@ -1,5 +1,6 @@
 {
  "W01": {
+  "key": "andersontuftex.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "AndersonTuftex",
@@ -22,6 +23,7 @@
   "id": "W01"
  },
  "W02": {
+  "key": "bestwoolcarpets.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "Best Wool Carpets",
@@ -43,6 +45,7 @@
   "id": "W02"
  },
  "W03": {
+  "key": "britishwool.org.uk",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "British Wool",
@@ -64,6 +67,7 @@
   "id": "W03"
  },
  "W04": {
+  "key": "brockway.co.uk",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "Brockway Carpets",
@@ -85,6 +89,7 @@
   "id": "W04"
  },
  "W05": {
+  "key": "buildingrenewable.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "Building Renewable",
@@ -109,6 +114,7 @@
   "id": "W05"
  },
  "W06": {
+  "key": "castilwool.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "Castilwool",
@@ -131,6 +137,7 @@
   "id": "W06"
  },
  "W07": {
+  "key": "cormarcarpets.co.uk",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "Cormar Carpets",
@@ -149,6 +156,7 @@
   "id": "W07"
  },
  "W08": {
+  "key": "diyoos.com",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "Diyoos",
@@ -171,6 +179,7 @@
   "id": "W08"
  },
  "W09": {
+  "key": "europawools.com",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "Europawools",
@@ -192,6 +201,7 @@
   "id": "W09"
  },
  "W10": {
+  "key": "halifaxspinningcompany.co.uk",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "Halifax Mill",
@@ -214,6 +224,7 @@
   "id": "W10"
  },
  "W11": {
+  "key": "havelockwool.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "Havelock Wool Insulation",
@@ -235,6 +246,7 @@
   "id": "W11"
  },
  "W12": {
+  "key": "haworthscouring.co.uk",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "Haworth Scouring",
@@ -257,6 +269,7 @@
   "id": "W12"
  },
  "W13": {
+  "key": "importer.tradeford.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "importer.tradeford.com",
@@ -270,6 +283,7 @@
   "id": "W13"
  },
  "W14": {
+  "key": "isolena.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "ISOLENA Naturfaservliese GmbH",
@@ -293,6 +307,7 @@
   "id": "W14"
  },
  "W15": {
+  "key": "michellwool.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "Michell 1870",
@@ -314,6 +329,7 @@
   "id": "W15"
  },
  "W16": {
+  "key": "nourison.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "Nourison Home Rugs and Carpet",
@@ -336,6 +352,7 @@
   "id": "W16"
  },
  "W17": {
+  "key": "rampishamhillmill.co.uk",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "RAMPISHAM HILL MILL",
@@ -360,6 +377,7 @@
   "id": "W17"
  },
  "W18": {
+  "key": "remlandcarpets.co.uk",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "Remland Carpets & Flooring",
@@ -381,6 +399,7 @@
   "id": "W18"
  },
  "W19": {
+  "key": "godfreyhirst.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "Residential Carpet & Flooring Australia",
@@ -402,6 +421,7 @@
   "id": "W19"
  },
  "W20": {
+  "key": "revenuebase.ai",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "RevenueBase",
@@ -423,6 +443,7 @@
   "id": "W20"
  },
  "W21": {
+  "key": "scepwool.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "scepwool.com",
@@ -436,6 +457,7 @@
   "id": "W21"
  },
  "W22": {
+  "key": "standardwool.uk",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "Standard Wool",
@@ -458,6 +480,7 @@
   "id": "W22"
  },
  "W23": {
+  "key": "rawwoolcompany.co.uk",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "The Raw Wool Company",
@@ -477,6 +500,7 @@
   "id": "W23"
  },
  "W24": {
+  "key": "thewoolspinners.co.uk",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "The Wool Spinners",
@@ -499,6 +523,7 @@
   "id": "W24"
  },
  "W25": {
+  "key": "woolmark.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "The Woolmark Company",
@@ -519,6 +544,7 @@
   "id": "W25"
  },
  "W26": {
+  "key": "thenaturalfibre.co.uk",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "thenaturalfibre.co.uk",
@@ -532,6 +558,7 @@
   "id": "W26"
  },
  "W27": {
+  "key": "thermafleece.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "Thermafleece",
@@ -553,6 +580,7 @@
   "id": "W27"
  },
  "W28": {
+  "key": "tradeimex.in",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "TradeImex - Import Export Data Provider, Data Analytic & Shipment Services",
@@ -573,6 +601,7 @@
   "id": "W28"
  },
  "W29": {
+  "key": "trademo.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "trademo.com",
@@ -586,6 +615,7 @@
   "id": "W29"
  },
  "W30": {
+  "key": "us.metoree.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "us.metoree.com",
@@ -599,6 +629,7 @@
   "id": "W30"
  },
  "W31": {
+  "key": "weatherwool.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "WeatherWool",
@@ -617,6 +648,7 @@
   "id": "W31"
  },
  "W32": {
+  "key": "wiltoncarpets.com",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "Wilton Carpets",
@@ -639,6 +671,7 @@
   "id": "W32"
  },
  "W33": {
+  "key": "wiltoncarpets.co.uk",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "Wilton Flooring & Carpets Ltd",
@@ -660,6 +693,7 @@
   "id": "W33"
  },
  "W34": {
+  "key": "winghamwoolwork.co.uk",
   "product": "raw_sheep_wool",
   "search_country": "United Kingdom",
   "company": "Wingham Wool",
@@ -678,6 +712,7 @@
   "id": "W34"
  },
  "W35": {
+  "key": "wool-carpet.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "Wool Carpet",
@@ -699,6 +734,7 @@
   "id": "W35"
  },
  "W36": {
+  "key": "woolsolutionsinc.com",
   "product": "raw_sheep_wool",
   "search_country": "any",
   "company": "woolsolutionsinc.com",
@@ -712,6 +748,7 @@
   "id": "W36"
  },
  "D01": {
+  "key": "alliedfeather.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "ALLIED",
@@ -730,6 +767,7 @@
   "id": "D01"
  },
  "D02": {
+  "key": "beaumontbrown.jp",
   "product": "duck_down",
   "search_country": "Japan",
   "company": "Beaumont &amp; Brown Japan",
@@ -748,6 +786,7 @@
   "id": "D02"
  },
  "D03": {
+  "key": "blackforgex.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "BlackForgeX",
@@ -771,6 +810,7 @@
   "id": "D03"
  },
  "D04": {
+  "key": "crescentdownworks.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "Crescent Down Works",
@@ -789,6 +829,7 @@
   "id": "D04"
  },
  "D05": {
+  "key": "ruiniujacket.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "Custom Outdoor Jacket Manufacturer In China",
@@ -810,6 +851,7 @@
   "id": "D05"
  },
  "D06": {
+  "key": "downcreators.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "Down Creators",
@@ -831,6 +873,7 @@
   "id": "D06"
  },
  "D07": {
+  "key": "down-direct.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "Down Direct",
@@ -851,6 +894,7 @@
   "id": "D07"
  },
  "D08": {
+  "key": "downinc.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "DOWN inc.",
@@ -874,6 +918,7 @@
   "id": "D08"
  },
  "D09": {
+  "key": "downandfeathercompany.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "downandfeathercompany.com",
@@ -887,6 +932,7 @@
   "id": "D09"
  },
  "D10": {
+  "key": "downtowncompany.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "DownTown Company",
@@ -907,6 +953,7 @@
   "id": "D10"
  },
  "D11": {
+  "key": "duckodown.co.za",
   "product": "duck_down",
   "search_country": "any",
   "company": "Ducko Down",
@@ -928,6 +975,7 @@
   "id": "D11"
  },
  "D12": {
+  "key": "ensun.io",
   "product": "duck_down",
   "search_country": "Germany",
   "company": "ensun.io",
@@ -941,6 +989,7 @@
   "id": "D12"
  },
  "D13": {
+  "key": "blackforestdowncomforters.com",
   "product": "duck_down",
   "search_country": "Germany",
   "company": "German Down Comforters and Pillows",
@@ -963,6 +1012,7 @@
   "id": "D13"
  },
  "D14": {
+  "key": "germandowncomforters.com",
   "product": "duck_down",
   "search_country": "Germany",
   "company": "German Down Comforters in the US, cruelty free down, pillows, oeko tex certificate. Matching duvet covers in 135x200cm. Goose down comforters made in Germany from cruelty free harvested down.",
@@ -984,6 +1034,7 @@
   "id": "D14"
  },
  "D15": {
+  "key": "germanduvetcovers.com",
   "product": "duck_down",
   "search_country": "Germany",
   "company": "German Duvet Covers",
@@ -1005,6 +1056,7 @@
   "id": "D15"
  },
  "D16": {
+  "key": "highlandfeather.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "Highland Feather Manufacturing Inc.",
@@ -1026,6 +1078,7 @@
   "id": "D16"
  },
  "D17": {
+  "key": "hotelsuppliesdepot.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "Hotel Supplies Depot",
@@ -1048,6 +1101,7 @@
   "id": "D17"
  },
  "D18": {
+  "key": "lqfeather.com",
   "product": "duck_down",
   "search_country": "Japan",
   "company": "lqfeather.com",
@@ -1061,6 +1115,7 @@
   "id": "D18"
  },
  "D19": {
+  "key": "norvegr.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "Norvegr",
@@ -1079,6 +1134,7 @@
   "id": "D19"
  },
  "D20": {
+  "key": "obb.de",
   "product": "duck_down",
   "search_country": "Germany",
   "company": "OBB Oberbadische Bettfedernfabrik GmbH",
@@ -1102,6 +1158,7 @@
   "id": "D20"
  },
  "D21": {
+  "key": "otto-keller.de",
   "product": "duck_down",
   "search_country": "Germany",
   "company": "otto-keller.de",
@@ -1115,6 +1172,7 @@
   "id": "D21"
  },
  "D22": {
+  "key": "peterkohl.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "Peter Kohl Nachfolger Franz Kohl KG",
@@ -1136,6 +1194,7 @@
   "id": "D22"
  },
  "D23": {
+  "key": "pillowfactory.co.uk",
   "product": "duck_down",
   "search_country": "any",
   "company": "Pillow Factory",
@@ -1158,6 +1217,7 @@
   "id": "D23"
  },
  "D24": {
+  "key": "pillows.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "Pillows.com",
@@ -1179,6 +1239,7 @@
   "id": "D24"
  },
  "D25": {
+  "key": "ptoutwear.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "PTOUTWEAR",
@@ -1200,6 +1261,7 @@
   "id": "D25"
  },
  "D26": {
+  "key": "quiltpillowfactory.com.au",
   "product": "duck_down",
   "search_country": "any",
   "company": "Quilt & Pillow Factory",
@@ -1221,6 +1283,7 @@
   "id": "D26"
  },
  "D27": {
+  "key": "thedowncomforterstore.com",
   "product": "duck_down",
   "search_country": "any",
   "company": "Thedowncomforterstore.com",
@@ -1242,6 +1305,7 @@
   "id": "D27"
  },
  "D28": {
+  "key": "iozon.co.jp",
   "product": "duck_down",
   "search_country": "Japan",
   "company": "株式会社イワタ",
@@ -1262,6 +1326,7 @@
   "id": "D28"
  },
  "D29": {
+  "key": "kwd.jp",
   "product": "duck_down",
   "search_country": "Japan",
   "company": "羽毛なら河田フェザー株式会社",
@@ -1283,6 +1348,7 @@
   "id": "D29"
  },
  "C01": {
+  "key": "accio.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "Accio Work",
@@ -1299,6 +1365,7 @@
   "id": "C01"
  },
  "C02": {
+  "key": "alfacashmere.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "Alfa Cashmere Srl",
@@ -1318,6 +1385,7 @@
   "id": "C02"
  },
  "C03": {
+  "key": "arcashmere.it",
   "product": "cashmere",
   "search_country": "Italy",
   "company": "Arcashmere",
@@ -1338,6 +1406,7 @@
   "id": "C03"
  },
  "C04": {
+  "key": "arrowyarns.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "Arrow Yarns",
@@ -1357,6 +1426,7 @@
   "id": "C04"
  },
  "C05": {
+  "key": "bainacashmereusa.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "Baina Cashmere",
@@ -1380,6 +1450,7 @@
   "id": "C05"
  },
  "C06": {
+  "key": "richmancashmere.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "Beijing Richman Fashion Co., Ltd",
@@ -1402,6 +1473,7 @@
   "id": "C06"
  },
  "C07": {
+  "key": "buckeyeridgefarm.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "Buckeye Ridge Farm",
@@ -1424,6 +1496,7 @@
   "id": "C07"
  },
  "C08": {
+  "key": "calcashmere.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "California Cashmere Company",
@@ -1440,6 +1513,7 @@
   "id": "C08"
  },
  "C09": {
+  "key": "casadelfilato.com",
   "product": "cashmere",
   "search_country": "Italy",
   "company": "Casa del Filato",
@@ -1462,6 +1536,7 @@
   "id": "C09"
  },
  "C10": {
+  "key": "cashmerecompanyitaly.com",
   "product": "cashmere",
   "search_country": "Italy",
   "company": "Cashmere Company",
@@ -1484,6 +1559,7 @@
   "id": "C10"
  },
  "C11": {
+  "key": "cashmere-company.it",
   "product": "cashmere",
   "search_country": "Italy",
   "company": "Cashmere Company",
@@ -1503,6 +1579,7 @@
   "id": "C11"
  },
  "C12": {
+  "key": "cashmerefine.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "Cashmerefine",
@@ -1526,6 +1603,7 @@
   "id": "C12"
  },
  "C13": {
+  "key": "cleancashmere.farm",
   "product": "cashmere",
   "search_country": "any",
   "company": "Clean Cashmere",
@@ -1547,6 +1625,7 @@
   "id": "C13"
  },
  "C14": {
+  "key": "fineknitting.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "Fine Knitting Co., Ltd.",
@@ -1568,6 +1647,7 @@
   "id": "C14"
  },
  "C15": {
+  "key": "icubenest.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "Home",
@@ -1591,6 +1671,7 @@
   "id": "C15"
  },
  "C16": {
+  "key": "imacashmere.it",
   "product": "cashmere",
   "search_country": "Italy",
   "company": "Ima Cashmere",
@@ -1613,6 +1694,7 @@
   "id": "C16"
  },
  "C17": {
+  "key": "italycashmere.it",
   "product": "cashmere",
   "search_country": "Italy",
   "company": "Italy Cashmere",
@@ -1628,6 +1710,7 @@
   "id": "C17"
  },
  "C18": {
+  "key": "newmill.it",
   "product": "cashmere",
   "search_country": "any",
   "company": "New Mill",
@@ -1650,6 +1733,7 @@
   "id": "C18"
  },
  "C19": {
+  "key": "patasicashmere.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "Patasi Cashmere",
@@ -1670,6 +1754,7 @@
   "id": "C19"
  },
  "C20": {
+  "key": "rawcashmere.it",
   "product": "cashmere",
   "search_country": "any",
   "company": "Raw Cashmere",
@@ -1693,6 +1778,7 @@
   "id": "C20"
  },
  "C21": {
+  "key": "roedeocashmere.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "Roedeo Cashmere",
@@ -1714,6 +1800,7 @@
   "id": "C21"
  },
  "C22": {
+  "key": "sustainableindustries.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "Sustainable Industries",
@@ -1734,6 +1821,7 @@
   "id": "C22"
  },
  "C23": {
+  "key": "wfscashmere.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "wfscashmere.com",
@@ -1749,6 +1837,7 @@
   "id": "C23"
  },
  "C24": {
+  "key": "woolandfiberarts.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "Wool and Fiber Arts",
@@ -1768,6 +1857,7 @@
   "id": "C24"
  },
  "C25": {
+  "key": "zianhitech.com",
   "product": "cashmere",
   "search_country": "any",
   "company": "Yunshang Cashmere (Xi'an) Co., Ltd",

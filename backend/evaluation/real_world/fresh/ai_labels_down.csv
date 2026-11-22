@@ -1,0 +1,29 @@
+id,label,notes
+FD01,not_buyer,Market research and consulting firm selling reports.
+FD02,buyer,Polish duvet/pillow maker with own feather washing and sorting plant processing up to 2400 kg of feather per shift.
+FD03,buyer,Hand-sewn duvets and pillows filled with Hungarian goose and duck down in its own atelier in Mezőkovácsháza.
+FD04,buyer,Hungarian OEM/ODM sewing plant specialised in down jackets (tollkabát) and outerwear.
+FD05,buyer,Down comforters and pillows handcrafted in New York for 50 years.
+FD06,buyer,RDS-certified New Zealand-made comforters and pillows filled with Hungarian goose and duck down.
+FD07,buyer,"Hand-made Hungarian goose down comforters and pillows since 1957; goose only."
+FD08,buyer,Processes and trades Polish and imported goose and duck down and feather (washing and sorting).
+FD09,buyer,"en. subdomain failed but pyzynski.pl loaded: feather processing plant (Zakład Pierzarski), RDS-certified down."
+FD10,buyer,Chinese OEM apparel manufacturer whose product lines include down jackets and parkas.
+FD11,buyer,Describes itself as the largest down and feather manufacturer in Central Europe processing Hungarian goose and duck down.
+FD12,unsure,Site returned only an anti-bot verification page.
+FD13,unsure,Site could not be reached (connection timed out).
+FD14,not_buyer,Trade federation of Polish down and feather exporters.
+FD15,buyer,"Feather plant that washes, dries and sorts natural down and feather and sews duvets and pillows."
+FD16,buyer,Hungarian down and feather processing company handling duck and goose feathers.
+FD17,buyer,"Family company making Hungarian goose down bedding and cleaning the down itself; goose only."
+FD18,buyer,"Claims own factory in Hungary handcrafting Hungarian goose down comforters and pillows; goose only."
+FD19,buyer,Hungarian down processing company (Pehely Feldolgozó) manufacturing down-filled pillows and duvets.
+FD20,buyer,Supplier and processor of Polish goose down and goose/duck down-feather blends that also makes duvets.
+FD21,buyer,"Hungarian trading/agency firm that exports and imports raw and washed down and feather fillings."
+FD22,buyer,Wool feather and down processing company making quilts and pillows and wholesaling raw material.
+FD23,buyer,"Claims own Hungarian factory filling goose down comforters and pillows; goose only."
+FD24,buyer,"Describes itself as a leading manufacturer of comforters, including Hungarian down bedding (HGoose), alongside down-alternative lines."
+FD25,buyer,Polish duvet/pillow producer processing tonnes of down yearly and supplying down and feather filling.
+FD26,buyer,Polish duvet and pillow producer offering goose and duck down filled products.
+FD27,not_buyer,Bing search engine.
+FD28,buyer,"Polish producer of goose down duvets/pillows with RDS-certified down plant; goose only."
