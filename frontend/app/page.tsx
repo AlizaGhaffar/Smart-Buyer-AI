@@ -1,80 +1,131 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { ArrowUpRight, BookOpen, Check, Download, Globe2, History, Info, Search, TriangleAlert } from "lucide-react";
+import { BookOpen, Download, History, Info, Moon, Search, Sun, TriangleAlert, Workflow } from "lucide-react";
 import { FormEvent, useCallback, useEffect, useRef, useState } from "react";
 
-import KnowledgePanel from "@/components/KnowledgePanel";
+import { FibreSwatch, Logo } from "@/components/Brand";
+import HowItWorks from "@/components/HowItWorks";
+import KnowledgeView from "@/components/KnowledgeView";
 import LeadCard from "@/components/LeadCard";
-import { getJob, startSearch } from "@/lib/api";
+import ResultsSummary from "@/components/ResultsSummary";
+import SearchProgress, { type LogEntry } from "@/components/SearchProgress";
+import Splash from "@/components/Splash";
+import { getJob, getSnapshots, startSearch } from "@/lib/api";
 import { exportLeads } from "@/lib/csv";
-import { CLASS_INFO, QUALIFIED, type Classification, type Job, type ProductId, type SearchMode, type SearchResult } from "@/lib/types";
+import {
+  CLASS_INFO, QUALIFIED, type Classification, type Job, type ProductId, type SearchMode, type SearchResult, type Snapshot,
+} from "@/lib/types";
 
-const PRODUCTS: { id: ProductId; label: string; emoji: string; note: string }[] = [
-  { id: "raw_sheep_wool", label: "Raw Sheep Wool", emoji: "🐑", note: "Greasy / scoured wool fibre" },
-  { id: "duck_down", label: "Duck Down", emoji: "🦆", note: "Natural filling material" },
-  { id: "cashmere", label: "Cashmere", emoji: "🧶", note: "Raw / dehaired goat fibre" },
+const PRODUCTS: { id: ProductId; label: string; note: string }[] = [
+  { id: "raw_sheep_wool", label: "Raw Sheep Wool", note: "Greasy or scoured wool fibre" },
+  { id: "duck_down", label: "Duck Down", note: "Natural filling material" },
+  { id: "cashmere", label: "Cashmere", note: "Raw or dehaired goat fibre" },
 ];
 const MODES: { id: SearchMode; label: string; note: string }[] = [
-  { id: "live", label: "Live web search", note: "Searches the web and checks company websites (1-3 minutes)." },
+  { id: "live", label: "Live web search", note: "Searches the web and checks company websites. Takes 1-3 minutes." },
   { id: "seed", label: "My company URLs", note: "Analyses only the websites you paste below. No web search." },
-  { id: "replay", label: "Saved replay", note: "Re-analyses the pages saved by the last live search for this product and country. No internet needed." },
+  { id: "replay", label: "Saved search", note: "Re-analyses pages saved by an earlier live search. Works without internet." },
 ];
-const STAGE_LABEL: Record<string, string> = {
-  searching: "Searching the web for buyer companies",
-  collecting: "Removing duplicates and directory sites",
-  verifying: "Checking official company websites",
-  analysing: "Extracting facts and running the knowledge-base rules",
-  done: "Qualifying leads",
-};
-const PIPELINE_STAGES = ["searching", "collecting", "verifying", "analysing", "done"];
+const VIEWS = [
+  { id: "search", label: "Buyer Search", icon: Search },
+  { id: "knowledge", label: "Knowledge Base", icon: BookOpen },
+  { id: "how", label: "How it works", icon: Workflow },
+] as const;
+type View = (typeof VIEWS)[number]["id"];
+type Tab = "qualified" | Classification | "excluded";
+
 const POLL_MS = 1500;
 const MAX_WAIT_MS = 10 * 60 * 1000;
 
-type Tab = "qualified" | Classification | "excluded";
-
-function Radar() {
-  return <div className="radar relative flex h-32 w-32 items-center justify-center rounded-full border border-cyan-300/20 bg-cyan-300/[0.035]" aria-hidden="true">
-    <span className="absolute inset-3 rounded-full border border-cyan-300/15"/><span className="absolute inset-7 rounded-full border border-cyan-300/15"/><span className="absolute inset-[42px] rounded-full border border-cyan-300/20"/>
-    <span className="radar-sweep absolute inset-0 overflow-hidden rounded-full"/><span className="absolute left-1/2 top-1/2 h-px w-[46%] origin-left bg-cyan-300/50"/><span className="relative z-10 h-2 w-2 rounded-full bg-cyan-300 shadow-[0_0_18px_5px_rgba(34,211,238,.5)]"/>
-  </div>;
+function formatDate(iso: string | null) {
+  if (!iso) return "unknown date";
+  return new Date(iso).toLocaleString(undefined, { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" });
 }
 
 export default function Home() {
+  const [ready, setReady] = useState(false);
+  const [view, setView] = useState<View>("search");
+  const [theme, setTheme] = useState<"dark" | "light">("dark");
+
   const [product, setProduct] = useState<ProductId>("raw_sheep_wool");
   const [country, setCountry] = useState("");
   const [mode, setMode] = useState<SearchMode>("live");
   const [seedText, setSeedText] = useState("");
+  const [snapshots, setSnapshots] = useState<Snapshot[] | null>(null);
+
   const [job, setJob] = useState<Job | null>(null);
+  const [log, setLog] = useState<LogEntry[]>([]);
+  const [elapsed, setElapsed] = useState(0);
   const [result, setResult] = useState<SearchResult | null>(null);
   const [error, setError] = useState("");
   const [isSearching, setIsSearching] = useState(false);
   const [tab, setTab] = useState<Tab>("qualified");
-  const [showKb, setShowKb] = useState(false);
   const [showWarnings, setShowWarnings] = useState(false);
+  const [showQueries, setShowQueries] = useState(false);
   const runId = useRef(0);
 
-  useEffect(() => () => { runId.current += 1; }, []);  // stop polling on unmount
+  // view from the URL hash (#knowledge, #how) and the saved theme
+  useEffect(() => {
+    const fromHash = () => {
+      const h = window.location.hash.slice(1);
+      setView(h === "knowledge" || h === "how" ? h : "search");
+    };
+    fromHash();
+    window.addEventListener("hashchange", fromHash);
+    setTheme(document.documentElement.dataset.theme === "light" ? "light" : "dark");
+    return () => window.removeEventListener("hashchange", fromHash);
+  }, []);
+  useEffect(() => () => { runId.current += 1; }, []);
+
+  useEffect(() => {
+    if (mode !== "replay" || snapshots !== null) return;
+    getSnapshots().then(setSnapshots).catch(() => setSnapshots([]));
+  }, [mode, snapshots]);
+
+  function go(next: View) {
+    window.location.hash = next === "search" ? "" : next;
+    setView(next);
+  }
+  function toggleTheme() {
+    const next = theme === "dark" ? "light" : "dark";
+    setTheme(next);
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem("sbai-theme", next); } catch { /* storage may be blocked */ }
+  }
 
   const seedUrls = seedText.split(/[\s,]+/).map((s) => s.trim()).filter(Boolean);
+  const productName = PRODUCTS.find((p) => p.id === product)?.label ?? "";
 
   async function search(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setError("");
-    if (mode === "seed" && seedUrls.length === 0) { setError("Paste at least one company website URL."); return; }
-    if (seedUrls.some((u) => !/^https?:\/\/\S+\.\S+/.test(u))) { setError("Every seed URL must start with http:// or https://"); return; }
+    if (mode === "seed" && seedUrls.length === 0) { setError("Paste at least one company website address."); return; }
+    if (mode === "seed" && seedUrls.some((u) => !/^https?:\/\/\S+\.\S+/.test(u))) { setError("Every address must start with http:// or https://"); return; }
     const myRun = ++runId.current;
-    setIsSearching(true); setResult(null); setJob(null); setTab("qualified"); setShowWarnings(false);
+    setIsSearching(true); setResult(null); setJob(null); setLog([]); setElapsed(0);
+    setTab("qualified"); setShowWarnings(false); setShowQueries(false);
+    const started = Date.now();
+    const stamp = () => {
+      const s = Math.floor((Date.now() - started) / 1000);
+      return `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(s % 60).padStart(2, "0")}`;
+    };
+    const clock = window.setInterval(() => setElapsed(Math.floor((Date.now() - started) / 1000)), 1000);
+    let lastMessage = "";
     try {
       const jobId = await startSearch({
         product, country: country.trim() || null, mode,
         seed_urls: mode === "seed" ? seedUrls.slice(0, 20) : [], max_candidates: 12,
       });
-      const started = Date.now();
+      setLog([{ at: stamp(), text: `Job started: ${productName}${country.trim() ? ` · ${country.trim()}` : ""} · ${mode}` }]);
       while (runId.current === myRun) {
         const current = await getJob(jobId);
         if (runId.current !== myRun) return;
         setJob(current);
+        const message = current.progress.message;
+        if (message && message !== lastMessage) {
+          lastMessage = message;
+          setLog((items) => [...items.slice(-80), { at: stamp(), text: message }]);
+        }
         if (current.status === "done" && current.result) { setResult(current.result); break; }
         if (current.status === "failed") throw new Error(current.error ?? "The search failed.");
         if (Date.now() - started > MAX_WAIT_MS) throw new Error("The search took too long. Please try again.");
@@ -83,6 +134,7 @@ export default function Home() {
     } catch (cause) {
       if (runId.current === myRun) setError(cause instanceof Error ? cause.message : "The analysis service is unavailable.");
     } finally {
+      window.clearInterval(clock);
       if (runId.current === myRun) setIsSearching(false);
     }
   }
@@ -91,9 +143,6 @@ export default function Home() {
   const qualified = leads.filter((l) => QUALIFIED.includes(l.classification));
   const visible = tab === "qualified" ? qualified : tab === "excluded" ? [] : leads.filter((l) => l.classification === tab);
   const count = (c: Classification) => leads.filter((l) => l.classification === c).length;
-  const closeKb = useCallback(() => setShowKb(false), []);
-  const productName = PRODUCTS.find((p) => p.id === product)?.label;
-
   const tabs: { id: Tab; label: string; n: number }[] = [
     { id: "qualified", label: "Qualified", n: qualified.length },
     { id: "confirmed_purchaser", label: "Confirmed", n: count("confirmed_purchaser") },
@@ -103,120 +152,241 @@ export default function Home() {
     { id: "not_relevant", label: "Not relevant", n: count("not_relevant") },
     { id: "excluded", label: "Excluded sites", n: result?.excluded.length ?? 0 },
   ];
+  const onSplashDone = useCallback(() => setReady(true), []);
 
-  return <main className="relative min-h-screen overflow-hidden bg-[#0f172a] text-slate-100">
-    <div className="ambient ambient-one"/><div className="ambient ambient-two"/>
-    <header className="relative z-10 border-b border-white/[0.07] bg-[#0b1220]/75 backdrop-blur-xl">
-      <div className="mx-auto flex h-[72px] max-w-[1440px] items-center justify-between px-4 sm:px-8 lg:px-12">
-        <a href="#" className="flex items-center gap-3" aria-label="Smart Buyer AI home"><span className="brand-mark">S.</span><span className="text-sm font-semibold tracking-tight">Smart Buyer <span className="gradient-text">AI</span></span></a>
-        <div className="flex items-center gap-2 rounded-full border border-white/[0.08] bg-white/[0.03] px-3 py-1.5 text-[11px] font-medium text-slate-400"><span className="status-dot"/> Knowledge-based buyer detection</div>
-      </div>
-    </header>
-
-    <div className="relative z-[1] mx-auto max-w-[1440px] px-4 pb-16 pt-9 sm:px-8 sm:pt-12 lg:px-12">
-      <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .45 }} className="mb-9 flex flex-col justify-between gap-5 md:flex-row md:items-end">
-        <div>
-          <p className="mb-3 flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[.19em] text-cyan-300"><span className="h-px w-6 bg-cyan-300/70"/> Smart Buyer AI</p>
-          <h1 className="max-w-3xl text-[30px] font-semibold leading-[1.1] tracking-[-.04em] sm:text-[40px]">A Knowledge Base Intelligent <span className="gradient-text">Potential Customer Detection</span> System</h1>
-          <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-400">Finds international companies that may need raw sheep wool, duck down or cashmere. Every result shows the website evidence and the knowledge-base rules behind it.</p>
-        </div>
-        <div className="flex items-center gap-2 pb-1 text-xs text-slate-400"><span className="flex h-7 w-7 items-center justify-center rounded-full border border-emerald-300/15 bg-emerald-300/[0.08] text-emerald-300"><Check size={15} aria-hidden="true"/></span> Evidence from company websites only</div>
-      </motion.div>
-
-      <div className="grid items-start gap-5 xl:grid-cols-[350px_minmax(0,1fr)]">
-        <motion.aside initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .4, delay: .05 }} className="glass-panel rounded-2xl p-5 sm:p-6">
-          <div className="mb-5 flex items-start justify-between"><div><h2 className="text-sm font-semibold">Build your search</h2><p className="mt-1 text-xs text-slate-500">Choose one raw material</p></div><span className="step-label">01 <span className="text-slate-600">/</span> 02</span></div>
-          <form onSubmit={search}>
-            <div className="space-y-2.5" role="radiogroup" aria-label="Product">
-              {PRODUCTS.map((p) => { const checked = product === p.id; return <motion.button key={p.id} type="button" role="radio" aria-checked={checked} whileHover={{ y: -1 }} whileTap={{ scale: .99 }} onClick={() => setProduct(p.id)} disabled={isSearching} className={`product-card ${checked ? "product-card-selected" : ""}`}>
-                <span className={`product-emoji ${checked ? "product-emoji-selected" : ""}`}>{p.emoji}</span><span className="min-w-0 flex-1"><span className="block text-[13px] font-semibold text-slate-200">{p.label}</span><span className="mt-0.5 block text-[11px] text-slate-500">{p.note}</span></span><span className={`check-box rounded-full ${checked ? "check-box-selected" : ""}`}>{checked && <Check size={13}/>}</span>
-              </motion.button>; })}
-            </div>
-            <button type="button" onClick={() => setShowKb(true)} className="mt-3 inline-flex items-center gap-1.5 text-[11px] text-cyan-300/90 hover:text-cyan-200"><BookOpen size={13} aria-hidden="true"/> View the {productName} knowledge base and rules</button>
-
-            <div className="my-5 h-px bg-white/[0.07]"/>
-            <label htmlFor="country" className="mb-2 block text-xs font-medium text-slate-300">Target country <span className="font-normal text-slate-600">(optional)</span></label>
-            <div className="relative"><Globe2 size={16} className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-500" aria-hidden="true"/><input id="country" value={country} onChange={(e) => setCountry(e.target.value)} maxLength={100} placeholder="e.g. Japan" disabled={isSearching} className="field-input w-full" style={{ paddingLeft: 36 }}/></div>
-
-            <div className="my-5 h-px bg-white/[0.07]"/>
-            <p className="mb-2 text-xs font-medium text-slate-300">Data source</p>
-            <div className="grid grid-cols-3 gap-1.5" role="radiogroup" aria-label="Data source">
-              {MODES.map((m) => <button key={m.id} type="button" role="radio" aria-checked={mode === m.id} onClick={() => setMode(m.id)} disabled={isSearching} className={`mode-button ${mode === m.id ? "mode-button-selected" : ""}`}>{m.label}</button>)}
-            </div>
-            <p className="mt-2 text-[10px] leading-4 text-slate-500">{MODES.find((m) => m.id === mode)?.note}</p>
-            {mode === "seed" && <textarea value={seedText} onChange={(e) => setSeedText(e.target.value)} rows={4} placeholder={"https://company-one.com\nhttps://company-two.it"} aria-label="Company website URLs" className="field-input mt-2 h-auto w-full py-2 leading-5"/>}
-
-            {error && <p role="alert" className="mt-4 rounded-lg border border-rose-400/20 bg-rose-400/[0.08] px-3 py-2 text-xs leading-5 text-rose-200">{error}</p>}
-            <button type="submit" disabled={isSearching} className="scan-button mt-5 flex h-12 w-full items-center justify-center gap-2 rounded-xl text-[13px] font-semibold text-slate-950 disabled:cursor-wait disabled:opacity-75">
-              {isSearching ? <><span className="h-4 w-4 animate-spin rounded-full border-2 border-slate-950/30 border-t-slate-950"/>Analysing…</> : <><Search size={17} aria-hidden="true"/>Find potential buyers<ArrowUpRight size={15} className="ml-1" aria-hidden="true"/></>}
+  return (
+    <>
+      {!ready && <Splash onDone={onSplashDone} />}
+      <header className="topbar">
+        <div className="topbar-inner">
+          <a href="#" className="brand" onClick={(e) => { e.preventDefault(); go("search"); }} aria-label="Smart Buyer AI home">
+            <Logo />
+            <span>
+              <span className="brand-name block">Smart Buyer AI</span>
+              <span className="brand-sub block">Knowledge-based buyer detection</span>
+            </span>
+          </a>
+          <div className="flex flex-wrap items-center gap-3">
+            <nav className="nav" role="tablist" aria-label="Sections">
+              {VIEWS.map(({ id, label, icon: Icon }) => (
+                <button key={id} type="button" role="tab" aria-selected={view === id} onClick={() => go(id)}>
+                  <Icon size={16} aria-hidden="true" />{label}
+                </button>
+              ))}
+            </nav>
+            <button type="button" className="icon-btn" onClick={toggleTheme}
+                    aria-label={theme === "dark" ? "Switch to light theme" : "Switch to dark theme"}
+                    title={theme === "dark" ? "Light theme (better on a projector)" : "Dark theme"}>
+              {theme === "dark" ? <Sun size={17} /> : <Moon size={17} />}
             </button>
-            <p className="mt-3 text-center text-[10px] text-slate-600">Respects robots.txt <span className="mx-1.5">·</span> No paid API required</p>
-          </form>
-        </motion.aside>
-
-        <motion.section initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: .4, delay: .1 }} className="glass-panel min-h-[540px] overflow-hidden rounded-2xl">
-          <div className="flex flex-col justify-between gap-4 border-b border-white/[0.07] px-5 py-5 sm:flex-row sm:items-center sm:px-6">
-            <div>
-              <div className="flex items-center gap-2.5"><h2 className="text-sm font-semibold">Buyer analysis</h2>{result && <span className="count-badge">{qualified.length} qualified</span>}</div>
-              <p className="mt-1 text-xs text-slate-500">{isSearching ? `Analysing ${productName} buyers…` : result
-                ? `${result.summary.examined} companies examined for ${result.product.name}${result.country ? ` in ${result.country}` : ""} · ${result.summary.duplicates_removed} duplicates removed`
-                : "Qualified companies and their evidence will appear here"}</p>
-            </div>
-            <button type="button" onClick={() => result && exportLeads(result, qualified)} disabled={!qualified.length} className="export-button" title="Exports Confirmed, Strong and Possible buyers with their evidence"><Download size={15} aria-hidden="true"/>Download CSV</button>
           </div>
+        </div>
+      </header>
 
-          {isSearching ? <Progress job={job}/> : result ? <div className="px-5 py-4 sm:px-6">
-            {result.mode === "replay" && <div className="mb-4 flex items-start gap-2 rounded-lg border border-indigo-300/20 bg-indigo-300/[0.06] px-3 py-2.5 text-xs leading-5 text-indigo-100/90"><History size={15} className="mt-0.5 shrink-0" aria-hidden="true"/>Replay: these results re-analyse pages saved on {result.recorded_at ? new Date(result.recorded_at).toLocaleString() : "an earlier run"}. This is not a live search.</div>}
-            {result.warnings.length > 0 && <div className="mb-4 rounded-lg border border-amber-300/15 bg-amber-300/[0.05] px-3 py-2.5 text-xs leading-5 text-amber-100/80">
-              <button type="button" onClick={() => setShowWarnings((v) => !v)} className="flex items-center gap-2"><TriangleAlert size={14} aria-hidden="true"/>{result.warnings.length} notices: some searches or pages could not be checked ({showWarnings ? "hide" : "show"})</button>
-              {showWarnings && <ul className="mt-2 max-h-40 space-y-0.5 overflow-y-auto text-[10px] text-amber-100/60">{result.warnings.map((w, i) => <li key={i}>{w.company ? `${w.company}: ` : w.query ? `“${w.query}”: ` : ""}{w.message}</li>)}</ul>}
-            </div>}
-
-            <div className="mb-4 flex flex-wrap gap-1.5" role="tablist" aria-label="Filter by classification">
-              {tabs.map((t) => <button key={t.id} type="button" role="tab" aria-selected={tab === t.id} onClick={() => setTab(t.id)} className={`tab-button ${tab === t.id ? "tab-button-selected" : ""}`}>{t.label} <span className="opacity-60">{t.n}</span></button>)}
+      <main className="shell">
+        {view === "search" && (
+          <>
+            <div className="page-head">
+              <span className="eyebrow">Smart Buyer AI</span>
+              <h1 className="page-title">A Knowledge Base Intelligent Potential Customer Detection System</h1>
+              <p className="page-lede">Finds international companies that may need raw sheep wool, duck down or cashmere. Every result shows the quotes from the company&apos;s own website and the knowledge-base rules behind the decision.</p>
+              <div className="stat-strip">
+                <span><b>3</b> product knowledge bases</span>
+                <span><b>7</b>-stage pipeline</span>
+                <span><b>5</b> qualification classes</span>
+                <span><b>0</b> paid APIs</span>
+              </div>
             </div>
-            {tab !== "qualified" && tab !== "excluded" && <p className="mb-3 flex items-start gap-1.5 text-[11px] leading-4 text-slate-500"><Info size={13} className="mt-0.5 shrink-0" aria-hidden="true"/>{CLASS_INFO[tab].description}</p>}
 
-            {tab === "excluded" ? (result.excluded.length ? <ul className="space-y-1.5">{result.excluded.map((e, i) => <li key={i} className="evidence-item text-[11px]"><span className="block truncate text-slate-300">{e.url}</span><span className="text-slate-500">{e.reason}</span></li>)}</ul> : <Empty title="No sites were excluded" text="Every search result was a company website."/>)
-              : visible.length ? <div className="space-y-3">{visible.map((lead) => <LeadCard key={lead.company_key} lead={lead}/>)}</div>
-              : tab === "qualified" ? <Empty title="No qualified buyers found" text={result.summary.examined
-                  ? `${result.summary.examined} companies were examined, but none had enough website evidence. Check the Insufficient and Not relevant tabs to see why, or try another country.`
-                  : "The search found no company websites to check. Try another country, or paste company URLs."}/>
-              : <Empty title="No companies in this group" text="Choose another tab to see the other results."/>}
-          </div>
-          : <Empty title={error ? "The search did not finish" : "Ready when you are"} text={error || "Choose a raw material, optionally a country, and start the search. Each result explains why the company was or was not selected."}/>}
-        </motion.section>
-      </div>
-      <footer className="mt-7 flex flex-col gap-2 text-[10px] text-slate-600 sm:flex-row sm:items-center sm:justify-between">
-        <p>Classifications are based on public website statements. A potential buyer is not a confirmed customer, so check the evidence before you get in touch.</p>
-        <p>Smart Buyer AI · Knowledge Representation &amp; Reasoning</p>
-      </footer>
-    </div>
-    {showKb && <KnowledgePanel product={product} onClose={closeKb}/>}
-  </main>;
-}
+            <div className="grid items-start gap-5 xl:grid-cols-[370px_minmax(0,1fr)]">
+              <aside className="panel panel-pad">
+                <form onSubmit={search} className="grid gap-5">
+                  <div>
+                    <p className="section-label">1 · Raw material</p>
+                    <div className="grid gap-2" role="radiogroup" aria-label="Raw material">
+                      {PRODUCTS.map((p) => (
+                        <button key={p.id} type="button" role="radio" aria-checked={product === p.id} disabled={isSearching}
+                                className="product-option" onClick={() => setProduct(p.id)}>
+                          <FibreSwatch product={p.id} />
+                          <span className="min-w-0 flex-1">
+                            <span className="option-title">{p.label}</span>
+                            <span className="option-note">{p.note}</span>
+                          </span>
+                          <span className="radio-dot" aria-hidden="true" />
+                        </button>
+                      ))}
+                    </div>
+                    <button type="button" className="link-btn mt-3" onClick={() => go("knowledge")}>
+                      <BookOpen size={15} aria-hidden="true" />See the {productName} knowledge base and rules
+                    </button>
+                  </div>
 
-function Progress({ job }: { job: Job | null }) {
-  const current = job?.stage ?? "queued";
-  const index = PIPELINE_STAGES.indexOf(current);
-  return <div className="flex min-h-[440px] flex-col items-center justify-center px-6 py-12 text-center" aria-live="polite">
-    <Radar/>
-    <p className="mt-7 text-sm font-semibold text-slate-100">{STAGE_LABEL[current] ?? "Starting the search"}</p>
-    <div className="mt-5 w-full max-w-[320px] space-y-2.5 text-left">
-      {PIPELINE_STAGES.map((stage, i) => <div key={stage} className={`scan-step ${i === index ? "scan-step-active" : i < index ? "scan-step-done" : ""}`}>
-        <span className="step-indicator">{i < index ? <Check size={11}/> : i === index ? <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-cyan-300"/> : <span className="h-1 w-1 rounded-full bg-slate-700"/>}</span>
-        {STAGE_LABEL[stage]}
-        {i === index && job && job.progress.total > 0 && <span className="ml-auto text-slate-500">{job.progress.done}/{job.progress.total}</span>}
-      </div>)}
-    </div>
-    {job?.progress.message && <p className="mt-5 max-w-sm truncate text-[11px] text-slate-500">{job.progress.message}</p>}
-  </div>;
+                  <div>
+                    <label htmlFor="country" className="field-label">2 · Target country <span className="muted font-normal">(optional)</span></label>
+                    <input id="country" className="field" value={country} onChange={(e) => setCountry(e.target.value)}
+                           maxLength={100} placeholder="e.g. Japan" disabled={isSearching} />
+                  </div>
+
+                  <div>
+                    <p className="field-label">3 · Data source</p>
+                    <div className="segmented" role="radiogroup" aria-label="Data source">
+                      {MODES.map((m) => (
+                        <button key={m.id} type="button" role="radio" aria-checked={mode === m.id} disabled={isSearching} onClick={() => setMode(m.id)}>{m.label}</button>
+                      ))}
+                    </div>
+                    <p className="hint">{MODES.find((m) => m.id === mode)?.note}</p>
+                    {mode === "seed" && (
+                      <textarea id="seed-urls" className="field mt-2" rows={4} value={seedText} onChange={(e) => setSeedText(e.target.value)}
+                                placeholder={"https://company-one.com\nhttps://company-two.it"} aria-label="Company website addresses" />
+                    )}
+                    {mode === "replay" && (
+                      <div className="snapshot-list" role="radiogroup" aria-label="Saved searches">
+                        {snapshots === null && <span className="hint">Loading saved searches…</span>}
+                        {snapshots?.length === 0 && <span className="hint">No saved searches yet. Run a live search first.</span>}
+                        {snapshots?.map((s) => {
+                          const selected = s.product === product && (s.country ?? "") === country.trim();
+                          return (
+                            <button key={`${s.product}-${s.country}`} type="button" role="radio" aria-checked={selected} className="snapshot"
+                                    onClick={() => { setProduct(s.product); setCountry(s.country ?? ""); }}>
+                              <span className="flex min-w-0 items-center gap-2">
+                                <FibreSwatch product={s.product} />
+                                <span className="min-w-0">
+                                  <span className="block font-medium">{s.product_name} · {s.country ?? "any country"}</span>
+                                  <span className="block muted text-[12.5px]">{s.companies} companies · {formatDate(s.recorded_at)}</span>
+                                </span>
+                              </span>
+                            </button>
+                          );
+                        })}
+                      </div>
+                    )}
+                  </div>
+
+                  {error && <p role="alert" className="alert alert-error m-0">{error}</p>}
+                  <button type="submit" className="btn-primary" disabled={isSearching}>
+                    {isSearching ? <><span className="pulse" style={{ background: "var(--accent-ink)" }} />Analysing…</> : <><Search size={18} aria-hidden="true" />Find potential buyers</>}
+                  </button>
+                  <p className="hint m-0 text-center">Respects robots.txt · public company websites only</p>
+                </form>
+              </aside>
+
+              <section className="panel min-w-0" aria-label="Results">
+                <div className="panel-head">
+                  <div>
+                    <h2 className="panel-title">Buyer analysis</h2>
+                    <p className="panel-sub">
+                      {isSearching ? `Analysing ${productName} buyers${country.trim() ? ` in ${country.trim()}` : ""}`
+                        : result ? `${result.product.name}${result.country ? ` · ${result.country}` : ""} · finished ${formatDate(result.finished_at)}`
+                        : "Results, evidence and reasoning will appear here"}
+                    </p>
+                  </div>
+                  <button type="button" className="btn-secondary" disabled={!qualified.length}
+                          onClick={() => result && exportLeads(result, qualified)} title="Confirmed, Strong and Possible buyers with their evidence">
+                    <Download size={16} aria-hidden="true" />Download CSV
+                  </button>
+                </div>
+
+                {isSearching ? <SearchProgress job={job} log={log} elapsed={elapsed} /> : result ? (
+                  <div className="panel-pad grid gap-5">
+                    {result.mode === "replay" && (
+                      <div className="alert alert-info flex items-start gap-2">
+                        <History size={17} className="mt-0.5 shrink-0" aria-hidden="true" />
+                        <span>Saved search: these results re-analyse pages recorded on {formatDate(result.recorded_at)}. This is not a live search.</span>
+                      </div>
+                    )}
+                    <ResultsSummary result={result} />
+                    <div className="flex flex-wrap gap-4">
+                      {result.queries.length > 0 && (
+                        <button type="button" className="link-btn" onClick={() => setShowQueries((v) => !v)}>
+                          <Search size={15} aria-hidden="true" />{showQueries ? "Hide" : "Show"} the {result.queries.length} search queries used
+                        </button>
+                      )}
+                      {result.warnings.length > 0 && (
+                        <button type="button" className="link-btn" onClick={() => setShowWarnings((v) => !v)}>
+                          <TriangleAlert size={15} aria-hidden="true" />{showWarnings ? "Hide" : "Show"} {result.warnings.length} notices (sites that could not be checked)
+                        </button>
+                      )}
+                    </div>
+                    {showQueries && <div className="log">{result.queries.map((q) => <div key={q}>{q}</div>)}</div>}
+                    {showWarnings && (
+                      <div className="log">
+                        {result.warnings.map((w, i) => <div key={i}>{w.company ? `${w.company}: ` : w.query ? `"${w.query}": ` : ""}{w.message}</div>)}
+                      </div>
+                    )}
+
+                    <div className="tabs" role="tablist" aria-label="Filter by class">
+                      {tabs.map((t) => (
+                        <button key={t.id} type="button" role="tab" aria-selected={tab === t.id} className="tab" onClick={() => setTab(t.id)}>
+                          {t.label}<span className="count">{t.n}</span>
+                        </button>
+                      ))}
+                    </div>
+                    {tab !== "qualified" && tab !== "excluded" && (
+                      <p className="m-0 flex items-start gap-2 text-[14px] muted"><Info size={16} className="mt-0.5 shrink-0" aria-hidden="true" />{CLASS_INFO[tab].description}</p>
+                    )}
+
+                    {tab === "excluded" ? (
+                      result.excluded.length ? (
+                        <div className="grid gap-2">
+                          {result.excluded.map((e, i) => (
+                            <div key={i} className="evidence">
+                              <span className="truncate text-[14px]">{e.url}</span>
+                              <span className="muted text-[13px]">{e.reason}</span>
+                            </div>
+                          ))}
+                        </div>
+                      ) : <Empty title="No sites were excluded" text="Every search result was a company website." />
+                    ) : visible.length ? (
+                      <div className="grid gap-3">{visible.map((lead) => <LeadCard key={lead.company_key} lead={lead} />)}</div>
+                    ) : tab === "qualified" ? (
+                      <Empty title="No qualified buyers found" text={result.summary.examined
+                        ? `${result.summary.examined} companies were examined, but none had enough website evidence. Open the Insufficient and Not relevant tabs to see why, or try another country.`
+                        : "The search found no company websites to check. Try another country or paste company addresses."} />
+                    ) : <Empty title="No companies in this group" text="Choose another tab to see the other results." />}
+                  </div>
+                ) : (
+                  <Empty title={error ? "The search did not finish" : "Ready when you are"}
+                         text={error || "Choose a raw material, optionally a country, and a data source. Each result explains why the company was or was not selected."} />
+                )}
+              </section>
+            </div>
+          </>
+        )}
+
+        {view === "knowledge" && (
+          <>
+            <div className="page-head">
+              <span className="eyebrow">Knowledge representation</span>
+              <h1 className="page-title">Product knowledge bases</h1>
+              <p className="page-lede">Each raw material has its own knowledge base: what counts as the material, which activities consume it, which companies are buyers, what evidence is required, and the rules the reasoning engine runs.</p>
+            </div>
+            <KnowledgeView initial={product} />
+          </>
+        )}
+
+        {view === "how" && (
+          <>
+            <div className="page-head">
+              <span className="eyebrow">System architecture</span>
+              <h1 className="page-title">How Smart Buyer AI decides</h1>
+              <p className="page-lede">From a product name to an explained classification: AI/NLP reads the websites, knowledge representation and reasoning makes the decision, and every step leaves evidence behind.</p>
+            </div>
+            <HowItWorks />
+          </>
+        )}
+      </main>
+    </>
+  );
 }
 
 function Empty({ title, text }: { title: string; text: string }) {
-  return <div className="flex min-h-[380px] flex-col items-center justify-center px-6 py-12 text-center">
-    <div className="empty-orbit"><Search size={23} aria-hidden="true"/></div>
-    <p className="mt-5 text-sm font-semibold text-slate-200">{title}</p>
-    <p className="mt-1.5 max-w-[420px] text-xs leading-5 text-slate-500">{text}</p>
-  </div>;
+  return (
+    <div className="empty">
+      <div>
+        <div className="mx-auto w-fit opacity-80"><Logo size={48} /></div>
+        <h3>{title}</h3>
+        <p>{text}</p>
+      </div>
+    </div>
+  );
 }

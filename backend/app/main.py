@@ -208,3 +208,28 @@ def knowledge(product: ProductId) -> dict:
             "then": {k: v for k, v in vars(r.effect).items() if v},
         } for r in rules],
     }
+
+
+@app.get("/api/v2/snapshots", tags=["v2"])
+def list_snapshots() -> list[dict]:
+    """Saved live runs that can be replayed without internet (newest first)."""
+    import json
+
+    from app.pipeline.runner import SNAPSHOT_DIR
+
+    items = []
+    for path in SNAPSHOT_DIR.glob("*.json"):
+        try:
+            data = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        if data.get("product") not in PRODUCTS:
+            continue
+        items.append({
+            "product": data["product"],
+            "product_name": PRODUCTS[data["product"]].name,
+            "country": data.get("country"),
+            "recorded_at": data.get("recorded_at"),
+            "companies": len(data.get("companies", [])),
+        })
+    return sorted(items, key=lambda i: i["recorded_at"] or "", reverse=True)

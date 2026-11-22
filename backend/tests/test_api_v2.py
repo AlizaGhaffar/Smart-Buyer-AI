@@ -93,3 +93,18 @@ def test_knowledge_endpoint_exposes_rules_and_relations(client):
 
 def test_legacy_endpoint_still_validates(client):
     assert client.post("/api/search", json={}).status_code == 422
+
+
+def test_snapshots_are_listed(client, tmp_path, monkeypatch):
+    import json
+
+    import app.pipeline.runner as runner
+
+    (tmp_path / "cashmere__italy.json").write_text(json.dumps(
+        {"product": "cashmere", "country": "Italy", "recorded_at": "2026-11-22T08:00:00+00:00",
+         "companies": [{}, {}]}), encoding="utf-8")
+    (tmp_path / "broken.json").write_text("{", encoding="utf-8")
+    monkeypatch.setattr(runner, "SNAPSHOT_DIR", tmp_path)
+    assert client.get("/api/v2/snapshots").json() == [{
+        "product": "cashmere", "product_name": "Cashmere", "country": "Italy",
+        "recorded_at": "2026-11-22T08:00:00+00:00", "companies": 2}]

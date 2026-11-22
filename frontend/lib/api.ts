@@ -1,4 +1,4 @@
-import type { Job, KnowledgeBase, ProductId, SearchMode } from "./types";
+import type { Job, KnowledgeBase, ProductId, SearchMode, Snapshot } from "./types";
 
 export function errorMessage(payload: unknown, fallback = "The request failed. Please try again."): string {
   if (typeof payload === "object" && payload !== null && "detail" in payload) {
@@ -54,4 +54,11 @@ export async function getKnowledge(product: ProductId): Promise<KnowledgeBase> {
   const payload = await readJson(response);
   if (!response.ok) throw new Error(errorMessage(payload, "Could not load the knowledge base."));
   return payload as KnowledgeBase;
+}
+
+export async function getSnapshots(): Promise<Snapshot[]> {
+  const response = await fetch("/api/v2/snapshots", { cache: "no-store" });
+  const payload = await readJson(response);
+  if (!response.ok) throw new Error(errorMessage(payload, "Could not load saved searches."));
+  return Array.isArray(payload) ? (payload as Snapshot[]) : [];
 }

@@ -5,6 +5,7 @@ const ALLOWED = [
   /^search$/,
   /^search\/[a-f0-9]{32}$/,
   /^products$/,
+  /^snapshots$/,
   /^knowledge\/(raw_sheep_wool|duck_down|cashmere)$/,
 ];
 

@@ -138,3 +138,11 @@ export const CLASS_INFO: Record<Classification, { short: string; tone: string; d
 };
 
 export const QUALIFIED: Classification[] = ["confirmed_purchaser", "strong_potential_buyer", "possible_potential_buyer"];
+
+export type Snapshot = {
+  product: ProductId;
+  product_name: string;
+  country: string | null;
+  recorded_at: string | null;
+  companies: number;
+};
