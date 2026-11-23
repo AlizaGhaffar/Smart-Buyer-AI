@@ -108,3 +108,13 @@ def test_snapshots_are_listed(client, tmp_path, monkeypatch):
     assert client.get("/api/v2/snapshots").json() == [{
         "product": "cashmere", "product_name": "Cashmere", "country": "Italy",
         "recorded_at": "2026-11-22T08:00:00+00:00", "companies": 2}]
+
+
+def test_inline_jobs_return_the_finished_search(monkeypatch):
+    # Serverless mode (Vercel): the POST itself runs the search and returns the result.
+    monkeypatch.setattr(main, "jobs", JobStore(inline=True))
+    created = TestClient(main.app).post(
+        "/api/v2/search", json={"product": "duck_down", "country": "japan", "mode": "replay"}).json()
+    assert created["job"]["status"] == "done"
+    assert created["job"]["result"]["leads"]
+    assert created["job"]["stages"]

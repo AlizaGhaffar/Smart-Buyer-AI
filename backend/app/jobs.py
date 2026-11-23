@@ -16,7 +16,15 @@ MAX_JOBS = 50
 
 
 class JobStore:
-    def __init__(self, workers: int = 2):
+    """Runs searches in a thread pool, or inline when ``inline`` is true.
+
+    Serverless hosts (Vercel) freeze a function once it has answered and send each
+    request to any instance, so a background job and its in-memory status would be
+    lost. There the search runs inside the request that starts it instead.
+    """
+
+    def __init__(self, workers: int = 2, inline: bool = False):
+        self.inline = inline
         self._jobs: dict[str, dict] = {}
         self._lock = threading.Lock()
         self._pool = ThreadPoolExecutor(max_workers=workers, thread_name_prefix="search-job")
@@ -47,7 +55,10 @@ class JobStore:
                     else "The search failed unexpectedly. Please try again."
                 self._update(job_id, status="failed", stage="failed", error=message)
 
-        self._pool.submit(run)
+        if self.inline:
+            run()
+        else:
+            self._pool.submit(run)
         return job_id
 
     def get(self, job_id: str) -> dict | None:

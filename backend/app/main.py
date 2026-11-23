@@ -23,7 +23,9 @@ app = FastAPI(
     ),
     version="0.2.0",
 )
-jobs = JobStore()
+# Vercel sets VERCEL=1; SYNC_JOBS=1 forces the same inline mode on other serverless hosts.
+_inline_jobs = bool(os.getenv("VERCEL")) or os.getenv("SYNC_JOBS", "").lower() in {"1", "true", "yes"}
+jobs = JobStore(inline=_inline_jobs)
 
 # Local frontend origins work by default; deployments can override these with
 # a comma-separated CORS_ORIGINS environment variable.
@@ -154,6 +156,9 @@ class SearchRequestV2(BaseModel):
 class JobCreated(BaseModel):
     job_id: str
     status_url: str
+    # Filled when the search ran inline (serverless): the finished job, so the
+    # client does not need to poll an instance that may no longer hold it.
+    job: dict | None = None
 
 
 @app.get("/api/v2/products", tags=["v2"])
@@ -172,7 +177,12 @@ def start_search(request: SearchRequestV2) -> JobCreated:
     )
     job_id = jobs.submit(lambda progress: run_pipeline(pipeline_request, progress),
                          describe=request.model_dump(mode="json"))
-    return JobCreated(job_id=job_id, status_url=f"/api/v2/search/{job_id}")
+    finished = None
+    if jobs.inline:
+        finished = jobs.get(job_id)
+        if finished is not None:
+            finished["stages"] = STAGES
+    return JobCreated(job_id=job_id, status_url=f"/api/v2/search/{job_id}", job=finished)
 
 
 @app.get("/api/v2/search/{job_id}", tags=["v2"])

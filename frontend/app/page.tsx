@@ -112,13 +112,13 @@ export default function Home() {
     const clock = window.setInterval(() => setElapsed(Math.floor((Date.now() - started) / 1000)), 1000);
     let lastMessage = "";
     try {
-      const jobId = await startSearch({
+      const { jobId, job: finished } = await startSearch({
         product, country: country.trim() || null, mode,
         seed_urls: mode === "seed" ? seedUrls.slice(0, 20) : [], max_candidates: 12,
       });
       setLog([{ at: stamp(), text: `Job started: ${productName}${country.trim() ? ` · ${country.trim()}` : ""} · ${mode}` }]);
       while (runId.current === myRun) {
-        const current = await getJob(jobId);
+        const current = finished ?? await getJob(jobId);
         if (runId.current !== myRun) return;
         setJob(current);
         const message = current.progress.message;

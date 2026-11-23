@@ -28,7 +28,7 @@ export async function startSearch(body: {
   mode: SearchMode;
   seed_urls: string[];
   max_candidates: number;
-}): Promise<string> {
+}): Promise<{ jobId: string; job: Job | null }> {
   const response = await fetch("/api/v2/search", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
@@ -39,7 +39,9 @@ export async function startSearch(body: {
   if (typeof payload !== "object" || payload === null || !("job_id" in payload)) {
     throw new Error("The analysis service returned an unexpected response.");
   }
-  return String((payload as { job_id: string }).job_id);
+  // A serverless backend runs the search inside this request and returns the finished job.
+  const { job_id, job } = payload as { job_id: string; job?: Job | null };
+  return { jobId: String(job_id), job: job ?? null };
 }
 
 export async function getJob(jobId: string): Promise<Job> {

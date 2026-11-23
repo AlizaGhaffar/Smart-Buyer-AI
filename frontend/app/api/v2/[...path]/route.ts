@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 
-// A free-tier backend can take up to a minute to wake up on the first request.
-export const maxDuration = 60;
+// A serverless backend answers POST /search only when the whole search is done
+// (1-3 minutes), so allow the Vercel Hobby maximum of 300 seconds.
+export const maxDuration = 300;
 
 // Proxy for the FastAPI /api/v2 endpoints. Only known paths are forwarded.
 const ALLOWED = [
